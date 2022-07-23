@@ -6,14 +6,10 @@ This repository will contain all of my notes that I take throughout my computer 
 
 ## Table of Content
 
-
-
-- [Basic C programming (books/pdfs)](https://google.com)
+- [C programming](https://github.com/JavaIsNotHard/notes/blob/main/topics/c.md)
 
 - [Advanced C programming (udemy course)](https:/)
 
 - [Data Structures and Algorithm (udemy course)]()
-
-- 
-
-- 
+  
+  
