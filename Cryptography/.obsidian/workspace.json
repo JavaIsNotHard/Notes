@@ -1,0 +1,285 @@
+{
+  "main": {
+    "id": "05fbdf7b3921a253",
+    "type": "split",
+    "children": [
+      {
+        "id": "eaa5c1c1b7b52ec5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f244549496ca3656",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cryptographic key distribution/Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
+            }
+          },
+          {
+            "id": "9f603f823eb27603",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cryptographic key distribution/Distribution of public key.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Distribution of public key"
+            }
+          },
+          {
+            "id": "b6db3704edbc966c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cryptographic key distribution/Public key certificate.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Public key certificate"
+            }
+          },
+          {
+            "id": "25390efe8bebadb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cryptographic key distribution/Public key authority.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Public key authority"
+            }
+          },
+          {
+            "id": "b2931dbd5b605338",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cryptographic key distribution/Publicly Available Directory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Publicly Available Directory"
+            }
+          },
+          {
+            "id": "15a93aa3f03b949c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cryptographic key distribution/Public Announcement.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Public Announcement"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a0cf16bdf58bbe73",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ebaba15a6cb187e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6dd1cdfa16550168",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "89c855993c35a8e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "file:compa",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fdf1450ba1d3bddb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eb2d679cfce32ef9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c231ff420915d120",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9412fbf82235149c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Chapter-2/Relational Model Versus Document Model.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Relational Model Versus Document Model"
+            }
+          },
+          {
+            "id": "b16f8fd86c580abb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Chapter-2/Relational Model Versus Document Model.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Relational Model Versus Document Model"
+            }
+          },
+          {
+            "id": "e462e946e65c445c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cbc6381652d3794c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Chapter-2/Relational Model Versus Document Model.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Relational Model Versus Document Model"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b6db3704edbc966c",
+  "lastOpenFiles": [
+    "Cryptographic key distribution/Untitled.md",
+    "Cryptographic key distribution/Public key certificate.md",
+    "Cryptographic key distribution/Public key authority.md",
+    "images/Screenshot 2024-10-19 at 17.49.07.png",
+    "Cryptographic key distribution/Publicly Available Directory.md",
+    "images/Screenshot 2024-10-19 at 17.45.10.png",
+    "Cryptographic key distribution/Public Announcement.md",
+    "images/Screenshot 2024-10-19 at 17.35.17.png",
+    "images",
+    "Cryptographic key distribution/Distribution of public key.md",
+    "Cryptographic key distribution/Introduction.md",
+    "Untitled 1",
+    "Cryptographic key distribution",
+    "Chapter-3/Hash Indexes.md",
+    "Chapter-3/data fragmentation.md",
+    "Chapter-3/Encoding.md",
+    "Chapter-3/Compaction.md",
+    "Chapter-3/Introduction.md",
+    "Chapter-3/Merging.md",
+    "Chapter-3/Untitled.md",
+    "images/Screenshot 2024-10-19 at 08.48.43.png",
+    "images/Screenshot 2024-10-19 at 08.48.50.png",
+    "Chapter-3/Data structures that power your database.md",
+    "images/Screenshot 2024-10-19 at 08.18.06.png",
+    "images/Screenshot 2024-10-19 at 08.00.23.png",
+    "Chapter-2/Relational Model Versus Document Model.md",
+    "Chapter-3",
+    "Chapter-2/Graph Like Data Models.md",
+    "images/Screenshot 2024-10-18 at 10.55.17.png",
+    "images/Screenshot 2024-10-18 at 07.55.36.png",
+    "images/Screenshot 2024-10-18 at 07.50.50.png",
+    "Welcome.md",
+    "images",
+    "Chapter-2",
+    "spring-core/Introduction.md",
+    "image/Untitled.md",
+    "image",
+    "spring-core",
+    "Introduction/2 phase locking.md",
+    "Introduction/Big data.md",
+    "Introduction/Concurrency control theory.md",
+    "Introduction/Crash Recovery.md",
+    "Introduction/Memory management and buffer pool.md",
+    "Introduction/DBMS access methods.md",
+    "Database Internals/Introduction",
+    "Database Internals"
+  ]
+}

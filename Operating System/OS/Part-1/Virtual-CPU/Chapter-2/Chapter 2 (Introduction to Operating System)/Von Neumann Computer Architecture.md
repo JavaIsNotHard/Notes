@@ -1,0 +1,1 @@
+In Von Neumann Computer Architecture, we have a input buffer, a processing unit which has access to memory unit to store data and then a output buffer to display the result produced by the processing unit.

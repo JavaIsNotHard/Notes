@@ -1,0 +1,1 @@
+The most common way of access the internet in the modern days. Wireless users transmit/receive packets to/from an access point that in turn is connected to the wired internet.

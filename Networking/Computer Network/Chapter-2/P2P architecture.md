@@ -1,0 +1,2 @@
+P2P stands for peer-to-peer architecture. This architecture does not have a dedicated server that each **[[client]]** must communicate to. This means that communication between **[[client]]** to **[[client]]** is done directly. Each [[client]] is a normal computer that we all use in our daily use. This architecture is used in [[traffic intensive]] applications such as bittorrent clients, video streaming applications and more. 
+One of the most important benefit of P2P architecture is [[self scalability]]

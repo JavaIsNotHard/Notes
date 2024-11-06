@@ -1,0 +1,2 @@
+A single logical write is transformed into multiple writes in the database i.e when a user submits a form from the web app then it is a write operation, in a b-tree index we have to write to both the index as well as the physical location on the disk 
+Similarly when we using LSM-tree then due to compaction and merging a single write can result to multiple writes throughout the lifetime of the database

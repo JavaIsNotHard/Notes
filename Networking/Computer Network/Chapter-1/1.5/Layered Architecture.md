@@ -1,0 +1,3 @@
+- In layered architecture we discuss and describe a specific part of a complex system.
+- As long as the layer provides service to the layer above it and uses the same services from the layer below it, then reminder of the system remains unchanged when a layer's implementation is changed.
+- The ability to change the implementation of the service without affecting other components of the system is another important advantage of layering

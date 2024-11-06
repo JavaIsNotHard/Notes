@@ -1,0 +1,1 @@
+A normal process always runs in user mode. This mode does not have all the necessary privilege that a [[kernel mode]] has. To perform operations that are restricted to the user mode, it makes a [[system call]]. 

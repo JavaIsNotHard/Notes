@@ -1,0 +1,1 @@
+A model in computer network organization where a layer provides some services to the layer above it and uses services from the layer below it.

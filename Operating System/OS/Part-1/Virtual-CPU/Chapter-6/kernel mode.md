@@ -1,0 +1,1 @@
+The kernel mode is where the OS runs in. It has all the permission that can be given. 

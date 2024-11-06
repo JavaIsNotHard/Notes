@@ -1,0 +1,1 @@
+The router that is placed before the end system is known as the edge router. This edge router is then connected to a bigger internet to provide internet access to the end user.

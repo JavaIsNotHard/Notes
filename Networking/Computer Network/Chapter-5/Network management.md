@@ -1,0 +1,1 @@
+discuss network management and snmp later after the completion of link layer and wireless networking 

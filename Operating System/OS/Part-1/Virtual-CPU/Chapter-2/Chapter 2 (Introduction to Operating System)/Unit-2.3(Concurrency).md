@@ -1,0 +1,1 @@
+- You can think of thread as a function running within the same memory space as the other function, with more than one of them active at a time.

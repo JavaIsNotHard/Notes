@@ -1,0 +1,1 @@
+Deals with network adapter controller whose job is to take the network layer datagram from the computer memory through a common bus system, encapsulate the datagram into a link layer frame and then transmit the frame into the communication link following the link-access protocol

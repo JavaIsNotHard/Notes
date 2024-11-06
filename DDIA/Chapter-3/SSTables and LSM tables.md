@@ -1,0 +1,2 @@
+- log structured segments in hash index are sequence of key value pairs. The pairs appear in the order they were written 
+- We change the format of the segment such that we require the sequence of key value pair be sorted by key. This is done using something called a [[SSTables]]

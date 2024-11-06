@@ -1,0 +1,1 @@
+If we consider D$_{proc}$, D$_{queue}$, D$_{trans}$, D$_{prop}$ as the delay for processing, queue, transmission and propagation then the total nodal delay D$_{nodal}$ = D$_{proc}$ + D$_{queue}$ + D$_{trans}$ + D$_{prop}$

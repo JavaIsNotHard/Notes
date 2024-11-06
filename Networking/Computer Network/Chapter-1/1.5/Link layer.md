@@ -1,0 +1,2 @@
+To move [[datagram]] through a series of routers between the source and destination, the [[Network layer]] uses the services of the [[Chapter-1/1.5/Link layer]].
+A [[datagram]] may be handled by different [[Chapter-1/1.5/Link layer]] protocols at different routes.

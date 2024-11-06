@@ -1,0 +1,6 @@
+- Writing a video player
+- Writing a OS hosting on my own kernel
+- Writing a bittorrent client
+- Writing a chat application
+- Writing a computer vision application
+- Writing a chat based system (or chatgpt clone)

@@ -1,0 +1,3 @@
+Database system store data records, consisting of multiple fields, in tables, where each table is represented as a single file. 
+The records of data files are located using indexes which allows database to effectively locate records without scanning the entire table. 
+Data files are separated from index files where data files contains record data and index file contains metadata about where to find the record.

@@ -1,0 +1,1 @@
+The approach used to determine when a data is valid and stable relative to the clock. Simply it defines the state in which the data should be high or low. 

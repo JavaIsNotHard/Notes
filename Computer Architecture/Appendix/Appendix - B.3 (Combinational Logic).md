@@ -1,0 +1,4 @@
+- [[Decoders]]
+- [[Multiplexors]]
+- [[Canonical Form and 2 level logic]]
+- [[PLA]]

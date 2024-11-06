@@ -1,0 +1,1 @@
+Here there are no infrastructure that provides services to the [[wireless host]]. This means the services needs to be provided by the hosts themselves. This architecture can be thought of as peer to peer architecture.

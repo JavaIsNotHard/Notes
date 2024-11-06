@@ -1,0 +1,2 @@
+- [[how dns works]]
+- [[dns records and message format]]

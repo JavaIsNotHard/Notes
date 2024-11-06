@@ -1,0 +1,3 @@
+This layer is responsible for moving network-layer packets known as [[datagram]]. The transport layer passes the [[segment]] and a destination address to the network layers.
+This layer includes the [[IP protocol]]. This defines the fields of the [[datagram]] as well as how the end systems act on these fields.
+This layer also includes the [[routing protocols]] that determines the routes that [[datagram]] take between sources and destination.

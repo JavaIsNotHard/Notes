@@ -1,0 +1,1 @@
+A host that resides in the end network that is connected to a base station for network connection

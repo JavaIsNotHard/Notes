@@ -1,0 +1,1 @@
+Trap table is where the location of [[trap handlers]] are stored at. During boot, the OS tells the hardware the location of all trap handlers that needs to be executed during certain exceptions.

@@ -1,0 +1,7 @@
+When a process is in blocked state (usually waiting for some other operation that does not utilize the CPU to complete e.g initiating an I/O operation or waiting for a network packet) then once the other operation has been completed then the state of the process moves to [[Ready State]]. In some cases the state also changes from [[Blocked State]] to [[Running State]].
+
+The reason blocked process moves from [[Blocked State]] to [[Ready State]] instead of [[Running State]] is as follows:
+
+Let us consider two processes A and B. Process A is in [[Running State]] and process B is in [[Ready State]]. After some time process A needs to initiate an I/O operation so its state moves from [[Running State]] to [[Blocked State]]. At the same time the state of process B moves to [[Running State]]. Once the I/O operation is complete, process A could move to [[Running State]] but let us suppose that process B was still running. This means that until process B completes, process A needs to wait which in this case would be the [[Ready State]].
+
+The decision whether to move the state of the process from [[Blocked State]] to either [[Ready State]] or [[Running State]] is determined by the [[OS Scheduler]]. 

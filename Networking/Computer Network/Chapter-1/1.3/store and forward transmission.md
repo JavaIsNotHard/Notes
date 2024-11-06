@@ -1,0 +1,1 @@
+The [[packet switch]] uses a mechanism called store and forward transmission which stores the incoming packets until the entire packet has been received. Once the packets have been entirely received then it forwards the packet to the destination unit.

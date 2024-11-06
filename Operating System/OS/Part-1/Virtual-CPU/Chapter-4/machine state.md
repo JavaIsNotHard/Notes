@@ -1,0 +1,1 @@
+Machine state refers to the snapshot of the current state of the machine hardware such as memory, registers, program counters and such.

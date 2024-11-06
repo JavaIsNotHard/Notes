@@ -1,0 +1,1 @@
+ - The SDN controller has to keep track of all the information about the state of the devices in the SDN. This contains information such as the traffic statistics, flow table copies of all the packet switches, host info, link state info, switch info and many more.

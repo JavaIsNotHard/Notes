@@ -1,0 +1,1 @@
+Allowing resources to be used for a little while by one entity, and then a little while by another entity, and so forth, the resource (eg the CPU, or a network link) can be shared by many.

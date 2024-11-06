@@ -1,0 +1,3 @@
+- TCP has the client and the serve exchange transport layer control information with each other before the application-level messages begin to flow. This transport layer exchange of information is known as [[handshaking]] procedure.
+- After the handshaking procedure, a TCP connection exists between the socket of both the client and server. 
+- The connection is a full-duplex connection in that the process can send messages to each other over the connection at the same time

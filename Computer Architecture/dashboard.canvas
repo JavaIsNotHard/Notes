@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"efdfe9a31c39caac","type":"file","file":"Appendix/Memory.md","x":-1360,"y":-640,"width":400,"height":400},
+		{"id":"4b7866abb07d0b24","type":"file","file":"Appendix/Register File.md","x":-1360,"y":320,"width":400,"height":400},
+		{"id":"34c697391ebac4f9","type":"file","file":"Appendix/Flip Flops.md","x":-1360,"y":800,"width":400,"height":400},
+		{"id":"9d9d96186df87ccb","type":"file","file":"Appendix/Appendix - B.8 (Flip-flops, latches, memory and much more).md","x":-1960,"y":120,"width":400,"height":400},
+		{"id":"f69e0a6be1ebdf18","type":"file","file":"Appendix/Decoders.md","x":-40,"y":-1120,"width":400,"height":400},
+		{"id":"5db48a1e951836b5","type":"file","file":"Appendix/PLA.md","x":-40,"y":-640,"width":400,"height":400},
+		{"id":"3ff1b0d48a7f6789","type":"file","file":"Appendix/Canonical Form and 2 level logic.md","x":-40,"y":-160,"width":400,"height":400},
+		{"id":"495df81399994a51","type":"file","file":"Appendix/Multiplexors.md","x":-40,"y":320,"width":400,"height":400},
+		{"id":"93767e0d0ca3467e","type":"file","file":"Appendix/Appendix - B.3 (Combinational Logic).md","x":-720,"y":-640,"width":360,"height":340},
+		{"id":"beaa91a70091622d","type":"file","file":"Appendix/Latches.md","x":-1360,"y":-200,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"2ddfad6d6acf8b3f","fromNode":"93767e0d0ca3467e","fromSide":"right","toNode":"f69e0a6be1ebdf18","toSide":"left"},
+		{"id":"1ddce63ac83fcadc","fromNode":"93767e0d0ca3467e","fromSide":"right","toNode":"5db48a1e951836b5","toSide":"left"},
+		{"id":"e404775b04a84f9d","fromNode":"93767e0d0ca3467e","fromSide":"right","toNode":"3ff1b0d48a7f6789","toSide":"left"},
+		{"id":"a86f28678ff0aa49","fromNode":"93767e0d0ca3467e","fromSide":"right","toNode":"495df81399994a51","toSide":"left"},
+		{"id":"dc715ad7bfcdbcd2","fromNode":"9d9d96186df87ccb","fromSide":"right","toNode":"efdfe9a31c39caac","toSide":"left"},
+		{"id":"244e01069a815ada","fromNode":"9d9d96186df87ccb","fromSide":"right","toNode":"beaa91a70091622d","toSide":"left"},
+		{"id":"ac96d1c864b1771b","fromNode":"9d9d96186df87ccb","fromSide":"right","toNode":"4b7866abb07d0b24","toSide":"left"},
+		{"id":"fb7de9f755f72a96","fromNode":"9d9d96186df87ccb","fromSide":"right","toNode":"34c697391ebac4f9","toSide":"left"}
+	]
+}

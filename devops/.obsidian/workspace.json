@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "dc0b598bfdded5f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d148a161676c77e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f005401e16d18eac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker/Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e28c4aa8fbb403c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "029802a58591b73b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54eda42827ca38ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a72879571834508d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "security",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "af09c495e624f9ab",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "f1f0e8402d63a338",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "27920fbe41f2393a",
+    "type": "split",
+    "children": [
+      {
+        "id": "743eaf9d4737546c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9afe289c43d3f57b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Lecture 3 - GPS (Google file system).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Lecture 3 - GPS (Google file system)"
+            }
+          },
+          {
+            "id": "20e43a86ddfd1a84",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lecture 3 - GPS (Google file system).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Lecture 3 - GPS (Google file system)"
+            }
+          },
+          {
+            "id": "1d6a3a0f8c9fd2c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fd361efceb04ff04",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lecture 3 - GPS (Google file system).md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Lecture 3 - GPS (Google file system)"
+            }
+          },
+          {
+            "id": "11221dd5c2b8a88f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": false
+    }
+  },
+  "active": "f005401e16d18eac",
+  "lastOpenFiles": [
+    "Introduction.md",
+    "docker/Introduction.md",
+    "docker",
+    "Lecture 2 - RPC, threads and Go.md",
+    "Lecture 3 - GPS (Google file system).md",
+    "Lecture 1 - MapReduce.md",
+    "Computer Architecture/Untitled.md",
+    "Computer Architecture",
+    "udemy/Unit-3/readme.md",
+    "udemy/Unit-2/readme.md",
+    "TODOS/2023-04-20.md",
+    "Notes/TODOS/26TH FEB.md",
+    "Notes/TODOS/24TH FEB.md",
+    "Notes/TODOS/21ST FEB.md",
+    "Notes/TODOS/20TH FEB.md",
+    "Notes/TODOS/19TH FEB.md",
+    "Notes/TODOS/18TH FEB.md",
+    "Notes/TODOS/16TH FEB.md",
+    "Notes/TODOS/8TH MARCH.md",
+    "Notes/TODOS/8TH FEB.md",
+    "Notes/TODOS/1ST MARCH.md",
+    "Notes/TODOS/2ND MARCH.md",
+    "Notes/TODOS/7TH FEB.md",
+    "Notes/TODOS/9TH FEB.md",
+    "Notes/TODOS/9TH MARCH.md",
+    "TODOS/2023-09-09.md",
+    "TODOS/2023-09-10.md",
+    "TODOS/2023-09-12.md",
+    "Javascript",
+    "Opengl",
+    "udemy/Unit-35",
+    "udemy/Unit-32",
+    "udemy/Unit-31",
+    "udemy/Unit-30",
+    "udemy/Unit-30",
+    "udemy/Unit-29",
+    "udemy/images/Mon Jun 26 01:53:53 PM +0545 2023.png",
+    "udemy/images/cost-of-sequntial-scan.png",
+    "udemy/images/Mon Jun 26 01:48:21 PM +0545 2023.png",
+    "udemy/images/cost-calculation.png",
+    "udemy/images/Mon Jun 26 01:39:40 PM +0545 2023.png",
+    "udemy/images/sequential-scan.png",
+    "udemy/images/Mon Jun 26 01:22:13 PM +0545 2023.png",
+    "3rd-Sem/images/Sun Jun 25 07:41:17 PM +0545 2023.png",
+    "udemy/images/Sat Jun 24 12:47:32 PM +0545 2023.png",
+    "3rd-Sem/images/integer-arithmetic-operation.png",
+    "Untitled.canvas"
+  ]
+}

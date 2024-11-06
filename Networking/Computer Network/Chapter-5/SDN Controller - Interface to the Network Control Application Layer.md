@@ -1,0 +1,1 @@
+The API that the SDN controller provides to the network control application is used to read/write flow tables within the state management layer of the SDN controller.

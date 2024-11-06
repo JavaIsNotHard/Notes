@@ -1,0 +1,1 @@
+The ability of the OS to stop running one program and start running another on a given CPU

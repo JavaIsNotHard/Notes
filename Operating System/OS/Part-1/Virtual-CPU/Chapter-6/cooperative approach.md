@@ -1,0 +1,5 @@
+In old operating system, one way of regaining control back from the process to the operating system was by relying on the process to do so. 
+A process transfers the control of the CPU back to the OS many times during the execution of the process while making [[system call]]. During this time, the OS decides whether to perform [[Context switching]] or to let the process continue running.
+These systems also include a **yield** system call which does nothing but gives control back to the operating system. 
+Process also gives control back to the operating system when they perform illegal instructions such as access memory location that is protected and much more. 
+So we can summarize this part by saying that the operating system regains control of the CPU back through either system calls or through the process performing illegal instructions.

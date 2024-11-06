@@ -1,0 +1,1 @@
+In the development of OS, a common design paradigm is to separate the high level [[Policies]] with the low level [[Mechanisms]]. The [[Mechanisms]] deals with the ***how*** questions such as how a OS performs [[Context switching]] whereas the [[Policies]] deals with the ***which*** questions such as which process will the OS run right now?

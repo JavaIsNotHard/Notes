@@ -1,0 +1,1 @@
+A timer device is programmed into the device such that the interrupt is produced every few milliseconds. The interrupt handler that gets executed is set up or initialized during the boot process by the operating system.

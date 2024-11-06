@@ -1,0 +1,1 @@
+An algorithm which tells the OS which process to run when there are multiple processes that required resources for further execution

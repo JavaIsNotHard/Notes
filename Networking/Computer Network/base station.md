@@ -1,0 +1,6 @@
+- Responsible for sending and receiving data to and from to and from a [[wireless host]] associated with the base station.
+- It is also responsible for the coordination of multiple [[wireless host]] associated with the base station.
+- Association with a base station is when the [[wireless host]] is within the coverage distance of the base station and when the [[wireless host]] uses the base station relay data between it and larger network.
+- Examples of base station includes 802.11 access points and cell towers.
+- host associated with a base station is referred to as operating in a [[infrastructure mode]]
+- If there is no such infrastructure to provide services then we call it [[ad hoc newtork]]

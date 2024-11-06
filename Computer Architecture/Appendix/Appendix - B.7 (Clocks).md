@@ -1,0 +1,4 @@
+- Clocks are needed in sequential logic to decide when an element that contains state should be updated.
+- Clocks are free running signals that have a fixed [[Cycle Time]] 
+- There are two types of timing methodologies which includes [[Edge triggered clocking]] and level triggered clocking. 
+- 

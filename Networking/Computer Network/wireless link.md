@@ -1,0 +1,3 @@
+- The link which connects a [[wireless host]] with a [[base station]] using a wireless link technology. 
+- Different technologies will have different characteristics such as transmission rate, distance coverage and others. 
+- Wireless links connect [[wireless host]] to a large [[network infrastructure]]

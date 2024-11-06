@@ -1,0 +1,7 @@
+When the operating system regains the control over the CPU, it has to decide whether to keep running the current process or to context switch. This is decided by the operating system's [[OS Scheduler]].
+If the scheduler decides to context switch then the OS needs to do some saving. There are mainly two types of saving done. The first one is done by the hardware and the second one is done by the software. 
+The hardware saves the values of the register into the kernel stack and the software i.e the operating system saves the content into the process structure.
+
+First the [[interrupt timer]] interrupts the process, the OS takes control, the hardware saves the content of the registers and trap is called and kernel mode is activated. Jump to the trap handler is performed.
+The control is given to the operating system, the operating system saves the content of the register into the process structure, (in memory structure), restores the content of the to-be-run process and changes the stack pointer to use the soon-to-be-run process's kernel stack. 
+The hardware then restores the content of another process and kernel stack from the memory and moves to user mode and starts execution of another process.

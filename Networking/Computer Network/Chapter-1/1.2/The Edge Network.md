@@ -1,0 +1,1 @@
+We call the devices which are connected to the internet as end systems because the sit at the edge of the internet. The edge refers to the end position of the communication link where various other devices such as packet switches are placed before end systems.

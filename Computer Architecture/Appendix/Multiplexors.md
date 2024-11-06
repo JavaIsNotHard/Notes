@@ -1,0 +1,1 @@
+A multiplexor is also called as a selector because it selects an input bit based on some control bit. In a mux we have 2 data bits and 1 control bit. Based on some condition of the control bit we determine which of the 2 bits would be an output bit.

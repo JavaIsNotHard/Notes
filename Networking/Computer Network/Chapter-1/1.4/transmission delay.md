@@ -1,0 +1,2 @@
+Packets can be transmitted to other end system from the router only after all the packets have arrived at the router. So during this time the router needs to wait until all the bits of the packet arrive at the output queue. This waiting time is the delay that is produced in our case.
+The amount of time required to push all the packet's bits into the output link is called the transmission delay.

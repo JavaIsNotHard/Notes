@@ -1,0 +1,1 @@
+As the name suggests, this instruction returns the process running on kernel mode back to the user mode. 

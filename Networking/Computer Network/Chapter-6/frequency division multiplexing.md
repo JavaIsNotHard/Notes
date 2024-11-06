@@ -1,0 +1,2 @@
+Divides the R bits for second of the channel into R different channels each having a throughput of R/N bps
+Disadvantage of this method is that if only one node is sending data then it sends at a rate of R/N even thought there is no other nodes transferring data along the same channel.

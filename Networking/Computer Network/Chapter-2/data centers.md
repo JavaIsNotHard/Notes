@@ -1,0 +1,1 @@
+Are used to create a powerful [[virtual server]]. Data centers contains main computers or machine whose sole purpose is to act as a [[virtual server]] and nothing else. 

@@ -1,0 +1,1 @@
+Changing data from one format to another. For example, changing binary to hex or hex to binary, or changing ASCII to UTF-8 and so on.

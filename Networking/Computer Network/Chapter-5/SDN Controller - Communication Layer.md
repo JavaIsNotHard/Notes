@@ -1,0 +1,3 @@
+- There must be a protocol to communicate between the controller and the network devices. The protocol is known as [[OpenFlow]].
+- Any changes to the network devices or the state of the network must be communicated to the SDN controller. The events could be something like the attached link has been up or down, that a new device has connected to the network and such 
+- The communication between the controller and the controlled devices is known as the southbound interface.

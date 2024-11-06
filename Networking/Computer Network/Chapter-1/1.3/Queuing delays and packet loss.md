@@ -1,0 +1,2 @@
+If an arriving packet needs to be transmitted onto a link but finds that the transmission link is busy with transmission of other packets then the arriving packet must wait in the [[output buffer]].
+Suppose we have two hosts i.e host A and host B each transmitting at the speed of 100 mbps. The packets are first send to the first router that has a output link of speed 15 mbps. Due to the speed difference between these two devices, the network may face congestion where the output buffer will fill out before it can transmit any packet out.

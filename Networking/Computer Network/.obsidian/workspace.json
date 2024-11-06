@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "e4df6c7b675f020b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7590221602de76c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6835b664343ab17b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter-3/Connection oriented protocol - TCP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cafa97534b8848bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d47e3ebe3987785",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "539f605225f4549d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec57c30cd8fcf079",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "546a68b37bce6036",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f4de5d7d1e05eba6",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ca58c9d9ec50825",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1aa60309ede7bc14",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Chapter-3/Connection oriented protocol - TCP.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fbd2b9eed1338471",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Chapter-3/Connection oriented protocol - TCP.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "90786e5c891967a2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "86820a67887e2ff3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Chapter-3/Connection oriented protocol - TCP.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6835b664343ab17b",
+  "lastOpenFiles": [
+    "how dns works.md",
+    "Chapter-3/Connection oriented protocol - TCP.md",
+    "Chapter-2/DNS.md",
+    "Chapter-2/Untitled.md",
+    "Chapter-2/SMTP and FTP.md",
+    "Chapter-2/Interface between the process and computer network.md",
+    "Chapter-5/distance vector algorithm.md",
+    "Chapter-5/RIP.md",
+    "Chapter-5/SDN Controller - Network Side State Management Layer.md",
+    "Chapter-5/SDN Controller - Interface to the Network Control Application Layer.md",
+    "Chapter-5/SDN Controller - Communication Layer.md",
+    "Chapter-5/SDN Controller.md",
+    "Chapter-5/sdn control plane.md",
+    "Chapter-1/1.1/1.1.1/packet switch.md",
+    "Chapter-5/Programmable network.md",
+    "Chapter-5/Network control function.md",
+    "Chapter-5/Separation of data plane and control plane.md",
+    "Chapter-5/flow based forwarding.md",
+    "Chapter-5/OpenFlow.md",
+    "Chapter-5/BGP.md",
+    "Chapter-5/OSPF.md",
+    "Chapter-5/Data and control plane interaction in SDN.md",
+    "Chapter-5/Tunneling.md",
+    "Chapter-5/ICMP.md",
+    "Chapter-4/NAT.md",
+    "Chapter-4/Where does queuing occur.md",
+    "Chapter-8",
+    "Chapter-7",
+    "CSMA",
+    "Chapter-6",
+    "Pictures/Fri Feb  9 04:35:25 PM +0545 2024.png",
+    "Pictures/Fri Feb  9 04:35:16 PM +0545 2024.png",
+    "Chapter-4/Thu Jan 18 06:14:44 PM +0545 2024.png",
+    "Pictures/Thu Jan 18 06:14:59 PM +0545 2024.png",
+    "Pictures/Thu Jan 18 06:14:44 PM +0545 2024.png",
+    "Pictures/Thu Jan 18 06:14:41 PM +0545 2024.png",
+    "Pictures/Thu Jan 18 06:14:38 PM +0545 2024.png",
+    "Pictures/Thu Jan 18 06:13:06 PM +0545 2024.png",
+    "Chapter-4/Thu Jan 18 06:14:59 PM +0545 2024.png",
+    "Chapter-4/Thu Jan 18 06:14:41 PM +0545 2024.png",
+    "Pictures",
+    "Chapter-5",
+    "Chapter-4",
+    "Chapter-3",
+    "dashboard.canvas",
+    "Chapter-2",
+    "Chapter-1/1.5"
+  ]
+}

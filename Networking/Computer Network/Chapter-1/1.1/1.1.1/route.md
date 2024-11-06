@@ -1,0 +1,1 @@
+The sequence of communication links and packet switches traversed by the packets from sending end system to the receiving end system is known as **route** or **path**.

@@ -1,0 +1,3 @@
+- [[time division multiplexing]]
+- [[frequency division multiplexing]]
+- [[code division multiple access]]

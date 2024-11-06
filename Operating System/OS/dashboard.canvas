@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"dd6aee32ff550ace","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/The abstraction -> The process.md","x":-1800,"y":80,"width":400,"height":400},
+		{"id":"07a53386086b4142","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/Virtualization.md","x":-1120,"y":400,"width":400,"height":400},
+		{"id":"d03f0dade8921d8d","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/Mechanisms.md","x":-600,"y":680,"width":400,"height":400},
+		{"id":"eb51ee4b978919e9","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/Policies.md","x":-600,"y":80,"width":400,"height":400},
+		{"id":"01b5b1e897a1f89e","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/Process.md","x":-1120,"y":-200,"width":400,"height":400},
+		{"id":"ea64429eebe9fe1c","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/Context switching.md","x":40,"y":880,"width":400,"height":400},
+		{"id":"c096a7126ec546f2","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/Time sharing.md","x":40,"y":400,"width":400,"height":400},
+		{"id":"ffbdb2f7141d855a","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/Process API.md","x":-1800,"y":-760,"width":400,"height":400},
+		{"id":"2ef4a85942dafb1a","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/Process creation.md","x":-1800,"y":-1440,"width":400,"height":400},
+		{"id":"311b0223b4635ff8","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/heap.md","x":-1040,"y":-1040,"width":400,"height":400},
+		{"id":"5b298c2241126582","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/IO related stuff.md","x":-920,"y":-1560,"width":400,"height":400},
+		{"id":"4701d274160a510c","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/run-time stack.md","x":-720,"y":-2040,"width":400,"height":400},
+		{"id":"dc77ccc3ade09f0e","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/address space.md","x":-1240,"y":-2240,"width":400,"height":400},
+		{"id":"0a30b0d9e1be317a","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/Running State.md","x":-1320,"y":1880,"width":400,"height":400},
+		{"id":"76a8100038a5c0d8","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/Process State.md","x":-1880,"y":1400,"width":400,"height":400},
+		{"id":"8f932c879eb9e8a7","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/Blocked State.md","x":-1200,"y":1400,"width":400,"height":400},
+		{"id":"2c80372805155f71","type":"file","file":"Part-1/Virtual-CPU/Chapter-4/Ready State.md","x":-1320,"y":920,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"b3401de5a7291594","fromNode":"07a53386086b4142","fromSide":"right","toNode":"eb51ee4b978919e9","toSide":"left"},
+		{"id":"43efe4326533c146","fromNode":"07a53386086b4142","fromSide":"right","toNode":"d03f0dade8921d8d","toSide":"left"},
+		{"id":"edf546567f263bc8","fromNode":"dd6aee32ff550ace","fromSide":"right","toNode":"07a53386086b4142","toSide":"left"},
+		{"id":"3f2256fe168c95d4","fromNode":"d03f0dade8921d8d","fromSide":"right","toNode":"ea64429eebe9fe1c","toSide":"left"},
+		{"id":"d5480533cd14d5aa","fromNode":"d03f0dade8921d8d","fromSide":"right","toNode":"c096a7126ec546f2","toSide":"left"},
+		{"id":"1601e8484156b125","fromNode":"dd6aee32ff550ace","fromSide":"right","toNode":"01b5b1e897a1f89e","toSide":"left"},
+		{"id":"fbb8c2cd1a918d21","fromNode":"01b5b1e897a1f89e","fromSide":"top","toNode":"ffbdb2f7141d855a","toSide":"bottom"},
+		{"id":"f6b07591177be2e4","fromNode":"2ef4a85942dafb1a","fromSide":"right","toNode":"dc77ccc3ade09f0e","toSide":"left"},
+		{"id":"997807b144c26b12","fromNode":"2ef4a85942dafb1a","fromSide":"right","toNode":"4701d274160a510c","toSide":"left"},
+		{"id":"d54383b7e1a22661","fromNode":"2ef4a85942dafb1a","fromSide":"right","toNode":"5b298c2241126582","toSide":"left"},
+		{"id":"2c64deeb3cfaec41","fromNode":"2ef4a85942dafb1a","fromSide":"right","toNode":"311b0223b4635ff8","toSide":"left"},
+		{"id":"99c134fe341160f6","fromNode":"01b5b1e897a1f89e","fromSide":"top","toNode":"2ef4a85942dafb1a","toSide":"bottom"},
+		{"id":"43ee209e8f61d9dd","fromNode":"76a8100038a5c0d8","fromSide":"right","toNode":"2c80372805155f71","toSide":"left"},
+		{"id":"f5d98a87d5b7994b","fromNode":"76a8100038a5c0d8","fromSide":"right","toNode":"8f932c879eb9e8a7","toSide":"left"},
+		{"id":"402ff620480d7136","fromNode":"76a8100038a5c0d8","fromSide":"right","toNode":"0a30b0d9e1be317a","toSide":"left"}
+	]
+}

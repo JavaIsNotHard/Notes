@@ -1,0 +1,2 @@
+- use bloom filter which reduces the unnecessary disk reads 
+- using different compaction strategies such as [[level compaction]] and [[size-tiered compaction]]

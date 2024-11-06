@@ -1,0 +1,1 @@
+The control plane is further divided into 2 components, the sdn controller and the network control applications. The sdn controller is also known as the network operating system and it contains all the state information about the network such as the cost of each link, the connected hosts and available switches. This information are given to the network control applications

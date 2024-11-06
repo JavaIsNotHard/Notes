@@ -1,0 +1,3 @@
+A device with programmable AND gates followed by programmable OR gates. In this type of device we have inputs which are fed to the product (AND gates).
+We also need to have an inverter which can invert our bit values.
+All the output from the AND gate which would be individual ANDed varaibles such as xyz, xy'z' and so on would be fed to OR gate which would represent the boolean expresion as logic gates.

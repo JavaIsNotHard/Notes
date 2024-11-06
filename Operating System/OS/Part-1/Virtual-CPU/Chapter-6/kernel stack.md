@@ -1,0 +1,1 @@
+Each process has something called a kernel stack where the necessary registers are pushed before the user program jumps to kernel mode for the execution of privileged instructions. When the [[return-from-trap]] instruction is called, then the value previously pushed on the kernel stack is popped at placed at the appropriate locations.

@@ -1,0 +1,1 @@
+Make sure that the process are executing in proper control of the OS. A uncontrolled process might run forever, access information that it is not supposed to and much more. 

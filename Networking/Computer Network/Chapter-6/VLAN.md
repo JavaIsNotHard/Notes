@@ -1,0 +1,4 @@
+virtual local area network is used to solve the following problems that a normal hierarchical switched network faces:
+1. Traffic isolation: Link layer and network layer broadcast packets are traversed through all the departments of the LAN. This could mean that traffic which are sensitive to one department could be visible to other departments as well. APR, DHCP, when switches do not have entry for a particular MAC address. 
+2. Inefficient use of switches: If a switch has 96-ports and each department has 10 members then there would be 86 unused ports and if there are 10 departments then it would mean a lot of under utilized bandwidth.
+3. Managing users: If a member of one department wanted to move to another department then the physical cabling must be changed to connect the member to a different switch.

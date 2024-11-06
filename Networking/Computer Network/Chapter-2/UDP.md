@@ -1,0 +1,4 @@
+- Does not perform a handshake before the exchange of messages.
+- unreliable data transfer, it doesn't guarantee that the message will ever reach the destination end.
+- Does not have congestion control so sending side can pump data into the layer below at any rate it pleases (but the actual end to end throughput may be less than this rate due to the limited bandwidth and congestion)
+- Used by real time application such as multi media applications like skype, zoom and online mutliplayer games.

@@ -1,0 +1,2 @@
+The job of a forwarding table is to map a address that it receives from a previous router or end system to its appropriate outbound link.
+[[routing protocols]] are used to set forwarding table for routers

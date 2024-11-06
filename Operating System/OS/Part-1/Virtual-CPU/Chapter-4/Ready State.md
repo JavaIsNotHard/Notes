@@ -1,0 +1,2 @@
+This is the state of a process when it is ready to be executed by the process but for some reason (such as other process being active in the processor) the OS decided not to. The process that are in [[Ready State]] can be viewed as being placed on a queue of processes, where once the active process is completed the next process in line starts execution.
+When a process moves from [[Ready State]] to [[Running State]] then the process has been [[scheduled]]. 

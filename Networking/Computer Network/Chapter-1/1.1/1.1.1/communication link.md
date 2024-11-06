@@ -1,0 +1,1 @@
+A link between devices that help in transmitting data between them. These links can be of various types which are visible as well as non-visible. The visible type includes media such as coaxial cable, fiber optic cable and the non-visible includes media such as radio spectrum.

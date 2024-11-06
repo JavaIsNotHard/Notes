@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "05fbdf7b3921a253",
+    "type": "split",
+    "children": [
+      {
+        "id": "49f6bb5a5e8ce4e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f14f7a5e1324eb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter-1 (Introduction)/Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a0cf16bdf58bbe73",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ebaba15a6cb187e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6dd1cdfa16550168",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "89c855993c35a8e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "file:compa",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fdf1450ba1d3bddb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eb2d679cfce32ef9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c231ff420915d120",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9412fbf82235149c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Chapter-2/Relational Model Versus Document Model.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Relational Model Versus Document Model"
+            }
+          },
+          {
+            "id": "b16f8fd86c580abb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Chapter-2/Relational Model Versus Document Model.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Relational Model Versus Document Model"
+            }
+          },
+          {
+            "id": "e462e946e65c445c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cbc6381652d3794c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Chapter-2/Relational Model Versus Document Model.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Relational Model Versus Document Model"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6f14f7a5e1324eb7",
+  "lastOpenFiles": [
+    "Chapter-1 (Introduction)/Introduction.md",
+    "Chapter-1 (Introduction)",
+    "Chapter-3/Performance Optimization of LSM-trees.md",
+    "Chapter-3/size-tiered compaction.md",
+    "Chapter-3/level compaction.md",
+    "Chapter-3/LSM-Tree.md",
+    "Chapter-3/SSTables and LSM tables.md",
+    "Chapter-3/Untitled 1.md",
+    "Chapter-3/Constructing and maintaining SSTables.md",
+    "Chapter-3/Introduction.md",
+    "Chapter-3/SSTables.md",
+    "Chapter-3/Memtable.md",
+    "images/Screenshot 2024-10-20 at 08.07.10.png",
+    "images/Screenshot 2024-10-20 at 08.06.39.png",
+    "Chapter-3/Compaction.md",
+    "Chapter-3/data fragmentation.md",
+    "Chapter-3/Merging.md",
+    "Chapter-3/Hash Indexes.md",
+    "Chapter-3/Encoding.md",
+    "images/Screenshot 2024-10-19 at 08.48.43.png",
+    "images/Screenshot 2024-10-19 at 08.48.50.png",
+    "Chapter-3/Data structures that power your database.md",
+    "images/Screenshot 2024-10-19 at 08.18.06.png",
+    "images/Screenshot 2024-10-19 at 08.00.23.png",
+    "Chapter-2/Relational Model Versus Document Model.md",
+    "Chapter-3",
+    "Chapter-2/Graph Like Data Models.md",
+    "images/Screenshot 2024-10-18 at 10.55.17.png",
+    "images/Screenshot 2024-10-18 at 07.55.36.png",
+    "images/Screenshot 2024-10-18 at 07.50.50.png",
+    "Welcome.md",
+    "images",
+    "Chapter-2",
+    "image/Screenshot from 2024-07-18 12-46-44.png",
+    "spring-core/Introduction.md",
+    "image/Untitled.md",
+    "image",
+    "spring-core",
+    "Introduction/2 phase locking.md",
+    "Introduction/Big data.md",
+    "Introduction/Concurrency control theory.md",
+    "Introduction/Crash Recovery.md",
+    "Database Internals/Introduction",
+    "Database Internals",
+    "Introduction"
+  ]
+}

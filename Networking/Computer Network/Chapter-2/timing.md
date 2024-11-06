@@ -1,0 +1,1 @@
+Some applications have time constraints. That means, bits must flow from the sender to the receiver at a specific amount of time. This can also be called [[delay]]. 

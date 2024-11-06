@@ -1,0 +1,2 @@
+Virtualization is the process of transforming a physical resource into various virtual or non-existing resource by the mechanism of [[Context switching]]. Virtualization is used to give users the illusion of having many running CPU in the machine. 
+To implement virtualization of CPU, the OS needs some low level machinery and high level intelligence. The low level machinery is called [[Mechanisms]] and the high level intelligence is called [[Policies]].

@@ -1,0 +1,1 @@
+Here forwarding can be done on the basis of any header fields in transport, network and link layer. The forwarding values are placed on a [[flow table]] where the value of the forward table is computed by the sdn control plane.

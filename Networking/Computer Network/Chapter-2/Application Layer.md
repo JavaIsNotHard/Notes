@@ -1,0 +1,6 @@
+- [[Principles of Network applications]]
+- [[HTTP protocol]]
+- [[DNS]]
+- [[peer-to-peer architecture]]
+- [[video distribution and CDN]]
+- [[socket programming in python]]

@@ -1,0 +1,1 @@
+Packet in computer network is the smallest segment of message or data of a large message or data that can be transmitted over the internet. Messages are divided into several packets before they are send over the internet and they are reassembled before they are brought to the destination user.

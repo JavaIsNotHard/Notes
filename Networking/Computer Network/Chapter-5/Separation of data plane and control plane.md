@@ -1,0 +1,1 @@
+The component that is responsible for switching the packet from the input interface to the output interface is the data plane. The control plane contains software and servers that are used to compute the value of the flow table.

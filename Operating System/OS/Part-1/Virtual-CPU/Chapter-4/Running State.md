@@ -1,0 +1,1 @@
+This is the state where the process is executed by the processor and it utilizes all the machine resources and affects the [[machine state]]. When a process moves from running state to [[Ready State]] then the process has been [[descheduled]].

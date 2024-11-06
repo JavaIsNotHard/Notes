@@ -1,0 +1,1 @@
+The order at which data are sent matches with the order in which data is received in the destination end. 

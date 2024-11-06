@@ -1,0 +1,1 @@
+These includes all the devices that are connected to the internet such as PC, phones, servers and many more. 

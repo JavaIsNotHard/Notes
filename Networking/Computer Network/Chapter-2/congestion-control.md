@@ -1,0 +1,2 @@
+- The congestion control mechanism is used for the welfare of the internet and the network path and the ISP even rather than for the benefit of the communication processes.
+- Since congestion control limits the actual [[throughput]] of the process, it can be harmful to be used by real time applications

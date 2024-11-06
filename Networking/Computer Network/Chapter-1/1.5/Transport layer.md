@@ -1,0 +1,5 @@
+- They are used to transport application layer messages. 
+- There are two types of transport layer protocol which includes TCP and UDP.
+- TCP provides a [[connection-oriented service]] to its application, it includes guaranteed delivery of application-layer messages to the destination and flow control(sender and receiver speed matching).
+- TCP also breaks the application layer message into segments to provide [[congestion-control]] mechanism.
+- UDP provides a connection-less service to its application.

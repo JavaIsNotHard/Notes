@@ -1,0 +1,4 @@
+To understand how network application programs communicate with each other over the network, we need to understand how programs communicate within the same host system. 
+A program that is running in the host machine is called a **process**. Within the same host machine, processes communicate with each other using [[interprocess communication]].
+Processes that are running on two different end systems communicate with each other by sending [[messages]] over the network. The process communication happens in the [[Chapter-1/1.5/Application layer|Application layer]] of the network stack.
+[[Interface between the process and computer network]]

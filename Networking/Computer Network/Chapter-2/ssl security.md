@@ -1,0 +1,4 @@
+When sending packets using either TCP or UDP there are encryption by default. That means when packets passes from one hop to another to reach the destination, other users can sniff the packets at those link or hops. 
+
+To prevent this an enhancement of TCP called Secure Sockets Layer is created. This enhancement is implemented at the application layer. The SSL code needs to be available at both the sender and the receiver side.
+The application layer passes the information to SSL socket; SSL in the sending host then encrypts the message and sends it to the TCP layer. After the packet is received by the receiving layer, the receiving layer's SSL socket decrypts the message and passes it to the application layer or network process

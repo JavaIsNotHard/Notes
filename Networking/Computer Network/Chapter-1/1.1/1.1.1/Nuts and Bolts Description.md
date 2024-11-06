@@ -1,0 +1,7 @@
+- Different types of devices or [[Hosts (endpoints)]] are connected to the same internet using a [[communication link]] and packet switches
+- Different devices have different [[transmission rate]] and are usually measured in bits/second.
+- When one system has to send data to another system, first the data is segmented and headers are added to each segment. The resulting packages of information, known as packets are send over through the network to the destination address.
+- [[packet switch]] are used to take packets from the incoming communication link and forwards the packet to one of its outgoing communication link. They are used to forward packets to its end destination.
+- Packet-switched networks are very similar to transportation networks of highway, roads and intersections. [[example description of network transportation]]
+- The sequence of communication links and packet switches traversed by a packet from the sending end system to the receiving end system is known as **path** or **[[route]]**
+- There are various ways that various devices access network. These are discussed in [[The Access Network]].

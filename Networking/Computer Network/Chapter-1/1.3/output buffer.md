@@ -1,0 +1,2 @@
+The output buffer is a queue data structure that holds incoming packets and transfer the packet in the FIFO (first in first out) principle. This means that the first incoming packet will be the first outgoing packet.
+The size of the output buffer is finite so the incoming packet may find that the output buffer is sometimes full. In this case we experience something called as [[packet loss]]

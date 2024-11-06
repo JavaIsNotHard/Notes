@@ -1,0 +1,1 @@
+The job of the physical layer is to move the individual bits within the frame from one node to the next.

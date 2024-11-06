@@ -1,0 +1,3 @@
+There might be some processes that are faulty by nature or process that run infinitely. In this scenario, how does the operating system regain control of the CPU back?
+This is done by setting a [[interrupt timer]]. This means that every few milliseconds the operating system gains control back of the CPU and now can do anything that it wants with the process. 
+To handler the interrupt, the hardware needs to save the content of the running process into the kernel stack such that a subsequent call to return-from-trap instruction would return to the previous state of the process correctly.

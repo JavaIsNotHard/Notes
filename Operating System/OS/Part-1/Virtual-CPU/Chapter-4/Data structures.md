@@ -1,0 +1,3 @@
+OS keeps track of all the processes in a data structure called a [[process list]] 
+If a process is stopped then the content of its registers will be placed on a [[register context]] and this will be stored in the main memory of the machine. So if the process needs to resume then it can load the content of the previous process register back. This is useful during [[Context switching]].
+Structure that stores individual process's information is called [[process control block]].

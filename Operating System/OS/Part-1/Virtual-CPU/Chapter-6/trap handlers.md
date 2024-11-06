@@ -1,0 +1,1 @@
+Trap handlers are code that is ran when [[trap]] is called by the user program. The trap handler executes the system call (such as fork, exec and more)

@@ -1,0 +1,1 @@
+Moving as much data without any packet loss is not achievable. Computer networks constrain [[throughput]] between end systems, introduce delays between end system as well as lose packets.

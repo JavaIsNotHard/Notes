@@ -1,0 +1,3 @@
+Let us consider a architecture where we have a upstream node which sends data to router A and router A sends data to the destination node B. The router A has a output buffer which accepts all the incoming packets from the upstream node and placed them in a queue like data structure. 
+At the queue the packets experience something called a queuing delay as it waits to be transmitted through the link. 
+The length of the queuing delay depends on the number of earlier-arriving packets that are queued and waiting for transmission on the link.

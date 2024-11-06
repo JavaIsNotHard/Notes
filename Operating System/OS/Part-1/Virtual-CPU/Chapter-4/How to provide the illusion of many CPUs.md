@@ -1,0 +1,1 @@
+The illusion is provided by using the mechanism of [[Virtualization]]
