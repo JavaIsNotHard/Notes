@@ -22,3 +22,15 @@
 - The line contains the data on if the valid bit in the line is set and the value of the t tag in the line and the value of t bits in the address matches.
 - Once we identify the line then we can use b bits as block offset to know which block contains the data. 
 
+## Direct mapped cache
+- caches are grouped into different classes based on the value of E i.e no of distinct cache line. 
+- cache that has only 1 cache line per set is called direct mapped cache. 
+![[Screenshot 2024-11-14 at 10.17.30.png]]
+
+- if the L1 cache does not have the data block then it sends the same request on behalf of the CPU to the main memory, loads the data into the L1 cache data block, extracts data from the data block and sends that to the CPU. 
+- there are 3 steps to this process 
+	- set selection
+	- line matching 
+	- word extraction
+
+## set selection in direct mapping cache
