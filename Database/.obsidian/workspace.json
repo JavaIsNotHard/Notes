@@ -16,7 +16,9 @@
                 "file": "Introduction/Concurrency control theory.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Concurrency control theory"
             }
           },
           {
@@ -25,10 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction/Big data.md",
+                "file": "Introduction/Memory management and buffer pool.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Memory management and buffer pool"
             }
           }
         ],
@@ -52,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -67,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -98,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction/Big data.md",
+                "file": "Introduction/Memory management and buffer pool.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +116,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Memory management and buffer pool"
             }
           },
           {
@@ -115,10 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction/Big data.md",
+                "file": "Introduction/Memory management and buffer pool.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Memory management and buffer pool"
             }
           },
           {
@@ -129,7 +143,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -138,8 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction/Big data.md"
-              }
+                "file": "Introduction/Memory management and buffer pool.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Memory management and buffer pool"
             }
           }
         ]
@@ -161,13 +179,13 @@
   },
   "active": "b4e894bf96cc8736",
   "lastOpenFiles": [
+    "Introduction/Introduction.md",
+    "Introduction/DBMS access methods.md",
     "Introduction/2 phase locking.md",
     "Introduction/Big data.md",
     "Introduction/Concurrency control theory.md",
     "Introduction/Crash Recovery.md",
     "Introduction/Memory management and buffer pool.md",
-    "Introduction/DBMS access methods.md",
-    "Introduction/Introduction.md",
     "Introduction/Operator Execution.md",
     "Database Internals/Introduction/Data files and index files.md",
     "Database Internals/Introduction/2.Database Architecture.md",

@@ -146,9 +146,19 @@
               "icon": "lucide-file",
               "title": "Memtable"
             }
+          },
+          {
+            "id": "c2922350e914b3c4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -289,10 +299,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8882a4e0f35332d9",
+  "active": "c2922350e914b3c4",
   "lastOpenFiles": [
-    "Chapter-7/Introduction.md",
     "Chapter-9/Introduction.md",
+    "Chapter-7/Introduction.md",
     "Chapter-9",
     "images/Screenshot 2024-11-04 at 16.13.06.png",
     "images/Screenshot 2024-11-04 at 13.48.12.png",
