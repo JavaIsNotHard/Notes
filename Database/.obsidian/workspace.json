@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction/Memory management and buffer pool.md",
+                "file": "intro-to-database/Lecture-8/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Memory management and buffer pool"
+              "title": "Introduction"
+            }
+          },
+          {
+            "id": "17840e88c4d2ada0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "intro-to-database/Lecture-17/Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -177,19 +191,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4e894bf96cc8736",
+  "active": "6dd1cdfa16550168",
   "lastOpenFiles": [
-    "Introduction/Introduction.md",
+    "images/Screenshot 2024-11-24 at 09.25.02.png",
+    "images",
+    "intro-to-database/Lecture-16/Introduction.md",
+    "intro-to-database/Lecture-17/Introduction.md",
+    "intro-to-database/Lecture-17",
+    "intro-to-database/Lecture-8/Introduction.md",
+    "intro-to-database/Lecture-3/Introduction.md",
+    "sql perfomance/Slow indexes, part 1.md",
+    "intro-to-database/Lecture-16",
+    "sql perfomance",
+    "intro-to-database/Lecture-8",
+    "intro-to-database/Untitled.md",
+    "Introduction/Untitled.md",
     "Introduction/DBMS access methods.md",
-    "Introduction/2 phase locking.md",
-    "Introduction/Big data.md",
-    "Introduction/Concurrency control theory.md",
+    "Introduction/Introduction.md",
     "Introduction/Crash Recovery.md",
-    "Introduction/Memory management and buffer pool.md",
-    "Introduction/Operator Execution.md",
-    "Database Internals/Introduction/Data files and index files.md",
+    "Introduction/Concurrency control theory.md",
+    "Introduction/Big data.md",
+    "Introduction/2 phase locking.md",
     "Database Internals/Introduction/2.Database Architecture.md",
     "Database Internals/Introduction/1.Introduction.md",
+    "Introduction/Memory management and buffer pool.md",
+    "intro-to-database/Lecture-3",
+    "intro-to-database",
+    "Introduction/Operator Execution.md",
+    "Database Internals/Introduction/Data files and index files.md",
     "Database Internals/Introduction",
     "Database Internals",
     "Untitled.md",
@@ -199,7 +228,6 @@
     "Relational Database Design.md",
     "Welcome.md",
     "knowledge representation.md",
-    "Recovery system.md",
-    "Concurrency control system.md"
+    "Recovery system.md"
   ]
 }

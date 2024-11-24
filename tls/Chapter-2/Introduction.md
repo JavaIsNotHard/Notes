@@ -51,7 +51,7 @@
 
 #### Certificate 
 - after the serverhello, the server sends its certificate chain excluding the root CA certificate. 
-- The public key send by the server that is used to decrypt the private key of the certificate should match the one selected in the cipher suite option.
+- The public key send by the server that is used to decrypt the private key of the certificate should match the one selected in the cipher suite option. (what does this mean?)
 
 
 #### Client and server finished message 
@@ -70,4 +70,5 @@
 
 ### Key exchange 
 - generate pre master secret which is used to construct the master secret
+- the master secret is a 48 byte shared key between the client and the server (probably?)
 - 

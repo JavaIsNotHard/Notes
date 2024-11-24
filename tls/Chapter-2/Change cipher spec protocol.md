@@ -1,0 +1,4 @@
+- the protocol consists of a single message which consists of a single byte with the value 1. 
+- cause the pending state to be copied to the current state. 
+- used to inform the communicating peer that the subsequent messages will: 
+	- use encryption based on the negotiated session keys 

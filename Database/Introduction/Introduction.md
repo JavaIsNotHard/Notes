@@ -41,7 +41,7 @@ Database pages
 A page is a fixed size block of data that makes up a single file i.e a file is a collection of pages.
 
 A page contains information such as the metadata, tuples, indexes, logs and many more. 
-We want pages to be self contained i.e the metadata of a tuple needs to be on the same page as the tuple this makes sure that data loss does not affect the tuple in any way. 
+We want pages to be self contained i.e the metadata of a tuple needs to be on the same page as the tuple, this makes sure that data loss does not affect the tuple in any way. 
 Most database systems do not allows mixing of data types i.e a page can contain only tuples or index value and such and such. 
 Each page is identified using a page identifier generated the database system which adds an indirection layer to the pages by mapping the page id to a particular physical location where the page is located at. This allows rearranging of pages be less hectic since every change to the location of the page will make sure that the page_id is pointing to a new physical location. 
 What is the size of a page? It depends on the level you are in: 
