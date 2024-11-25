@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "intro-to-database/Lecture-17/Introduction.md",
+                "file": "intro-to-database/Lecture-18/Introduction.md",
                 "mode": "source",
                 "source": false
               },
@@ -191,12 +191,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6dd1cdfa16550168",
+  "active": "17840e88c4d2ada0",
   "lastOpenFiles": [
+    "intro-to-database/Lecture-16/Introduction.md",
+    "intro-to-database/Lecture-18/Introduction.md",
+    "intro-to-database/Lecture-18",
+    "images/Screenshot 2024-11-24 at 14.41.12.png",
+    "images/Screenshot 2024-11-24 at 14.37.56.png",
+    "Introduction/Concurrency control theory.md",
+    "intro-to-database/Lecture-17/Introduction.md",
     "images/Screenshot 2024-11-24 at 09.25.02.png",
     "images",
-    "intro-to-database/Lecture-16/Introduction.md",
-    "intro-to-database/Lecture-17/Introduction.md",
     "intro-to-database/Lecture-17",
     "intro-to-database/Lecture-8/Introduction.md",
     "intro-to-database/Lecture-3/Introduction.md",
@@ -209,7 +214,6 @@
     "Introduction/DBMS access methods.md",
     "Introduction/Introduction.md",
     "Introduction/Crash Recovery.md",
-    "Introduction/Concurrency control theory.md",
     "Introduction/Big data.md",
     "Introduction/2 phase locking.md",
     "Database Internals/Introduction/2.Database Architecture.md",
@@ -224,7 +228,6 @@
     "Untitled.md",
     "Untitled 1.md",
     "Relational Algebra.md",
-    "Introduction",
     "Relational Database Design.md",
     "Welcome.md",
     "knowledge representation.md",

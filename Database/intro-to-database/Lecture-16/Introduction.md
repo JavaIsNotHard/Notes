@@ -34,6 +34,55 @@
 - when two txn run at the same time we do not know the order of execution i.e which txn will run first.
 - no matter the interleaving or the order of execution we want to make sure the end result is equivalent to the result that would be produced by a serial execution.
 
+## States of a transaction
+- active -> when the txn starts executing the first statement.
+- partially completed -> when it reaches the final statement then it enters this partially active state. The output of the txn in this state can be inside the main memory which means if there is a crash then the data is corrupted and needs to be rolled back. If this was successful then it is moved to committed state else in failed state.
+- failed -> occurs when the txn can no longer proceed with its normal execution.
+- aborted -> the txn has two options in this state which includes:
+	- restart the transaction 
+	- kill the transaction
+- committed -> when the last of the operation's output is written to disk then we say that the txn is in committed state.
+- A txn is said to be terminated if it has either been committed or aborted
+
+## External Writes
+- there are cases where the application codes sends external writes that cannot be rolled back by the DBMS.
+- this must be handled correct for consistent output.
+- this can be done by only letting external write take place when the txn is in committed state such that it will not roll back anymore.
+
+## Transaction Isolation
+- why?
+- CPU throughput -> if one CPU thread is stalled doing some I/O operation then it can be context switched with another thread that will be utilizing the thread such that there is no CPU execution wasted.
+- reduced waiting time -> a long running txn can stall all other short txn. If we can run the txns concurrently then we will have execute multiple txn at the same time hence achieving parallelism
+
+- suppose we have instructions I and J and we say that I and J conflicts iff:
+	- I and J are ran by two different instructions
+	- I and J operate on the same data item 
+	- Among I and J, one of them is a write operation
+- If a schedule S can be transformed into schedule S' by a serial of swapping non-conflicting instructions, we say that S and S' are conflict equivalent
+- If a schedule S is conflict equivalent to a serial schedule then we say that the schedule is conflict serializable.
+
+- We can also see if a schedule is conflict serializable by using a precedence graph or a dependency graph
+
+- if a txn is dependent on another txn then the dependent txn must also be aborted in the case that the original txn aborts.
+- this is only possible is some kinds of types of schedules which includes:
+	- recoverable schedules -> 
+		![[Screenshot 2024-11-24 at 14.37.56.png]]
+	- this is a type of non recoverable schedule because t7 reads data written by t6 and t7 commits before t6. 
+	- suppose t6 aborts after t7 commits then we need for both t6 and t7 to be rolled back but here it is not possible because t7 has already committed.
+	- cascadeless schedule -> 
+	- ![[Screenshot 2024-11-24 at 14.41.12.png]]
+	- this is a type of cascading rollback where t10 would rollback because t8 aborted. 
+	- This is an undesirable behaviour for transactions.
+
+## transaction isolation levels
+- first we need to discuss isolation violations
+	- dirty reads
+	- lost updates
+	- unrepeatable reads
+	- phantoms
+
+- different isolation level provides security for different isolation anomolies
+- 
 ## Serializable schedule
 - Those schedule that is equivalent i.e produces the same result as that of a serial execution is called serializable schedule.
 - Order of execution depends on the conflict that schedule could produce and tackling those conflicts.
@@ -73,4 +122,5 @@
 	- two phase lock
 	- deadlock detection & avoidance
 	- hierarchical locking
-- 
+
+- The approach using locking (2 PL) is a pessimistic concurrency control 
