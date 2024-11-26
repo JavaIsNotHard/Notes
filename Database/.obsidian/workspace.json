@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "intro-to-database/Lecture-18/Introduction.md",
+                "file": "intro-to-database/Lecture-17.5/Introduction.md",
                 "mode": "source",
                 "source": false
               },
@@ -193,13 +193,17 @@
   },
   "active": "17840e88c4d2ada0",
   "lastOpenFiles": [
-    "intro-to-database/Lecture-16/Introduction.md",
     "intro-to-database/Lecture-18/Introduction.md",
+    "intro-to-database/Lecture-17.5/Introduction.md",
+    "intro-to-database/Lecture-17.5",
+    "Untitled 1",
+    "Untitled",
+    "intro-to-database/Lecture-17/Introduction.md",
+    "intro-to-database/Lecture-16/Introduction.md",
     "intro-to-database/Lecture-18",
     "images/Screenshot 2024-11-24 at 14.41.12.png",
     "images/Screenshot 2024-11-24 at 14.37.56.png",
     "Introduction/Concurrency control theory.md",
-    "intro-to-database/Lecture-17/Introduction.md",
     "images/Screenshot 2024-11-24 at 09.25.02.png",
     "images",
     "intro-to-database/Lecture-17",
@@ -220,17 +224,13 @@
     "Database Internals/Introduction/1.Introduction.md",
     "Introduction/Memory management and buffer pool.md",
     "intro-to-database/Lecture-3",
-    "intro-to-database",
     "Introduction/Operator Execution.md",
     "Database Internals/Introduction/Data files and index files.md",
-    "Database Internals/Introduction",
-    "Database Internals",
     "Untitled.md",
     "Untitled 1.md",
     "Relational Algebra.md",
     "Relational Database Design.md",
     "Welcome.md",
-    "knowledge representation.md",
-    "Recovery system.md"
+    "knowledge representation.md"
   ]
 }
