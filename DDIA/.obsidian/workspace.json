@@ -151,10 +151,14 @@
             "id": "c2922350e914b3c4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Chapter-6/Introduction.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Introduction"
             }
           }
         ],
@@ -189,7 +193,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cluster",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -210,8 +214,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -300,20 +303,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "89c855993c35a8e8",
+  "active": "c2922350e914b3c4",
   "lastOpenFiles": [
+    "Chapter-5/Introduction.md",
+    "Chapter-4/Introduction.md",
     "Chapter-9/Introduction.md",
     "Chapter-7/Introduction.md",
     "Chapter-9",
     "images/Screenshot 2024-11-04 at 16.13.06.png",
     "images/Screenshot 2024-11-04 at 13.48.12.png",
     "images/Screenshot 2024-11-04 at 09.48.30.png",
-    "Chapter-5/Introduction.md",
     "Chapter-6/Introduction.md",
     "Chapter-7",
     "Chapter-6",
     "images/Screenshot 2024-10-30 at 07.51.29.png",
-    "Chapter-4/Introduction.md",
     "images/Screenshot 2024-10-28 at 11.24.46.png",
     "images/Screenshot 2024-10-28 at 11.07.49.png",
     "images/Screenshot 2024-10-28 at 10.57.29.png",

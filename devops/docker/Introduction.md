@@ -1,5 +1,6 @@
-- docker is not a VM (virtual memory)
-- chroot on steroid
-- cgroups and namespace 
+- overlayfs (union file system)
+- uses containerd which in turn uses rune
+- has a client which sends request to dockerd which is a daemon process running on background
 
-## Control groups 
+
+[[Overlayfs]]

@@ -41,3 +41,18 @@
 
 ## Multi level granuality
 
+## database anomalies 
+- dirty reads 
+	- reading data written by other txn that has not committed yet
+- non-repeatable reads 
+	- 
+- phantom problem 
+- write-write conflict (lost updates)
+- write skews 
+- lost update
+
+## isolation levels
+- read uncommitted 
+- read committed 
+- repeatable reads 
+- snapshot isolation
