@@ -7,6 +7,8 @@
 - nodes i.e set of processors, memory and disk, are placed closer to each other inside a datacenter. we can have data center distributed globally but that would fall into distributed database category.
 
 - decision-support queries 
+	- those queries which helps an organization to make decision based on user input 
+	- these queries work in large amount of amount (terabytes to petabytes)
 
 - performance of parallel system is measured in terms of throughput (number of task that can be completed in a given time range) and response time (amount of time required to process the task and return the result back to the client)
 - throughput can be increased by increasing the number of parallel transactions 
