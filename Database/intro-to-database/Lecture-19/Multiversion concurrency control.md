@@ -56,3 +56,18 @@ Introduction
 - index management 
 - deletes
 
+## MVCC and 2PL 
+- differentiates between read-only transaction and update transaction
+- the update transaction uses rigorous two phase locking protocol to maintiain serializability based on the commit order 
+- each version of the data item is given a unique timestamp 
+- the timestamp is not a physical clock time but rather a logical counter which increments during the commit processing
+
+- for a read-only transaction a new timestamp is assigned by reading the current value of the counter 
+- the same rule as the MVCC is applied for the read operation
+
+- for an update transaction that wants to read, it holds and shared lock on the data item and reads the latest version of the data 
+- when the transaction wants to write, then it first holds an exclusive lock on the data item and then creates a new version of the data item 
+- it assigns the end timestamp to infinity 
+
+- when the txn completes its action then it goes to the commit processing
+- here only one txn is allowed to perform commit processing at a time 

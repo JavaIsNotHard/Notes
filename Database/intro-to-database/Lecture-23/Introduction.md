@@ -163,3 +163,45 @@
 	- validation timestamp
 	- finish timestamp
 - optimistic concurrency control without read validation is mostly used in distributed settings
+
+
+
+## Replication
+- required for high availability i.e even in the case of single node failure other replicas can accept request on behalf of the failed node 
+- replication done in tuple level is hard so the most used approach is replication of each partition
+
+- asynchronous replication of data where a primary copy propagates changes to other nodes
+- disadvantage of this approach is single point of failure 
+- another drawback is that the other nodes are out of date for some time period until the update it propagated to this node
+
+- benefit of this approach is that all locks are released when the txn commits in the primary copy
+- if the primary copy needs to wait for other replicas to commit then the lock that it holds makes other txn wait for that lock hence the no of txn that can be executed will be less. This happens in synchronous replication where the primary copy waits for the update to persist it its participating nodes
+
+## Dealing with locks in replicated data 
+- primary copy
+	- a single node is defined as a primary copy which contains all the latest data item written to the database
+	- all the lock information are held in the primary copy hence if the primary copy fails then all the lock information would be lost hence the data item would be inaccessible even though other replicas are accessible
+- majority protocol
+	-  the basic idea of this protocol is that we make sure that at least n/2 of the node has the lock acquired for the txn to continue executing
+- biased protocol
+	- request for shared lock is given more favor than exclusive lock 
+	- in shared lock the lock is only acquired on the node from where the data is being read from 
+	- in exclusive lock all nodes that has the corresponding data item will hold the exclusive lock 
+- quorum consensus protocol 
+	- each node is assigned a non-negative value called the quorum value
+	- this value is based on the two values
+		- read quorum -> minimum total weight of the node to execute the read operation
+		- write quorum -> minimum total weight of the node to execute the write operation
+
+
+## Majority based protocol for working inspite of failure 
+- the rule is same as before i.e the txn cannot continue until half the available node can acquire the lock 
+- this approach uses version number to associate when the data item was last written 
+- suppose A be a data item replicated in n different nodes n
+- the txn does not operate until it has successfully obtained lock on majority of the nodes n
+- read operation reads all the data item from nodes that has acquired the lock for that particular data item and the data item with the highest version number 
+- write operation writes to all nodes that has acquired the lock and has the data item and changes the version number to a new number
+- updates to replica can be committed using 2PC
+
+
+## MV2PL
