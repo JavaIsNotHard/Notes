@@ -10,3 +10,7 @@
 - a central server called NameNode keeps track of which blocks of files are located where
 - HDFS gives an illusion of big filesystem by using all the share nothing nodes and using all the space available in those node's disk 
 
+[[MapReduce job execution]]
+
+[[Reduce side jobs and grouping]]
+

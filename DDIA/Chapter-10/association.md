@@ -1,0 +1,1 @@
+- basically a foreign key reference to a different schema from the current schema

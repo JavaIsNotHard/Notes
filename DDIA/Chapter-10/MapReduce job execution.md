@@ -8,3 +8,7 @@
 
 - step 2 and 4 is where we write our custom data processing logic
 - to create a MapReduce job, we need to create two callback functions, [[mapper]] and [[reducer]]
+
+[[Distributed execution of MapReduce]]
+
+[[MapReduce workflow]]

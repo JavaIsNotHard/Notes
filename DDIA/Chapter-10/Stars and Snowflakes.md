@@ -1,0 +1,1 @@
+- fact table which contains all the events as records that the organization might want
