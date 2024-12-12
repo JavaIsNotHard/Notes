@@ -1,0 +1,3 @@
+- processes each input record sequentially 
+- extracts key value pair from each record 
+- it does not keep any state between the input record 

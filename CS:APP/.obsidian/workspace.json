@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d148a161676c77e5",
+        "id": "45c958d841449c5c",
         "type": "tabs",
         "children": [
           {
-            "id": "f005401e16d18eac",
+            "id": "a87df59f073e1996",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chapter-6/Cache memory.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Cache memory"
+              "title": "New tab"
             }
           }
         ]
@@ -187,12 +183,13 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "f005401e16d18eac",
+  "active": "a87df59f073e1996",
   "lastOpenFiles": [
-    "images/Screenshot 2024-11-14 at 10.17.30.png",
-    "Chapter-6/Introduction.md",
-    "Chapter-6/Locality.md",
+    "Welcome.md",
     "Chapter-6/Cache memory.md",
+    "Chapter-6/Locality.md",
+    "Chapter-6/Introduction.md",
+    "images/Screenshot 2024-11-14 at 10.17.30.png",
     "images/Screenshot 2024-11-14 at 10.02.30.png",
     "images/Screenshot 2024-11-14 at 09.58.08.png",
     "images/Screenshot 2024-11-14 at 09.58.20.png",
@@ -234,7 +231,6 @@
     "udemy/images/Mon Jun 26 01:48:21 PM +0545 2023.png",
     "udemy/images/cost-calculation.png",
     "udemy/images/Mon Jun 26 01:39:40 PM +0545 2023.png",
-    "udemy/images/sequential-scan.png",
     "Untitled.canvas"
   ]
 }

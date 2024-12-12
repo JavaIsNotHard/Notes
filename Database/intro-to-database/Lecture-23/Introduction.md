@@ -204,4 +204,4 @@
 - updates to replica can be committed using 2PC
 
 
-## MV2PL
+## Distributed Consensus problem 

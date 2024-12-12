@@ -4,165 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "49f6bb5a5e8ce4e8",
+        "id": "fc1631bbecfa5c76",
         "type": "tabs",
         "children": [
           {
-            "id": "870848fa3d078a08",
+            "id": "5ed1bec9905f5a5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter-3/level compaction.md",
+                "file": "Chapter-10/MapReduce.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "level compaction"
+              "title": "MapReduce"
             }
           },
           {
-            "id": "3d17238fd8283edc",
+            "id": "976b3c15a4a23f36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter-3/Sort order in column storage.md",
+                "file": "Chapter-10/MapReduce.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sort order in column storage"
+              "title": "MapReduce"
             }
           },
           {
-            "id": "75804cc5347d094f",
+            "id": "0fe14e1eaa961ff9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter-3/SSTables and LSM tables.md",
+                "file": "Chapter-10/mapper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSTables and LSM tables"
+              "title": "mapper"
             }
           },
           {
-            "id": "7ec44c963789a6f0",
+            "id": "0d470724c8319ad8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter-3/level compaction.md",
+                "file": "Chapter-10/MapReduce.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "level compaction"
+              "title": "MapReduce"
             }
           },
           {
-            "id": "8882a4e0f35332d9",
+            "id": "01f324bfae87d1c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter-9/Introduction.md",
+                "file": "Chapter-10/reducer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
-            }
-          },
-          {
-            "id": "15e71417dec81bdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chapter-3/size-tiered compaction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "size-tiered compaction"
-            }
-          },
-          {
-            "id": "115a3a5be4750a73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chapter-3/SSTables.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SSTables"
-            }
-          },
-          {
-            "id": "e405ab592ea4de3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chapter-3/Write amplification.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Write amplification"
-            }
-          },
-          {
-            "id": "31a41c7cb3a750cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chapter-3/Compaction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Compaction"
-            }
-          },
-          {
-            "id": "6f14f7a5e1324eb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chapter-3/Memtable.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Memtable"
-            }
-          },
-          {
-            "id": "c2922350e914b3c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chapter-6/Introduction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "reducer"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -303,17 +219,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2922350e914b3c4",
+  "active": "0fe14e1eaa961ff9",
   "lastOpenFiles": [
+    "Chapter-10/Distributed execution of MapReduce.md",
+    "Chapter-10/MapReduce.md",
+    "Chapter-10/mapper.md",
+    "Chapter-10/MapReduce workflow.md",
+    "images/Screenshot 2024-12-12 at 11.19.07 AM.png",
+    "Chapter-10/MapReduce job execution.md",
+    "Chapter-9/Introduction.md",
+    "Chapter-10/reducer.md",
+    "Chapter-10/share nothing architecture.md",
+    "Chapter-9/Untitled.md",
+    "Chapter-6/Untitled 1.md",
+    "Chapter-6/Untitled.md",
+    "Chapter-6/Introduction.md",
+    "Chapter-10",
     "Chapter-5/Introduction.md",
     "Chapter-4/Introduction.md",
-    "Chapter-9/Introduction.md",
     "Chapter-7/Introduction.md",
     "Chapter-9",
     "images/Screenshot 2024-11-04 at 16.13.06.png",
     "images/Screenshot 2024-11-04 at 13.48.12.png",
     "images/Screenshot 2024-11-04 at 09.48.30.png",
-    "Chapter-6/Introduction.md",
     "Chapter-7",
     "Chapter-6",
     "images/Screenshot 2024-10-30 at 07.51.29.png",
@@ -322,7 +250,6 @@
     "images/Screenshot 2024-10-28 at 10.57.29.png",
     "images/Screenshot 2024-10-28 at 09.06.11.png",
     "images/Screenshot 2024-10-26 at 08.37.06.png",
-    "images/Screenshot 2024-10-26 at 08.14.40.png",
     "Chapter-5",
     "Chapter-3/Untitled.md",
     "Chapter-3/level compaction.md",
@@ -336,20 +263,9 @@
     "Chapter-3/LSM-Tree.md",
     "Chapter-3/bitmap encoding.md",
     "Chapter-3/Compaction.md",
-    "Chapter-3/Data structures that power your database.md",
-    "Chapter-3/Memtable.md",
-    "Chapter-3/Apache Lucene.md",
-    "Chapter-3/Materialized view data cube in OLAP system.md",
-    "Chapter-3/Sort order in column storage.md",
-    "Chapter-3/Run-length encoding.md",
-    "Chapter-3/b-trees.md",
-    "Chapter-3/Subcompaction.md",
-    "Chapter-3/Write amplification.md",
-    "Chapter-3/size-tiered compaction.md",
     "Chapter-3",
     "images",
     "Chapter-2",
-    "image",
-    "spring-core"
+    "image"
   ]
 }

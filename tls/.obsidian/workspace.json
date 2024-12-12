@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter-2/Handshake protocol.md",
+                "file": "Chapter-2/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Handshake protocol"
+              "title": "Introduction"
             }
           },
           {
@@ -178,22 +178,21 @@
   },
   "active": "a6d4b7d885381292",
   "lastOpenFiles": [
+    "Chapter-2/Handshake protocol.md",
+    "Chapter-2/Introduction.md",
+    "Chapter-2/Prerequisites.md",
+    "Chapter-2/TLS record protocol.md",
     "images/Screenshot 2024-11-17 at 17.18.29.png",
     "images/Screenshot 2024-11-17 at 17.07.03.png",
     "images/Screenshot 2024-11-17 at 17.06.22.png",
     "Chapter-2/Change cipher spec protocol.md",
-    "Chapter-2/Handshake protocol.md",
-    "Chapter-2/TLS record protocol.md",
     "images/Screenshot 2024-11-17 at 16.56.18.png",
     "images/Screenshot 2024-11-17 at 16.54.27.png",
     "images/Screenshot 2024-11-17 at 16.51.17.png",
-    "Chapter-2/Introduction.md",
-    "Chapter-2/Prerequisites.md",
     "images/Screenshot 2024-11-07 at 14.13.10.png",
     "images/Screenshot 2024-11-07 at 11.03.23.png",
     "images/Screenshot 2024-11-07 at 10.57.41.png",
     "images/Screenshot 2024-11-07 at 10.53.28.png",
-    "images/Screenshot 2024-11-07 at 10.48.42.png",
     "Chapter-2",
     "images",
     "Chapter-9/Introduction.md",

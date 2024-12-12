@@ -1,0 +1,3 @@
+- the MapReduce framework collects all the key-value pair belonging to the same key
+- then it calls the reducer to iterate over each key 
+- the reducer produces output record

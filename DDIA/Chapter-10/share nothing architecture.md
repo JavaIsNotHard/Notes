@@ -1,0 +1,4 @@
+- each node are separate from one another 
+- each node will have its own CPU, memory and disk for performing jobs
+- they work independently with other nodes 
+- all the nodes in a share nothing architecture must synchronize with one other
