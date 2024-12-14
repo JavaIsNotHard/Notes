@@ -1,0 +1,4 @@
+- the join that we just did with [[sort merge join]] is called reduce side join
+- this is because the mapper is not the one performing the join, all that the mapper does is extracts key value pair from the input, assign the key value pair to one of the reducer partition and sort them by key 
+- mapper can prepare data that is ready for joining
+- the action of sorting, copying to reducer and merging the reducer inputs can be expensive because it depends on the memory buffer that is available and it may write data several times to disk as it passes through various MapReduce stages

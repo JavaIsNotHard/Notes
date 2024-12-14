@@ -22,4 +22,5 @@
 - the mapper sorts all the key-value pair based on key which produces a group based on the key
 - this group of key-value pairs' value can be used to perform various GROUP BY operations such as filtering, aggregating, counting and more 
 - to perform the operations, the mapper needs to bring all the items that forms a group into a single reducer 
-- 
+
+## SKEWS 

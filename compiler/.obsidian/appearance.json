@@ -1,1 +1,5 @@
-{}
+{
+  "textFontFamily": "Hack Nerd Font",
+  "baseFontSize": 18,
+  "monospaceFontFamily": "Hack Nerd Font Mono"
+}
