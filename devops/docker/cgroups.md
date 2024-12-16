@@ -1,0 +1,6 @@
+- manages, controls and monitors resource utilization of subsystem by processes 
+- cgroup stands for control group and this controls all the sub subsystems like CPU, memory, disk, network and many more 
+- each process will have its own cgroup and different subsystem will have their own cgroup as well
+- we can edit and control resource using a pseudo file system called `/sys/fs/cgroup`
+- we can create new cgroup folder inside the `/sys/fs/cgroup` path and the kernel will automatically fill in the necessary contents for you
+- then you can add existing process into this cgroup and manage the system resources

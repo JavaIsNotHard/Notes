@@ -1,41 +1,56 @@
 {
   "main": {
-    "id": "dc0b598bfdded5f9",
+    "id": "05fbdf7b3921a253",
     "type": "split",
     "children": [
       {
-        "id": "d148a161676c77e5",
+        "id": "a476395dbad398a4",
         "type": "tabs",
         "children": [
           {
-            "id": "f005401e16d18eac",
+            "id": "9379c509d5a8762b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overlayfs.md",
+                "file": "docker/Docker internals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overlayfs"
+              "title": "Docker internals"
+            }
+          },
+          {
+            "id": "9719e8196980479b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker/overlayfs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "overlayfs"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e28c4aa8fbb403c0",
+    "id": "a0cf16bdf58bbe73",
     "type": "split",
     "children": [
       {
-        "id": "029802a58591b73b",
+        "id": "2ebaba15a6cb187e",
         "type": "tabs",
         "children": [
           {
-            "id": "54eda42827ca38ec",
+            "id": "6dd1cdfa16550168",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,12 +62,12 @@
             }
           },
           {
-            "id": "a72879571834508d",
+            "id": "89c855993c35a8e8",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "security",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,17 +79,7 @@
             }
           },
           {
-            "id": "af09c495e624f9ab",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "f1f0e8402d63a338",
+            "id": "fdf1450ba1d3bddb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -87,23 +92,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "27920fbe41f2393a",
+    "id": "eb2d679cfce32ef9",
     "type": "split",
     "children": [
       {
-        "id": "743eaf9d4737546c",
+        "id": "c231ff420915d120",
         "type": "tabs",
         "children": [
           {
-            "id": "9afe289c43d3f57b",
+            "id": "9412fbf82235149c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture 3 - GPS (Google file system).md",
+                "file": "Chapter-2/Relational Model Versus Document Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,25 +118,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 3 - GPS (Google file system)"
+              "title": "Backlinks for Relational Model Versus Document Model"
             }
           },
           {
-            "id": "20e43a86ddfd1a84",
+            "id": "b16f8fd86c580abb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture 3 - GPS (Google file system).md",
+                "file": "Chapter-2/Relational Model Versus Document Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lecture 3 - GPS (Google file system)"
+              "title": "Outgoing links from Relational Model Versus Document Model"
             }
           },
           {
-            "id": "1d6a3a0f8c9fd2c4",
+            "id": "e462e946e65c445c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -144,33 +149,18 @@
             }
           },
           {
-            "id": "fd361efceb04ff04",
+            "id": "cbc6381652d3794c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture 3 - GPS (Google file system).md"
+                "file": "Chapter-2/Relational Model Versus Document Model.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 3 - GPS (Google file system)"
-            }
-          },
-          {
-            "id": "11221dd5c2b8a88f",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Outline of Relational Model Versus Document Model"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,59 +172,58 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "daily-notes:Open today's daily note": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "f005401e16d18eac",
+  "active": "9719e8196980479b",
   "lastOpenFiles": [
+    "docker/Docker internals.md",
+    "docker/overlayfs.md",
+    "docker/namespace.md",
     "docker/Introduction.md",
-    "Overlayfs.md",
-    "containers/Introduction.md",
-    "docker",
+    "docker/chroot.md",
+    "docker/cgroups.md",
     "Introduction.md",
-    "containers",
-    "Lecture 2 - RPC, threads and Go.md",
-    "Lecture 3 - GPS (Google file system).md",
-    "Lecture 1 - MapReduce.md",
-    "Computer Architecture/Untitled.md",
-    "Computer Architecture",
-    "udemy/Unit-3/readme.md",
-    "udemy/Unit-2/readme.md",
-    "TODOS/2023-04-20.md",
-    "Notes/TODOS/26TH FEB.md",
-    "Notes/TODOS/24TH FEB.md",
-    "Notes/TODOS/21ST FEB.md",
-    "Notes/TODOS/20TH FEB.md",
-    "Notes/TODOS/19TH FEB.md",
-    "Notes/TODOS/18TH FEB.md",
-    "Notes/TODOS/16TH FEB.md",
-    "Notes/TODOS/8TH MARCH.md",
-    "Notes/TODOS/8TH FEB.md",
-    "Notes/TODOS/1ST MARCH.md",
-    "Notes/TODOS/2ND MARCH.md",
-    "Notes/TODOS/7TH FEB.md",
-    "Notes/TODOS/9TH FEB.md",
-    "Notes/TODOS/9TH MARCH.md",
-    "TODOS/2023-09-09.md",
-    "Javascript",
-    "Opengl",
-    "udemy/Unit-35",
-    "udemy/Unit-32",
-    "udemy/Unit-31",
-    "udemy/Unit-30",
-    "udemy/Unit-30",
-    "udemy/images/Mon Jun 26 01:53:53 PM +0545 2023.png",
-    "udemy/images/cost-of-sequntial-scan.png",
-    "udemy/images/Mon Jun 26 01:48:21 PM +0545 2023.png",
-    "udemy/images/cost-calculation.png",
-    "udemy/images/Mon Jun 26 01:39:40 PM +0545 2023.png",
-    "udemy/images/sequential-scan.png",
-    "udemy/images/Mon Jun 26 01:22:13 PM +0545 2023.png",
-    "3rd-Sem/images/Sun Jun 25 07:41:17 PM +0545 2023.png",
-    "udemy/images/Sat Jun 24 12:47:32 PM +0545 2023.png",
-    "3rd-Sem/images/integer-arithmetic-operation.png",
-    "Untitled.canvas"
+    "Chapter-11/multiple consumers.md",
+    "Chapter-11/message broker.md",
+    "Chapter-11/direct messaging from producers to consumers.md",
+    "Chapter-11/load balancing by message broker.md",
+    "Chapter-11/fan out in message broker.md",
+    "Chapter-11/log based message broker.md",
+    "Chapter-11/acknowledgements and redelivery.md",
+    "images/Screenshot 2024-12-16 at 1.04.43 PM.png",
+    "Chapter-11/messaging system.md",
+    "Chapter-11/message broker compared to database.md",
+    "Chapter-11/event.md",
+    "Chapter-11/producer.md",
+    "Chapter-11/topic.md",
+    "Chapter-11/Stream processing.md",
+    "Chapter-10/partitioned hash joins.md",
+    "Chapter-11/consumer.md",
+    "Chapter-10/Map side join.md",
+    "Chapter-11",
+    "Chapter-10/map side merge joins.md",
+    "Chapter-10/sort merge join.md",
+    "Chapter-10/MapReduce.md",
+    "images/Screenshot 2024-12-12 at 2.05.28 PM.png",
+    "images/Screenshot 2024-12-12 at 12.54.02 PM.png",
+    "images/Screenshot 2024-12-12 at 11.19.07 AM.png",
+    "Chapter-10",
+    "Chapter-9",
+    "images/Screenshot 2024-11-04 at 16.13.06.png",
+    "images/Screenshot 2024-11-04 at 13.48.12.png",
+    "images/Screenshot 2024-11-04 at 09.48.30.png",
+    "Chapter-7",
+    "Chapter-6",
+    "images/Screenshot 2024-10-30 at 07.51.29.png",
+    "images/Screenshot 2024-10-28 at 11.24.46.png",
+    "images/Screenshot 2024-10-28 at 11.07.49.png",
+    "Chapter-5",
+    "Chapter-4",
+    "Chapter-3",
+    "images",
+    "Chapter-2"
   ]
 }

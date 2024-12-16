@@ -1,11 +1,8 @@
 {
-  "accentColor": "#6b81ef",
-  "baseFontSize": 19,
-  "interfaceFontFamily": "DejaVu Sans Mono",
-  "textFontFamily": "Liga SFMono Nerd Font",
-  "monospaceFontFamily": "FiraCode Nerd Font Mono",
-  "theme": "obsidian",
-  "cssTheme": "Minimal",
-  "nativeMenus": true,
-  "showViewHeader": true
+  "accentColor": "",
+  "textFontFamily": "JetBrains Mono",
+  "baseFontSize": 17,
+  "baseFontSizeAction": true,
+  "showViewHeader": false,
+  "cssTheme": ""
 }

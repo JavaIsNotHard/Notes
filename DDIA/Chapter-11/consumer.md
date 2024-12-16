@@ -1,0 +1,1 @@
+- consumes the event that the [[producer]] produced 

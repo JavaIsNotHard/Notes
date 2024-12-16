@@ -1,9 +1,9 @@
 {
-  "vimMode": true,
-  "promptDelete": false,
-  "showLineNumber": false,
-  "spellcheck": true,
   "showIndentGuide": false,
-  "attachmentFolderPath": "./images",
-  "showInlineTitle": true
+  "vimMode": true,
+  "showInlineTitle": true,
+  "readableLineLength": true,
+  "newFileLocation": "current",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }

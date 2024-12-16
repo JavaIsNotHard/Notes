@@ -1,0 +1,3 @@
+- the message broker can assign message to the consumer arbitrarily 
+- this makes it possible for multiple [[consumer]] to read from the same topic and make sure that each [[consumer]] get equal message over time for processing
+- this makes it possible to parallelize message processing across multiple consumers

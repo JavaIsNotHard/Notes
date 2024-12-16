@@ -201,8 +201,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "17840e88c4d2ada0",
+  "active": "6dd1cdfa16550168",
   "lastOpenFiles": [
+    "Lucene-search-index",
     "intro-to-database/Lecture-19/Multiversion concurrency control.md",
     "intro-to-database/Lecture-18/Validation based concurrency control.md",
     "intro-to-database/Lecture-23/Introduction.md",
@@ -220,7 +221,6 @@
     "intro-to-database/Lecture-20",
     "intro-to-database/Lecture-17.5",
     "Untitled 1",
-    "Untitled",
     "intro-to-database/Lecture-16/Introduction.md",
     "intro-to-database/Lecture-18",
     "images/Screenshot 2024-11-24 at 14.41.12.png",
@@ -241,7 +241,6 @@
     "Database Internals/Introduction/1.Introduction.md",
     "Introduction/Memory management and buffer pool.md",
     "Introduction/Operator Execution.md",
-    "Database Internals/Introduction/Data files and index files.md",
-    "Untitled 1.md"
+    "Database Internals/Introduction/Data files and index files.md"
   ]
 }

@@ -1,0 +1,5 @@
+- short for change root 
+- changes the root directory of a process or an OS to a specific location
+- docker utilizes chroot by pulling a base filesystem of linux distros like ubuntu or alpine and `chroot`s into the root of that pulled filesystem 
+-  only changing the root directory of the container is not enough since the host machine as well as other containers can view and modify things in our chroot only container 
+- this is where [[namespace]] come into play

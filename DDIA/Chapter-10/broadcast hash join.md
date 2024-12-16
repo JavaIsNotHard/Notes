@@ -1,0 +1,6 @@
+- in this join algorithm,
+- we join a large dataset with a small dataset
+- the small dataset must be small enough to fit entirely into the main memory
+- the word broadcast refers to the fact that the in memory small dataset is visible to all the mapper task which are operating on a small chunk of the large sized input
+- the small dataset is read from the distributed filesystem into an in memory hash table 
+- then the large input is scanned and the corresponding hash key is hashed to find the corresponding joining record in the data item in in memory hash table
