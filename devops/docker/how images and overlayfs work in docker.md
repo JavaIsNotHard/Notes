@@ -9,3 +9,4 @@
 - these new layers are called upper layer and contains content like `link`, `diff`, `lower` where `lower` contains a link to its parent layer or the base layer in this case. 
 - A `merged` directory contains the merged contents of itself and its parent layer. this is usually a different directory than the `upperdir` and `lowerdir`
 
+ 
