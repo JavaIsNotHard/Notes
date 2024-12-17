@@ -18,3 +18,11 @@
 
 
 [[log based compared to traditional message broker]]
+
+[[consumer offset]]
+
+[[disk space usage]]
+
+[[consumer cannot keep up with the producer]]
+
+[[replaying old messages]]

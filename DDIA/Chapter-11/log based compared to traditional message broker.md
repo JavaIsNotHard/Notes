@@ -4,7 +4,7 @@
 - each consumer assigned to a partition will consume all the messages inside to that partition
 - it reads message in a sequential first to last manner in a single threaded manner (only a single thread reads from the log partition)
 - there are disadvantages to this approach which includes:
-	- the no of consumer needs to be equal to the number of partition
+	- the no of consumer needs to be equal to the number of partition. we can also allow two consumer node processing the same partition where one partition is assigned to process odd numbered messages and another partition partition is assigned to process even numbered messages
 	- if a message takes slow to process then it blocks the consumer indefinitely 
 - when to use log based vs when to use traditional 
 	- traditional approach can be used when we want to parallelize the system message to message and the ordering of the message does not matter
