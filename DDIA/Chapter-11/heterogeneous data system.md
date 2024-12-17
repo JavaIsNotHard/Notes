@@ -1,0 +1,1 @@
+- distributed environment where multiple, diverse types of data storage , processing and retrieval systems coexist

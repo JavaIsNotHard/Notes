@@ -1,0 +1,5 @@
+- a single write is amplified as multiple writes to different system. For example, a write to a database results in a write to the search index as well as the local cache server
+- this has many concurrency and fault-tolerance problem 
+- also in a replicated environment, each system will have their own leader node which do not coordinate with one other which results in conflict as well 
+- so we need our source data which is the database to act as the leader and other data systems as followers of the leader 
+- this approach is called [[change data capture]]

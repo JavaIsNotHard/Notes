@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter-11/replaying old messages.md",
+                "file": "Chapter-11/dual writes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "replaying old messages"
+              "title": "dual writes"
+            }
+          },
+          {
+            "id": "c5937245a8b843ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter-11/change data capture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "change data capture"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,17 +177,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb15f57a567aea8c",
+  "active": "c5937245a8b843ba",
   "lastOpenFiles": [
-    "Chapter-11/log based message broker.md",
-    "Chapter-11/replaying old messages.md",
-    "Chapter-11/consumer cannot keep up with the producer.md",
-    "Chapter-11/fan out in message broker.md",
-    "Chapter-11/consumer offset.md",
+    "images/Screenshot 2024-12-17 at 1.32.07 PM.png",
+    "Chapter-11/dual writes.md",
+    "Chapter-11/change data capture.md",
+    "Chapter-11/keeping system in sync.md",
+    "Chapter-11/Database and Streams.md",
     "Chapter-11/disk space usage.md",
+    "Chapter-11/event.md",
+    "Chapter-11/fan out in message broker.md",
+    "Chapter-11/heterogeneous data system.md",
+    "Chapter-11/replaying old messages.md",
+    "Chapter-11/log based message broker.md",
     "Chapter-11/load balancing by message broker.md",
     "Chapter-11/log based compared to traditional message broker.md",
     "Chapter-11/message broker compared to database.md",
+    "Chapter-11/consumer cannot keep up with the producer.md",
+    "Chapter-11/consumer offset.md",
     "Chapter-11/consumer.md",
     "Chapter-11/message broker.md",
     "Chapter-11/acknowledgements and redelivery.md",
@@ -184,14 +206,7 @@
     "Chapter-11/direct messaging from producers to consumers.md",
     "Chapter-11/partitioned log.md",
     "images/Screenshot 2024-12-17 at 7.56.53 AM.png",
-    "Chapter-11/messaging system.md",
-    "Chapter-11/multiple consumers.md",
-    "Chapter-11/topic.md",
-    "Chapter-11/Stream processing.md",
-    "Chapter-11/producer.md",
-    "Chapter-10/partitioned hash joins.md",
     "images/Screenshot 2024-12-16 at 1.04.43 PM.png",
-    "Chapter-11/event.md",
     "Chapter-11",
     "images/Screenshot 2024-12-12 at 2.05.28 PM.png",
     "images/Screenshot 2024-12-12 at 12.54.02 PM.png",
