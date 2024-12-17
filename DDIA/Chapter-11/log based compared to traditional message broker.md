@@ -1,0 +1,11 @@
+- log based brokers trivially supports fan out where each consumer can independently read message from the log without affecting other consumers
+- log based also supports load balancing by assigning each partition to a separate consumer instead of assigning consumer based on individual message 
+
+- each consumer assigned to a partition will consume all the messages inside to that partition
+- it reads message in a sequential first to last manner in a single threaded manner (only a single thread reads from the log partition)
+- there are disadvantages to this approach which includes:
+	- the no of consumer needs to be equal to the number of partition
+	- if a message takes slow to process then it blocks the consumer indefinitely 
+- when to use log based vs when to use traditional 
+	- traditional approach can be used when we want to parallelize the system message to message and the ordering of the message does not matter
+	- log based approach can be used in situation where message throughput is high and message can be processed fast and the ordering of the message matters
