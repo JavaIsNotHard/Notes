@@ -1,0 +1,4 @@
+- persisting data between docker containers
+- takes the following command to create a volume mount `docker run -ti -v my-volume:/my-data ubuntu:22.04`
+- my-volume is the name of the volume we create 
+- /my-data/ is the name of the directory inside the container which contains the persistent data, if /my-data/ is not present then it is created by docker by default

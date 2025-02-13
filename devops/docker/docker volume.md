@@ -1,0 +1,3 @@
+- volume can be created using the command: `docker create volume <volume-name>`
+- [[volume mount]]
+- [[bind mount]]

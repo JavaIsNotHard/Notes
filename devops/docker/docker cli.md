@@ -1,0 +1,2 @@
+- the  `docker` command that normal users use to interactive with the docker backend 
+- users can send commands such as `docker pull`, `docker run` to the docker engine which performs the actual operations (not really)

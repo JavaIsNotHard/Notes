@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "intro-to-database/Lecture-23/Introduction.md",
+                "file": "HPJP/Queuing theory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Queuing theory"
             }
           },
           {
@@ -91,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "clustered",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,15 +201,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6dd1cdfa16550168",
+  "active": "17840e88c4d2ada0",
   "lastOpenFiles": [
-    "Lucene-search-index",
-    "intro-to-database/Lecture-19/Multiversion concurrency control.md",
-    "intro-to-database/Lecture-18/Validation based concurrency control.md",
-    "intro-to-database/Lecture-23/Introduction.md",
-    "intro-to-database/Lecture-21/Introduction.md",
-    "intro-to-database/Lecture-8/Introduction.md",
+    "Introduction/DBMS access methods.md",
+    "HPJP/Queuing theory.md",
+    "HPJP",
+    "Database Internals/Introduction/2.Database Architecture.md",
+    "Database Internals/Introduction/1.Introduction.md",
     "intro-to-database/Lecture-20/Introduction.md",
+    "intro-to-database/Lecture-21/Introduction.md",
+    "intro-to-database/Lecture-18/Validation based concurrency control.md",
+    "intro-to-database/Lecture-19/Multiversion concurrency control.md",
+    "intro-to-database/Lecture-16/Introduction.md",
+    "intro-to-database/Lecture-8/Introduction.md",
+    "intro-to-database/Lecture-3/Introduction.md",
+    "JDBC/JDBC.md",
+    "intro-to-database/Lecture-23/Introduction.md",
+    "JDBC",
+    "Lucene-search-index",
     "Untitled.md",
     "intro-to-database/Lecture-17/Introduction.md",
     "Introduction/Concurrency control theory.md",
@@ -221,26 +230,18 @@
     "intro-to-database/Lecture-20",
     "intro-to-database/Lecture-17.5",
     "Untitled 1",
-    "intro-to-database/Lecture-16/Introduction.md",
     "intro-to-database/Lecture-18",
     "images/Screenshot 2024-11-24 at 14.41.12.png",
     "images/Screenshot 2024-11-24 at 14.37.56.png",
     "images/Screenshot 2024-11-24 at 09.25.02.png",
-    "images",
-    "intro-to-database/Lecture-17",
-    "intro-to-database/Lecture-3/Introduction.md",
     "sql perfomance/Slow indexes, part 1.md",
     "intro-to-database/Untitled.md",
     "Introduction/Untitled.md",
-    "Introduction/DBMS access methods.md",
     "Introduction/Introduction.md",
     "Introduction/Crash Recovery.md",
     "Introduction/Big data.md",
     "Introduction/2 phase locking.md",
-    "Database Internals/Introduction/2.Database Architecture.md",
-    "Database Internals/Introduction/1.Introduction.md",
     "Introduction/Memory management and buffer pool.md",
-    "Introduction/Operator Execution.md",
-    "Database Internals/Introduction/Data files and index files.md"
+    "Introduction/Operator Execution.md"
   ]
 }

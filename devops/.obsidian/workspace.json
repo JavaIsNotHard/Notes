@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/how images and overlayfs work in docker.md",
+                "file": "docker/docker network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "how images and overlayfs work in docker"
+              "title": "docker network"
             }
           },
           {
@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/Docker internals.md",
+                "file": "docker/docker basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker internals"
+              "title": "docker basics"
+            }
+          },
+          {
+            "id": "8748bfb0cbfd6be2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker/docker network.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "docker network"
             }
           },
           {
@@ -47,6 +61,20 @@
               },
               "icon": "lucide-file",
               "title": "overlayfs"
+            }
+          },
+          {
+            "id": "cb5d52e67f76a455",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker/runc.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "runc"
             }
           }
         ]
@@ -192,10 +220,28 @@
   },
   "active": "9379c509d5a8762b",
   "lastOpenFiles": [
-    "docker/Docker internals.md",
-    "docker/overlayfs.md",
-    "docker/how images and overlayfs work in docker.md",
+    "docker/volume mount.md",
+    "docker/runc.md",
+    "docker/docker network.md",
+    "Screenshot 2025-01-09 at 4.26.19 PM.png",
     "docker/docker basics.md",
+    "Screenshot 2024-12-31 at 6.48.45 PM.png",
+    "docker/bind mount.md",
+    "docker/docker volume.md",
+    "docker/Docker internals.md",
+    "docker/docker cli.md",
+    "docker/docker container commit.md",
+    "docker/shim.md",
+    "docker/what are containerd and runc in docker.md",
+    "docker/containerd.md",
+    "docker/overlayfs.md",
+    "Screenshot 2024-12-27 at 9.22.29 PM.png",
+    "docker/docker exec.md",
+    "docker/docker pull.md",
+    "docker/docker run.md",
+    "Screenshot 2024-12-27 at 5.54.14 PM.png",
+    "docker/docker attach & docker start.md",
+    "docker/how images and overlayfs work in docker.md",
     "docker/namespace.md",
     "docker/Introduction.md",
     "docker/chroot.md",
@@ -203,23 +249,8 @@
     "Introduction.md",
     "Chapter-11/multiple consumers.md",
     "Chapter-11/message broker.md",
-    "Chapter-11/direct messaging from producers to consumers.md",
-    "Chapter-11/load balancing by message broker.md",
-    "Chapter-11/fan out in message broker.md",
-    "Chapter-11/log based message broker.md",
-    "Chapter-11/acknowledgements and redelivery.md",
     "images/Screenshot 2024-12-16 at 1.04.43 PM.png",
-    "Chapter-11/messaging system.md",
-    "Chapter-11/message broker compared to database.md",
-    "Chapter-11/event.md",
-    "Chapter-11/producer.md",
-    "Chapter-11/topic.md",
-    "Chapter-11/Stream processing.md",
-    "Chapter-10/partitioned hash joins.md",
-    "Chapter-11/consumer.md",
-    "Chapter-10/Map side join.md",
     "Chapter-11",
-    "Chapter-10/map side merge joins.md",
     "images/Screenshot 2024-12-12 at 2.05.28 PM.png",
     "images/Screenshot 2024-12-12 at 12.54.02 PM.png",
     "images/Screenshot 2024-12-12 at 11.19.07 AM.png",
@@ -227,12 +258,8 @@
     "Chapter-9",
     "images/Screenshot 2024-11-04 at 16.13.06.png",
     "images/Screenshot 2024-11-04 at 13.48.12.png",
-    "images/Screenshot 2024-11-04 at 09.48.30.png",
     "Chapter-7",
     "Chapter-6",
-    "images/Screenshot 2024-10-30 at 07.51.29.png",
-    "images/Screenshot 2024-10-28 at 11.24.46.png",
-    "images/Screenshot 2024-10-28 at 11.07.49.png",
     "Chapter-5",
     "Chapter-4",
     "Chapter-3",

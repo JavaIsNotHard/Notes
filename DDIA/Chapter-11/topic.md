@@ -1,0 +1,3 @@
+- these can be thought of as queues where the broker's exchange places [[event]] in based on the type
+- different consumers are subscribed to a particular topic such that the broker can send notification to the consumer when there are new message or [[event]] inside the topic
+- this helps in separation of concern 

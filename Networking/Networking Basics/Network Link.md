@@ -1,0 +1,2 @@
+- physical or logical network component used to interconnect nodes in a network 
+- all nodes of a single network link uses the same link layer protocol 

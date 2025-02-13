@@ -1,0 +1,3 @@
+- portion of a computer network 
+- devices communicate directly with each other at the data link layer (either using ehternet i.e cabled or using wireless frequency i.e uncabled)
+- network segments are separated by network devices such as switches, routers or bridges 

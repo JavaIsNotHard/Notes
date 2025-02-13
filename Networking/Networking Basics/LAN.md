@@ -1,0 +1,3 @@
+- Local area network 
+- interconnects computers within a limited area such as schools, offices and more 
+- consists of multiple IP networks communicating via routers 

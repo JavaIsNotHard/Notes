@@ -1,0 +1,4 @@
+- derive means "obtain something from" 
+- this indicates that the input for this type of system is an existing data computed from another system 
+- the derived data system uses an existing data computed from another system and processes on them 
+- used for additional processing of the existing data that couldn't be done by using the [[system of record]]

@@ -2,10 +2,10 @@
   "accentColor": "#6b81ef",
   "baseFontSize": 19,
   "interfaceFontFamily": "DejaVu Sans Mono",
-  "textFontFamily": "Liga SFMono Nerd Font",
-  "monospaceFontFamily": "FiraCode Nerd Font Mono",
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
   "theme": "obsidian",
-  "cssTheme": "Minimal",
+  "cssTheme": "",
   "nativeMenus": true,
   "showViewHeader": true
 }

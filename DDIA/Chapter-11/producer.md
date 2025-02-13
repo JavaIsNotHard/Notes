@@ -1,1 +1,3 @@
 - produces an event
+- they can be anything, for example, a database streaming its record, a temperature sensors giving temp info every few seconds or lower and more
+- they are connect to the broker's exchange where the producer sends any new message and the message is routed based on the type of the message

@@ -26,3 +26,44 @@
 [[consumer cannot keep up with the producer]]
 
 [[replaying old messages]]
+
+## Apache kafka broker
+- each broker has a kafka process running in it 
+- each broker also has a local storage for persistence 
+- all brokers are networked together and act as a single kafka cluster 
+- retention time is the time that the broker will keep the events in the local storage 
+- so kafka cluster is basically a collection brokers 
+
+- along with producers, consumers and the kafka cluster, apache kafka also contains something called as Zookeeper which is basically used for consensus among the brokers to agree on whether something is true 
+
+- producers and consumers are decoupled from one other 
+- slow consumers do not affect the production rate of the producers 
+- we can add new producers without affecting the consumers 
+- failure of a single unit does not affect the other unit 
+
+- topic is a stream of related messages 
+- also can be thought of as sequence or log of events 
+- there can be unlimited no topics theoretically
+
+- allocate different brokers to individual topic partition (this is done for scalability because only scaling a single topic is hard)
+- new messages are placed at the end of the partition since each message is immutable piece of data 
+- ordering is guaranteed using partitioning
+- each topic is partitioned into different physical brokers to enhance parallelization (because now we can compute events in a single topic in different machines at the same time)
+- kafka cluster decides where the partition for a topic are going to live 
+- the kafka cluster does not assign new broker if a broker is down or determine the size of the broker 
+
+- brokers manage partition
+- each partition is stored on broker's disk 
+- partitions are replicated in different brokers for availability 
+- one replica is called the leader and the other are called follower 
+- producers are producing to the leader broker 
+
+- how does kafka producers assign messages to producers 
+- if the msg has no key then round robin method is used 
+- if it contains a key then hash(key) % no of partition is used to compute the dest partition
+- same key will always land on the same partition until the no of partition remain constant, this ensures ordering of messages 
+
+- consumer keeps track of consumer offset to ask for the msg after consuming all the previous messages in a topic called consumer offset topic 
+
+- writing to log will make the log run out of space eventually
+- for this problem the log is divided into segments like in LSM trees where duplicated records are removed during compaction and merged together after some time with other segments 

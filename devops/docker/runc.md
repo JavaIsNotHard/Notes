@@ -1,0 +1,4 @@
+- implementation of the OCI runtime specs 
+- this is called the low level runtime of the docker engine 
+- performs the actual kernel level work of containers such as stopping, creating and more 
+- creates namespaces, cgroups, chroots and more 

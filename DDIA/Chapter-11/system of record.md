@@ -1,0 +1,3 @@
+- system that holds the original data 
+- also known as the **source of truth** 
+- each data is represented exactly once which means that the data is normalized

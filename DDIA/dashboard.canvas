@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"5054669f201e94b2","type":"file","file":"Chapter-11/event.md","x":84,"y":-93,"width":400,"height":400},
+		{"id":"b3aef1f001a83c15","type":"file","file":"Chapter-11/Stream processing.md","x":-520,"y":64,"width":400,"height":400,"color":"6"},
+		{"id":"a7196d511bd95526","type":"file","file":"Chapter-11/producer.md","x":-360,"y":600,"width":400,"height":400},
+		{"id":"1282720b6842f466","type":"file","file":"Chapter-11/consumer.md","x":84,"y":600,"width":400,"height":400},
+		{"id":"7ff295cf8bbb5dd7","type":"file","file":"Chapter-11/topic.md","x":620,"y":644,"width":400,"height":313},
+		{"id":"21ebbb432ed78c5c","x":720,"y":107,"width":400,"height":400,"type":"file","file":"Chapter-11/messaging system.md"},
+		{"id":"a9b53a818b6b6849","x":1333,"y":210,"width":400,"height":400,"type":"file","file":"Chapter-11/direct messaging from producers to consumers.md"},
+		{"id":"5a662a2dac11993b","x":1955,"y":624,"width":400,"height":400,"type":"file","file":"Chapter-11/message broker.md"},
+		{"id":"6ab6e17bbefb47a0","x":2694,"y":1069,"width":400,"height":400,"type":"file","file":"Chapter-11/multiple consumers.md"},
+		{"id":"dd9dab8f695d8ffc","x":2183,"y":1317,"width":400,"height":400,"type":"file","file":"Chapter-11/acknowledgements and redelivery.md"},
+		{"id":"70d6f4a1d6b27260","x":2520,"y":520,"width":400,"height":400,"type":"file","file":"Chapter-11/message broker compared to database.md"}
+	],
+	"edges":[
+		{"id":"cfd40d5f460604ad","fromNode":"b3aef1f001a83c15","fromSide":"right","toNode":"5054669f201e94b2","toSide":"left"},
+		{"id":"c1d3f95b460734d7","fromNode":"5054669f201e94b2","fromSide":"bottom","toNode":"a7196d511bd95526","toSide":"top"},
+		{"id":"08eb85dfd9b08b07","fromNode":"5054669f201e94b2","fromSide":"bottom","toNode":"7ff295cf8bbb5dd7","toSide":"top"},
+		{"id":"fde6d76169ef0a52","fromNode":"5054669f201e94b2","fromSide":"bottom","toNode":"1282720b6842f466","toSide":"top"},
+		{"id":"6664b80a04be8239","fromNode":"5054669f201e94b2","fromSide":"right","toNode":"21ebbb432ed78c5c","toSide":"left"},
+		{"id":"f339658a5162b164","fromNode":"21ebbb432ed78c5c","fromSide":"right","toNode":"a9b53a818b6b6849","toSide":"left"},
+		{"id":"53aadc93c43c1c37","fromNode":"a9b53a818b6b6849","fromSide":"right","toNode":"5a662a2dac11993b","toSide":"left"}
+	]
+}

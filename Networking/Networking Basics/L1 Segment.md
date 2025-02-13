@@ -1,0 +1,3 @@
+- type of network segment formed by an electrical or optical connection between devices using a shared medium 
+- example, a P2P connection between two end nodes via a patch or crossover cable
+- another common example is the connection between a server and the top of the rack switch in a data center 

@@ -1,0 +1,3 @@
+- persisting data between container and the host machine 
+- a bind volume can be created using the following command: `docker --mount type=bind,source="${PWD}/my-data,destination=/my-data/ ubuntu:22.04`
+- any changes made to the container will be persisted in the host machine as well

@@ -1,0 +1,2 @@
+- ensure changes to the application are stored as sequence of events 
+- 

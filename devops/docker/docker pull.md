@@ -1,0 +1,1 @@
+- pull container image from docker registry (mainly docker hub unless other sources are specified)

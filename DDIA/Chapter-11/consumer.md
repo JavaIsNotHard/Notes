@@ -1,1 +1,3 @@
 - consumes the event that the [[producer]] produced 
+- they are subscribed to a particular [[topic]] that they are interested in 
+- they are the processing node of this entire [[derived data system]]
