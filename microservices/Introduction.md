@@ -13,8 +13,10 @@ microservice patterns include
 - core development pattern 
 	- single granularity  
 		- what is the right level of responsibility for each service 
+		- making the service too coarse-grained vs too fine-grained and their problems each
 	- communication protocol 
 		- how do services communicate with each other
+		- or how does a service and a client communicate with each other
 	- interface design 
 		- how does a client interact with the service 
 	- configuration management service 
@@ -22,12 +24,23 @@ microservice patterns include
 	- event processing between service
 		- how to use events to communicate state and data change info between services
 - microservice routing pattern
+	- this deals with how the client that wants to consume the microservice discovers the location of the service and is routed over it 
+	- since different services are hosted in different servers and each server will have it sown physical IP address, there must be a to abstract away all those IP addresses into a single IP address and have a single point of entry
 	- service discovery 
+		- locating and connecting to microservice instance without hardcoding their network addresses
+		- two types of service discovery
+			- client side 
+				- the client looks up a service registry (the service has to first register itself into the service registry) and based on the response, the client will send the corresponding request
+			- server side
+				- the client sends request to a load balancer which queries the service registry and routes the request accordingly
 	- service routing
+		- gives client a single logical URL to talk to
+		- provides services such as authentication, authorization and other business policy related stuff
+		- uses an API gateway
 - microservice client resilience pattern
 	- client-side load balancing 
 		- cache location of service instances provided by the service discovery
-		- multiple calls to instances of microservice are load balanced to all healthy microservices
+		- multiple calls to instances of microservice are load balanced to all healthy microservices instances
 	- circuit breaker pattern
 		- prevents a client from continuing to call a service that is failing 
 		- failing services consume resources so we want failing services to fail fast

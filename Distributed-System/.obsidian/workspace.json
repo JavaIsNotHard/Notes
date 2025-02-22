@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture 8 - Linearalizability & zookeeper.md",
+                "file": "MIT/Lecture 8 - Linearalizability & zookeeper.md",
                 "mode": "source",
                 "source": false
               },
@@ -55,16 +55,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture 6 - Raft.md",
+                "file": "Lecture 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 6 - Raft"
+              "title": "Lecture 4"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,39 +230,46 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "ff38fbb1b213cc9d",
+  "active": "54eda42827ca38ec",
   "lastOpenFiles": [
-    "Lecture 8 - Linearalizability & zookeeper.md",
-    "Screenshot 2025-02-13 at 9.31.48 AM.png",
-    "Screenshot 2025-02-13 at 8.56.19 AM.png",
-    "Screenshot 2025-02-11 at 1.52.01 PM.png",
-    "Lecture 6 - Raft.md",
+    "UDS",
+    "MIT/Lecture 9 - CRAQ.md",
+    "MIT/Lecture 11 - Frangipani.md",
+    "MIT/Lecture 8 - Linearalizability & zookeeper.md",
+    "MIT/Lecture 4.md",
+    "MIT/Lecture 3 - GPS (Google file system).md",
+    "MIT/file handle.md",
+    "Lecture 9 - CRAQ.md",
+    "Lecture 10 - Cloud replication DB, Aurora.md",
     "Lecture 1 - MapReduce.md",
-    "Lecture 4.md",
-    "Screenshot 2025-02-09 at 2.27.23 PM.png",
-    "Lecture 3 - GPS (Google file system).md",
-    "Lecture 2 - RPC, threads and Go.md",
+    "MIT/dfd0.png",
+    "MIT/Screenshot 2025-02-18 at 11.47.43 AM.png",
+    "MIT/Screenshot 2025-02-16 at 10.37.45 AM.png",
+    "MIT/Screenshot 2025-02-13 at 9.31.48 AM.png",
+    "MIT/Screenshot 2025-02-13 at 8.56.19 AM.png",
+    "MIT/Screenshot 2025-02-11 at 1.52.01 PM.png",
+    "MIT/Screenshot 2025-02-09 at 2.27.23 PM.png",
+    "MIT/Screenshot 2025-01-09 at 2.18.57 PM.png",
+    "MIT/NFS mount protocol.md",
+    "MIT/Lecture 6 - Raft.md",
+    "MIT/Lecture 2 - RPC, threads and Go.md",
+    "MIT/Lecture 10 - Cloud replication DB, Aurora.md",
+    "MIT/Lecture 1 - MapReduce.md",
+    "Lecture 11 - Frangipani.md",
+    "MIT",
+    "Lecture 8 - Linearalizability & zookeeper.md",
+    "Screenshot 2025-02-18 at 11.47.43 AM.png",
+    "dfd0.png",
+    "Lecture 6 - Raft.md",
     "NFS mount protocol.md",
+    "Lecture 2 - RPC, threads and Go.md",
+    "Lecture 4.md",
+    "Lecture 3 - GPS (Google file system).md",
     "file handle.md",
-    "Screenshot 2025-01-09 at 2.18.57 PM.png",
     "Computer Architecture/Untitled.md",
     "Computer Architecture",
     "udemy/Unit-3/readme.md",
     "udemy/Unit-2/readme.md",
-    "TODOS/2023-04-20.md",
-    "Notes/TODOS/26TH FEB.md",
-    "Notes/TODOS/24TH FEB.md",
-    "Notes/TODOS/21ST FEB.md",
-    "Notes/TODOS/20TH FEB.md",
-    "Notes/TODOS/19TH FEB.md",
-    "Notes/TODOS/18TH FEB.md",
-    "Notes/TODOS/16TH FEB.md",
-    "Notes/TODOS/8TH MARCH.md",
-    "Notes/TODOS/8TH FEB.md",
-    "Notes/TODOS/1ST MARCH.md",
-    "Notes/TODOS/2ND MARCH.md",
-    "Notes/TODOS/7TH FEB.md",
-    "Notes/TODOS/9TH FEB.md",
     "Javascript",
     "Opengl",
     "udemy/Unit-35",
@@ -272,12 +278,6 @@
     "udemy/Unit-30",
     "udemy/Unit-30",
     "udemy/Unit-29",
-    "udemy/Unit-28",
-    "udemy/images/Mon Jun 26 01:53:53 PM +0545 2023.png",
-    "udemy/images/cost-of-sequntial-scan.png",
-    "udemy/images/Mon Jun 26 01:48:21 PM +0545 2023.png",
-    "udemy/images/cost-calculation.png",
-    "udemy/images/Mon Jun 26 01:39:40 PM +0545 2023.png",
     "Untitled.canvas"
   ]
 }
