@@ -12,7 +12,7 @@
 
 ## Rules of timestamp-ordering protocol
 - when the txn performs a read operation on data item Q then: 
-	- if TS(t1) < write-timestamp(Q) then the txn t1 is trying to read value written b a future txn so this operation is rejected and the txn is rollbacked
+	- if TS(t1) < write-timestamp(Q) then the txn t1 is trying to read value written by a future txn so this operation is rejected and the txn is rollbacked
 	- if TS(t1) >= write-timestamp(Q) then the txn t1 reads value written by itself or some past txn so this operation is allowed and the read-timestamp(Q) is set to the max of read-timestamp(Q) and TS(t1).
 - when the txn performs a write operation on data item Q then:
 	- if TS(t1) < read-timestamp(Q) then it creates read-write conflict hence the operation is rejected and the txn is rollbacked back

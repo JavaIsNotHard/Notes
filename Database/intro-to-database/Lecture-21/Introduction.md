@@ -13,8 +13,8 @@
 - lets suppose we have N1, N2, N3, .... Nn nodes in the system.
 - partition strategies
 	- round robin -> use the forumla N((i - 1) mod n) + 1 where i is the ith item in the relation
-	- hash partition -> use a hash function that computes value ranging from {1, 2, ... n} then assign the tuple to partition number N which is the value from the hash function
-	- range partition -> example, let data items with id (1 - 100) be set at node 1, id (101 - 200) be set to node 2 and so on
+	- hash partition -> use a hash function that computes value ranging from {1, 2, ... n} then assign the tuple to partition number N which is the value from the hash function. cannot be used to perform ranged queries
+	- range partition -> example, let data items with id (1 - 100) be set at node 1, id (101 - 200) be set to node 2 and so on. can be used to perform ranged queries
 
 ## Dealing with skews in partition
 - skews in partition occurs when there is imbalance in the distribution of data across the partition

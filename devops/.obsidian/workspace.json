@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/overlayfs.md",
+                "file": "k8s/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "overlayfs"
+              "title": "Introduction"
             }
           }
         ],
@@ -208,8 +208,13 @@
   },
   "active": "e1f04eb69f3ccc21",
   "lastOpenFiles": [
-    "docker/runc.md",
+    "Screenshot 2025-02-24 at 3.20.33 PM.png",
+    "Screenshot 2025-02-24 at 3.16.19 PM.png",
+    "Screenshot 2025-02-24 at 3.10.41 PM.png",
     "docker/overlayfs.md",
+    "k8s/Introduction.md",
+    "k8s",
+    "docker/runc.md",
     "docker/docker network.md",
     "docker/docker basics.md",
     "docker/Docker internals.md",
@@ -236,7 +241,6 @@
     "docker/Introduction.md",
     "Introduction.md",
     "Chapter-11/multiple consumers.md",
-    "Chapter-11/message broker.md",
     "images/Screenshot 2024-12-16 at 1.04.43 PM.png",
     "Chapter-11",
     "images/Screenshot 2024-12-12 at 2.05.28 PM.png",
@@ -244,14 +248,11 @@
     "images/Screenshot 2024-12-12 at 11.19.07 AM.png",
     "Chapter-10",
     "Chapter-9",
-    "images/Screenshot 2024-11-04 at 16.13.06.png",
-    "images/Screenshot 2024-11-04 at 13.48.12.png",
     "Chapter-7",
     "Chapter-6",
     "Chapter-5",
     "Chapter-4",
     "Chapter-3",
-    "images",
-    "Chapter-2"
+    "images"
   ]
 }

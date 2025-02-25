@@ -5,5 +5,7 @@
   "spellcheck": true,
   "showIndentGuide": false,
   "attachmentFolderPath": "./images",
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false
 }
