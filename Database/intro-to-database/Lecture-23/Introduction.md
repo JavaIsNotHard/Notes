@@ -240,3 +240,6 @@ the database catalog tables notes which partition tables are replicated in which
 - when the main coordinator fails then the backup takes its place and performs all the action on behalf of the failed coordinator 
 - the advantage of this approach is fast recovery from failed coordinator 
 - the main drawback of this approach is the overhead to synchronize the main coordinator and the backup coordinator in each step
+
+
+## Two phase commit using consensus protocol

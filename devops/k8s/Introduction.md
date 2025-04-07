@@ -132,3 +132,16 @@ kubectl get pods
 - `kubectl port-forward <pod_name> target_port:source_port`
 - this way we do not have to create a service for sending request to our pod 
 
+
+### Labels in kubernetes
+- adding the `labels:` option in the manifest file 
+- or using the command `kubectl label pods|rc|deploy|node... <name_of_object> <list of label>`, something like `kubectl label po new-pod env=prod`
+
+- `kubectl get po --list-labels` will list all the associated labels 
+- `kubectl get po -L <label1> <label2>` will list all labels as its own column
+
+
+### Label selector
+- we use the `-l` flag to select pods from a cluster based on their label
+- `kubectl get pods -l 'env=prod'` will select all the pods with label `env=prod`
+-

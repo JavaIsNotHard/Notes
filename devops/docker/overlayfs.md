@@ -1,4 +1,4 @@
-- also known as union filesystem 
+	- also known as union filesystem 
 - divides the filesystem into layers 
 - there is a base layer which contains all the necessary information to built the image 
 - there are upper layers and lower layers
