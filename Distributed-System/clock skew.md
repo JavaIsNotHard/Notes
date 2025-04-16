@@ -1,0 +1,1 @@
+the difference between two clocks at a specific point in time

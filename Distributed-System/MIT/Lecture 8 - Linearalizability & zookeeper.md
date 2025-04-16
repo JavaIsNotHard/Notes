@@ -9,7 +9,7 @@ the answer of what consistency means depends on the context that we are trying t
 
 	
 
-eventual consistency : as the same suggests, eventually there will be a point if we stoped accepting write request then all the nodes will return the same value for the same read request
+eventual consistency : as the name suggests, eventually there will be a point if we stopped accepting write request then all the nodes will return the same value for the same read request
 
 eventual consistency is weak guarantee because it does not tell us when the nodes will converge towards the same value. by the time the value becomes consistent, there will be a lot of changes that can happen to the value
 

@@ -15,3 +15,7 @@ so config.json == common parts + platform-specific parts
 here common parts are common between the platforms and platform-specific parts differ between platforms i.e linux will have different features than windows and so on
 
 the default config.json does not contains namespace and cgroups information because they are only for linux containers
+
+
+# How Docker build works 
+containers are needed to build images 
