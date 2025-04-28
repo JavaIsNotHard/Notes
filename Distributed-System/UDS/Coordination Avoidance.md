@@ -1,7 +1,7 @@
 replicate data without needing consensus
 
 state machine replication requires two main ingredients
-1. a broadcast protocol that guarantees that every replica receives the request in the same order
+1. a broadcast protocol that guarantees that every replica receives the request in the same order i.e total order broadcast protocol
 2. a deterministic function that handles updates on each replica
 
 ## Broadcast protocol

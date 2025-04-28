@@ -4,6 +4,12 @@ this can be obtained using the eventual consistency model which can be described
 - eventual delivery -> update applied to one replica is eventually replicated to all replicas
 - convergence -> replicas that have applied the same updates eventually reach the same state
 
+in eventual consistency the convergence guarantee was weak meaning that the replicas even if they had the updates similar to replicas that are consistent will not have the same state as the other replica. why?
+- they might receive the update at different times
+- the updates might be applied in different order
+- they have incomplete knowledge of the full set of operation 
+eventual consistency only guarantees that the state will be the same after some time eventually when no update is being sent for some period of time
+
 one way to reconcile conflicting writes is to use consensus to make a decision
 that all replicas agree with
 
@@ -16,11 +22,6 @@ this guarantee is called as strong eventual consistency which is descibed as
 - eventual delivery -> same as eventual consistency
 - strong convergence -> replicas that have executed the same updates have the same state i.e every update is immediately persisted instead of eventually
 
-in eventual consistency the convergence guarantee was weak meaning that the replicas even if they had the updates similar to replicas that are consistent will not have the same state as the other replica. why?
-- they might receive the update at different times
-- the updates might be applied in different order
-- they have incomplete knowledge of the full set of operation 
-eventual consistency only guarantees that the state will be the same after some time eventually when no update is being sent for some period of time
 
 
 how do we guarantee that replicas strongly converge?

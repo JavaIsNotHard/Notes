@@ -278,3 +278,20 @@ this approach makes sure that two or more concurrent clients changing the data a
 the herd effect
 scalable lock
 partial failure does not provide atomicity
+
+
+
+### RE-READING THE WHTITE PAPER 
+
+why the need for coordination in distributed system?
+for consistency between replicated systems as well as distributed nodes 
+
+how is this different from other coordination services?
+exposes an API for the developer to implement different primitives instead of implemented them on the server side 
+
+what is a coordination kernel?
+basically the coordination kernel is responsible for exposing an API for the client to develop their own coordination logic 
+
+what kind of data objects does zookeeper provide?
+it provides lock-free wait-free data objects that are organized heirarchically as in file systems
+

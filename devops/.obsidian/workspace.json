@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/Docker internals.md",
+                "file": "docker/iximiuz labs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker internals"
+              "title": "iximiuz labs"
             }
           },
           {
@@ -55,16 +55,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/overlayfs.md",
+                "file": "docker/docker network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "overlayfs"
+              "title": "docker network"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,40 +205,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6dd1cdfa16550168",
+  "active": "9379c509d5a8762b",
   "lastOpenFiles": [
-    "docker/overlayfs.md",
-    "docker/docker exec.md",
+    "docker/Docker internals.md",
     "docker/docker network.md",
-    "docker/docker pull.md",
-    "docker/docker run.md",
-    "docker/docker volume.md",
-    "docker/how images and overlayfs work in docker.md",
-    "docker/iximiuz labs.md",
-    "docker/liveoverflow.md",
-    "docker/namespace.md",
-    "docker/runc.md",
-    "docker/volume mount.md",
-    "docker/container security.md",
-    "docker/what are containerd and runc in docker.md",
-    "docker/shim.md",
     "docker/docker basics.md",
-    "Introduction.md",
-    "Screenshot 2024-12-31 at 6.48.45 PM.png",
+    "docker/iximiuz labs.md",
+    "docker/shim.md",
+    "docker/what are containerd and runc in docker.md",
+    "docker/docker exec.md",
+    "docker/runc.md",
     "docker/containerd.md",
     "docker/docker attach & docker start.md",
+    "docker/docker cli.md",
+    "docker/liveoverflow.md",
+    "docker/docker volume.md",
+    "docker/bind mount.md",
+    "docker/cgroups.md",
+    "docker/overlayfs.md",
+    "docker/docker pull.md",
+    "docker/docker run.md",
+    "docker/how images and overlayfs work in docker.md",
+    "docker/namespace.md",
+    "docker/volume mount.md",
+    "docker/container security.md",
+    "Introduction.md",
+    "Screenshot 2024-12-31 at 6.48.45 PM.png",
     "docker/docker container commit.md",
-    "docker/Docker internals.md",
     "k8s/Introduction.md",
     "Screenshot 2025-02-24 at 3.20.33 PM.png",
     "Screenshot 2025-02-24 at 3.16.19 PM.png",
     "Screenshot 2025-02-24 at 3.10.41 PM.png",
     "k8s",
-    "docker/cgroups.md",
     "docker/chroot.md",
     "Screenshot 2025-01-09 at 4.26.19 PM.png",
-    "docker/bind mount.md",
-    "docker/docker cli.md",
     "Screenshot 2024-12-27 at 9.22.29 PM.png",
     "Screenshot 2024-12-27 at 5.54.14 PM.png",
     "images/Screenshot 2024-12-16 at 1.04.43 PM.png",
