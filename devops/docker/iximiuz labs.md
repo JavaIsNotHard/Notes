@@ -2,6 +2,16 @@
 tools for spawing containers according to the OCI specification
 it requires a bundle which should include a root file system and a configuration file i.e the OCI runtime sepcification
 
+containers are just a box that lets us run different processes in isolation from various features
+
+## Container shim 
+sits as the parent of the container's process to facilitate a few things
+keeps the STDIO and other fds open for the container incase containerd and/or docker both die
+allows the runtimes, i.e. runc to exit after it starts the container.
+
+the shim process becomes the parent process (PID 1 in the host namespace) of the container's main process after containerd exists after creating the container
+shim takes control over the container's stdio streams
+
 
 # OCI specification
 containers cannot be processes but rather they are isolated and restricted box for running one or more processes inside it
@@ -104,5 +114,15 @@ to be able to access container from the host, we need to configure the virtual e
 	`sudo ip netns exec netns0 ip route add default via 192.168.0.1 && sudo ip netns exec netns1 ip route add default via 192.168.0.1`
 
 
+How communicate with the outside world, we need to setup a NAT translation layer that translates the container's private IP address to the host's public address before being sent over the network and after leaving the interface eth0
+`sudo iptables -t nat -A POSTROUTING -s 172.18.0.0/16 ! -o br0 -j MASQUERADE`
 
-now to reproduce a docker bridge network 
+the above command is used to setup a NAT for the subnet 172.18.0.0/16 
+we exclude the br0 interface with `! -o br0` becuase br0 is used for internal container communication between containers 
+the flow from container to outside network is as follows
+ceth0 -> veth0 -> br0 -> host namespace -> eth0 -> outside network
+
+
+## Docker attach vs docker exec
+
+## Linux Iptables

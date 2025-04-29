@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/docker basics.md",
+                "file": "docker/Docker internals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docker basics"
+              "title": "Docker internals"
             }
           },
           {
@@ -95,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "containerd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,15 +207,15 @@
   },
   "active": "9379c509d5a8762b",
   "lastOpenFiles": [
+    "docker/containerd.md",
     "docker/Docker internals.md",
-    "docker/docker network.md",
     "docker/docker basics.md",
     "docker/iximiuz labs.md",
+    "docker/docker network.md",
     "docker/shim.md",
     "docker/what are containerd and runc in docker.md",
     "docker/docker exec.md",
     "docker/runc.md",
-    "docker/containerd.md",
     "docker/docker attach & docker start.md",
     "docker/docker cli.md",
     "docker/liveoverflow.md",
