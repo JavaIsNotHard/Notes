@@ -12,6 +12,8 @@ allows the runtimes, i.e. runc to exit after it starts the container.
 the shim process becomes the parent process (PID 1 in the host namespace) of the container's main process after containerd exists after creating the container
 shim takes control over the container's stdio streams
 
+container shim acts as a server 
+
 
 # OCI specification
 containers cannot be processes but rather they are isolated and restricted box for running one or more processes inside it

@@ -92,6 +92,48 @@
             }
           },
           {
+            "id": "c99da612d4f9d8d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MIT/Lecture 1 - MapReduce.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 1 - MapReduce"
+            }
+          },
+          {
+            "id": "a9ace11850802c85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Common failure causes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Common failure causes"
+            }
+          },
+          {
+            "id": "5e5bbc105ab582bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Redudancy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Redudancy"
+            }
+          },
+          {
             "id": "7046fd362e454d32",
             "type": "leaf",
             "state": {
@@ -204,7 +246,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -278,8 +320,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386.5,
-    "collapsed": true
+    "width": 386.5
   },
   "right": {
     "id": "27920fbe41f2393a",
@@ -379,8 +420,13 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "291b2d1975a04e82",
+  "active": "5e5bbc105ab582bf",
   "lastOpenFiles": [
+    "Common failure causes.md",
+    "Redudancy.md",
+    "MIT/Lecture 1 - MapReduce.md",
+    "Messaging System.md",
+    "Casual Consistency.md",
     "Asynchronous transaction.md",
     "Transactions.md",
     "MIT/Lecture 8 - Linearalizability & zookeeper.md",
@@ -395,18 +441,13 @@
     "Content Delivery Network.md",
     "Partitioning.md",
     "overlay network.md",
-    "Casual Consistency.md",
     "MIT/Lecture 11 - Frangipani.md",
     "MIT/Lecture 12 - Distributed Transaction.md",
     "UDS/System models.md",
     "UDS/CRDT.md",
     "Dynamo-style data stores.md",
     "UDS/Coordination Avoidance.md",
-    "MIT/Lecture 1 - MapReduce.md",
     "UDS/Leader Election.md",
-    "MIT/file handle.md",
-    "UDS/clock skew.md",
-    "UDS/Replication.md",
     "Screenshot 2025-04-10 at 8.44.48 AM.png",
     "MIT/Screenshot 2025-02-26 at 1.00.44 PM.png",
     "Untitled.canvas",
