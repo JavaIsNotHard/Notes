@@ -127,4 +127,35 @@ ceth0 -> veth0 -> br0 -> host namespace -> eth0 -> outside network
 
 ## Docker attach vs docker exec
 
+under the hood lies linux pseudo terminal interface
+what is a pseduoterminal interface?
+
+is a pair of virtual character devices that provide a bidirectional communication channel 
+one end of the channel is called the master and the other end is called the slave 
+the slave end provides a interface that behaves just like a classic terminal 
+
+the master end is what we usually interact with such as terminal emulators like xterm or something like that 
+it sends input to the slave and reads output coming back 
+
+the slave end is usually tied to our shell program such as bash which executes programs
+
+the master end is just a file descriptor which means that when the kernel allocates a PTY pair, the program (example Docker) opens the master side and gets back a file descriptor which is then used to read() and write() into
+the host also creates a slave side in /dev/pts/something and makes the child process's (bash) controlling process the slave
+when the user attaches to the running container then, Docker binds his stdin & stdout to the master's file descriptor 
+
+
+
+
+
+
+what TTY is 
+stands for TeleType which is inspired by the original teletype writer which were used to connect to the computers in the old days 
+in modern world, a TTY means any terminal device that provides 
+1. text input + output interface 
+2. special control features such as SIGINT
+
+controlling terminal 
+
+
 ## Linux Iptables
+iptables are used for modification of packets

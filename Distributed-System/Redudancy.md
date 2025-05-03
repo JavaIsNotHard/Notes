@@ -17,3 +17,6 @@ the system must not only operate in only degraded mode and needs to be able to r
 ## Correlation
 
 Redundancy is only helpful if the redundant nodes can't fail for the same reason i.e when failures are not related 
+
+if nodes in a redundant system are too correlated then it can cause cascading failures
+
