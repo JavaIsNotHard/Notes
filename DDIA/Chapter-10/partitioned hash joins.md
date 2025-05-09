@@ -4,3 +4,8 @@
 - this approaches makes sure that all the inputs that you want to join are located in the same processing node or partition
 - this also has the advantage that it only has to load small amount of data into hash table
 - for this algorithm to work, both the large dataset and and the small dataset  must use the same hash key and the same hash function
+
+
+## My interpretation of how partitioned hash join works
+- the basic idea of partitioned hash join is that the data is partitioned in such a way that the join key for both the partition are placed on the same worker node partition
+- example, we have two large datasets A and B, we partition both A and B across the cluster based on the hash on the join key (user_id), then all records from both tables with the same (user_id) are in the same partition

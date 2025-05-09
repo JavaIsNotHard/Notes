@@ -12,5 +12,5 @@
 
 [[MapReduce job execution]]
 
-[[Reduce side jobs and grouping]]
+[[Reduce side joins and grouping]]
 

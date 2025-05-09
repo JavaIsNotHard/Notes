@@ -33,3 +33,32 @@ before you can do anything useful with data (like analyze it, visualize it, or b
 only then the data is available for further processing like MapReduce, Hadoop and more 
 since data integration is so important how to build a reliable data flow throughout all the data systems in the organization?
 
+### Problem with data integration
+what makes data integration hard?
+the rise of trend of event data rather than state data. Most modern architecture deal with event driven architecture which means we are try to capture more event data (in a web application, it could be the amount of times the user clicked on something or when user logged in and how they logged in rather than the state information) than state data 
+Event data are captured in a large volume that exceed state data which increases challenges during data integration. They are also unstructured in most cases since they are capturing raw facts from some point in time hence processing them can be hard
+
+another challenge for data integration is the advancement of specialized data systems such as OLAP systems, search systems and more that require data to be of different types and formats depending on different types of data system used hence it greater complexity when dealing with data integration
+
+
+### Log structured data flow
+
+this flow is basically a publisher writing to its log and other subscribers read from this log and updating its own local log and advancing its position on the log
+
+"the log concept gives a logical clock for each change against which all subscribers can be measured. This makes reasoning about the state of the different subscriber systems with respect to one another far simpler"
+
+"A log concept gives a logical clock for each change"
+what does this mean?
+it means that a log has a sequence of events 
+each event has a position in the log
+the position acts as a logical clock so instead of relying on a timestamp, we rely on the position of the log to determine its progress
+
+"against which all subscribers can be measured"
+what does this mean?
+this means that we can use the log to track how far they have progressed by noting the last log position they read 
+
+"This makes reasoning about the state of the different subscriber systems with respect to one another far simpler"
+what does this mean?
+we can reason about the state of different subscriber i.e because of the log we know positions of subscriber in their log and can compare them with different subscribers to determine which log is in front or which is lagging and such 
+
+

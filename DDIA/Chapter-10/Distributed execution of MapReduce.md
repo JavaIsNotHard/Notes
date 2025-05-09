@@ -9,20 +9,23 @@
 - the input for each map task is an HDFS directory
 - each file or file block is considered to be a separate partition that can be processed by a map task 
 - the MapReduce scheduler tries to run a mapper that locally has the file it is told to process i.e the scheduler tries to run the mapper on one of the machines that stores a replica of the input file
-- this principle is known is putting the computation near the data and this reduces a network round trip time and increases locality
+- this principle is known is putting the ***computation near the data*** and this reduces a network round trip time and increases locality
 
 - the MapReduce framework needs to make sure the application code i.e the [[mapper]] and [[reducer]] are copied and ran in the appropriate machine before the input is fed.
-- for mapper the files and file blocks are the partition boundaries, the reduce side of the computation is also partitioned 
-- the no of mapper can be different from the no of reducer, the no of mapper depends on the input but the no of reducer can be configured by the user
+- for mapper the files and file blocks are the partition boundaries (each file is considered as a partition for the map task, each file will have a separate machine running the map task), the reduce side of the computation is also partitioned using the hash of the no of reduce workers
+- the no of mapper can be different from the no of reducer, the no of mapper depends on the number of files but the no of reducer can be configured by the user
 - the framework also needs to make sure that key-value pair with the same key are computed in the same partition. this is done by calculating the hash of the key 
 
 - the key-value pair that the mapper produces must be sorted 
 - but if we are working with terabytes to petabytes of data, traditional sorting algorithm are going to fall behind
 - instead sorting similar to [[LSM-Tree]] and [[SSTables]] are used 
 - each map task partitions its output or creates new file as output based on the reducer using the hash of the key 
-- the partition or the files are then written to a sorted file  on the mapper's local disk 
+- the partition or the files are then written to a sorted file on the mapper's local disk by first buffering the writes into a [[Memtable]] based on data structures like AVL tree and red-black tree
 
 - whenever the mapper extracts the key-value pair from the input and writes the sorted output to its local file, then the MapReducer scheduler notifies the reducer that they can start fetching the output files from the mapper 
 - then then reducer connects to the mapper and downloads the files of sorted key-value pairs for their partition. This means that, reducer only copies or downloads file that scheduler's partition algorithm assigned it with
-- the reducer merges files with the same key preserving the sort order
+- the reducer merges files with the same key preserving the sort order. This means that since each map task partitions its output based on the number of reducer partitions, we also know that there are multiple map workers that produce output for the same key, this means that the reducer has to grab all the output that is meant for its partition from mapper local disk and then merge them together since they belong to the same reducer partition
 - the reducer scans over the merged files with the same key and generate output that is written to the distributed file system 
+
+
+**SHUFFLE**: The process of partitioning by reducer, sorting, and copying data partitions from mappers to reducers is known as the shuffle

@@ -103,7 +103,7 @@ There are many important reasons why distributed architecture is fancied:
 
 - the worker which is assigned to the map task reads the input split and parses key/value pairs out of the input data and passes each key/value pair into the user defined map function. The map function produces an intermediate key/value pairs which are buffered in memory of the map worker 
 
-- the buffered intermediate pairs are periodically written on disk and partitioned into R regions using the partitioning function (hash(key) mod R). The location of these pairs are passed back to the master who is responsible for forwarding these location to the reduce workers
+- the buffered intermediate pairs are periodically written on disk and partitioned into R regions using the partitioning function (hash(key) mod R). The location of these pairs are passed back to the master who is responsible for forwarding these location to the reduce workers so the mapper sends the location of these output intermediate file location to the master node which then informs the reduce worker about the location
 
 - when the reducer worker are notified about the location of these data then it uses remote procedure call to read data from the local file system of the map worker. when the reduce worker has read all the intermediate tasks from the disk then it sorts the intermediate task by key, groups together pairs of the same key.
 
