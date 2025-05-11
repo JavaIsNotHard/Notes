@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter-10/Materialization of intermediate state.md",
+                "file": "Chapter-3/Data warehouse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Materialization of intermediate state"
+              "title": "Data warehouse"
+            }
+          },
+          {
+            "id": "4f17d918984cebbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter-11/dual writes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dual writes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,34 +178,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1190747c716a1779",
+  "active": "4f17d918984cebbb",
   "lastOpenFiles": [
-    "Chapter-10/Beyond MapReduce.md",
-    "Chapter-10/partitioned hash joins.md",
+    "Chapter-11/Event sourcing.md",
+    "Chapter-11/change data capture.md",
+    "Chapter-11/dual writes.md",
+    "images/Screenshot 2025-05-11 at 12.57.53 PM.png",
+    "Chapter-11/keeping system in sync.md",
+    "Chapter-11/Database and Streams.md",
+    "Chapter-11/heterogeneous data system.md",
     "Chapter-3/Data warehouse.md",
-    "Chapter-10/Distributed execution of MapReduce.md",
-    "Chapter-10/Comparing Hadoop to Distributed Database.md",
-    "Chapter-10/Output of batch workflows.md",
-    "Chapter-10/MapReduce workflows with map-side joins.md",
-    "Chapter-10/map side merge joins.md",
-    "Chapter-3/Schema for analytics Stars and Snowflakes.md",
-    "Chapter-3/Constructing and maintaining SSTables.md",
-    "Chapter-10/sort merge join.md",
+    "Chapter-11/replaying old messages.md",
+    "Chapter-11/consumer cannot keep up with the producer.md",
+    "Chapter-11/log based message broker.md",
+    "Chapter-11/log based compared to traditional message broker.md",
+    "Chapter-11/disk space usage.md",
+    "Chapter-11/load balancing by message broker.md",
+    "Chapter-11/fan out in message broker.md",
+    "Chapter-11/event.md",
+    "Chapter-11/consumer.md",
+    "Chapter-11/message broker.md",
+    "Chapter-11/direct messaging from producers to consumers.md",
+    "Chapter-11/messaging system.md",
+    "Chapter-11/multiple consumers.md",
+    "Chapter-11/acknowledgements and redelivery.md",
+    "images/Screenshot 2025-05-09 at 1.33.43 PM.png",
+    "Chapter-11/message broker compared to database.md",
+    "Chapter-11/Stream processing.md",
     "Chapter-10/Dataflow engines.md",
-    "Chapter-3/Sort order in column storage.md",
     "Chapter-10/Materialization of intermediate state.md",
-    "Chapter-10/broadcast hash join.md",
-    "Chapter-10/Map side join.md",
-    "Chapter-10/Reduce side joins and grouping.md",
-    "Chapter-10/MapReduce job execution.md",
-    "Chapter-10/MapReduce.md",
-    "Chapter-10/MapReduce workflow.md",
-    "Chapter-10/share nothing architecture.md",
-    "Chapter-3/bitmap encoding.md",
-    "Chapter-3/Column Oriented Storage.md",
-    "Chapter-3/Data structures that power your database.md",
-    "Chapter-3/Column-Oriented Storage.md",
-    "Chapter-3/Storage and Retrieval.md",
+    "Chapter-10/Beyond MapReduce.md",
     "images/Screenshot 2025-05-06 at 3.04.00 PM.png",
     "images/Screenshot 2025-05-06 at 2.49.27 PM.png",
     "images/Screenshot 2025-05-06 at 8.59.16 AM.png",
@@ -202,10 +219,8 @@
     "Chapter-11",
     "images/Screenshot 2024-12-12 at 2.05.28 PM.png",
     "images/Screenshot 2024-12-12 at 12.54.02 PM.png",
-    "images/Screenshot 2024-12-12 at 11.19.07 AM.png",
     "Chapter-10",
     "Chapter-9",
-    "images/Screenshot 2024-11-04 at 16.13.06.png",
     "Chapter-7",
     "Chapter-6",
     "Chapter-5",

@@ -3,6 +3,6 @@
   "textFontFamily": "JetBrains Mono",
   "baseFontSize": 17,
   "baseFontSizeAction": true,
-  "showViewHeader": false,
+  "showViewHeader": true,
   "cssTheme": ""
 }

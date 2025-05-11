@@ -7,7 +7,10 @@
 
 - a single database is required for input to the broker's queue, this database is known as the [[system of record]] since it contains the latest contents of the database 
 - records can be written as even to the broker by parsing the replication log of the database
-- change data capture is an asynchronously process meaning it will not wait for the consumer to finish before moving on to execute other tasks
+- change data capture is an asynchronously process meaning it will not wait for the consumer to finish before committing the changes on the database
+
+database triggers can be used in our case, by registering that observes all changes to data tables and add corresponding changes to a changelog table
+another approach would be to parse the replication log itself
 
 ## Initial snapshot
 - we can construct a new derived data system by replaying the log 
@@ -20,5 +23,11 @@
 - we can perform log compaction inside the broker to remove duplicate keys in events and to make sure the system has up to date changes on the data in the database 
 - there is a background process that periodically looks at the disk log record and checks for duplication in the log
 - in log based message broker, as long as the key is not overwritten or deleted then the data remains in the log 
-- the size of the log depends on the size of the database rather than the write operation performed on the database because if the same key is used multiple times i.e overwrite the value those new values are garbage collected in the background in the future
+- the size of the log depends on the contents of the database rather than the write operation performed on the database because if the same key is used multiple times i.e overwrite the value those new values are garbage collected in the background in the future
 - using this approach, we can make the consumer point to the 0 offset of the broker and then start reading data sequentially. this guarantees to contain the most recent value for every key in the database which means we get a full copy of the database without performing snapshots of the database 
+
+Log compaction is used to setup the entire database without having to take snapshot of the entire database which would be slow and inefficient
+
+if the log is setup such that every change has a primary key and every update for a key replaces the previous value for that key 
+
+then whenever we are rebuild a derived system then we can start the consumer at offset 0 of the log and make it scan the log sequentially and perform every operation of the log to keep the log in sync with the data source i.e the database. this allows systems like apache kafka to no just act as a messaging system but also as a durable storage of the current state

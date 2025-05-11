@@ -10,4 +10,5 @@
 - a database is enough for a [[producer]] to produce and for the consumer to continuously poll the database for any new data and consume the data. this is how batch processing system operates
 
 - for building a system with low latency, polling is not a good option instead there needs to be a mechanism for the producer to notify the consumer about new events that appear
+- database does have triggers which helps database to react to a change but they are limited to what they can do 
 - this new approach is known as [[messaging system]]

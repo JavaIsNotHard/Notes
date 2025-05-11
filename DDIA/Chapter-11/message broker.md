@@ -4,7 +4,8 @@
 
 - the broker lies central for both the producer and consumer hence many capabilities such as durability can be placed on the broker itself rather than the producer or consumer
 - the broker stores most messages on its local in memory buffer and can also write them to disk for durability
-- this configuration makes the producer act asynchronously i.e it does not wait for the consumer to finish processing the message before moving on and only waits for the acknowledge from the broker on whether it received the message or not
+- they allow unbounded queuing of messages
+- as a consequence of queueing, this makes the producer act asynchronously i.e it does not wait for the consumer to finish processing the message before moving on and only waits for the acknowledge from the broker on whether it received the message or not
 - message brokers allows for unbounded queueing as opposed to dropping messages and backpressure
 
 [[message broker compared to database]]

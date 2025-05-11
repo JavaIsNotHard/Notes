@@ -1,8 +1,8 @@
 - log based brokers trivially supports fan out where each consumer can independently read message from the log without affecting other consumers
 - log based also supports load balancing by assigning each partition to a separate consumer instead of assigning consumer based on individual message 
 
-- each consumer assigned to a partition will consume all the messages inside to that partition
-- it reads message in a sequential first to last manner in a single threaded manner (only a single thread reads from the log partition)
+- each consumer assigned to a partition will consume all the messages inside to that partition rather than individual message like in messaging systems
+- it reads message from a partition's log in a sequential first to last manner in a single threaded manner (only a single thread reads from the log partition)
 - there are disadvantages to this approach which includes:
 	- the no of consumer needs to be equal to the number of partition. we can also allow two consumer node processing the same partition where one partition is assigned to process odd numbered messages and another partition partition is assigned to process even numbered messages
 	- if a message takes slow to process then it blocks the consumer indefinitely 
