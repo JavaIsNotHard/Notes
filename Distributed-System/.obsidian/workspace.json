@@ -228,10 +228,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture 3 - GPS (Google file system).md"
+                "file": "Service Level Indicators.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 3 - GPS (Google file system)"
+              "title": "Outline of Service Level Indicators"
             }
           },
           {
@@ -253,8 +256,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
