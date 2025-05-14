@@ -72,4 +72,22 @@ Having a single Load balancer taking all the request creates a problem of single
 instead we can add the load balancing feature on the client side using the sidecar pattern
 here the machine running the client application will host the load balancing application as well which isolates failure of load balancer to only a single client and not the entire application server
 this approach is called as service mesh
+
 the drawback of this approach is that now we need a control plane to manage all the sidecars
+
+why service mesh?
+1. service level observability
+	in a distributed environment it is difficult to understand how everything is working together at the same time
+2. service level control 
+	admins want to control which service can communicate with which service. can perform fine-gained control and governance over the policies, interactions and governance of services within the microservice architecture
+
+service mesh uses the [[sidecar pattern]] internally, the service mesh is divided into two components which includes
+1. data plane 
+	the data plane component includes the proxy which intercepts all request that the container sends to the external network. when a service wants to communicate with another service then the data plane does the following things:
+	1. it intercepts the request
+	2. it encapsulates the request in a separate network connection
+	3. it establishes a secure and encrypted channel between the source and the destination proxies 
+	they also implement features like retries, circuit breaker, resilience and prevent service degradation, also features like load balancing, service discovery, traffic routing are all implemented by the data plane
+2. control plane
+	acts as a central configuration and management layer for the service mesh. the admins are responsible for setting various configuration changes based on the needs of the organization and once done the control plane distributes the configuration to all service mesh's data plane
+	information such as deciding which type of request to accept or which request to route where are all defined in the configuration file managed by the control plane 

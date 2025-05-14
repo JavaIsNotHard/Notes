@@ -13,12 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter-3/Data warehouse.md",
+                "file": "Chapter-11/deriving current state from event log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data warehouse"
+              "title": "deriving current state from event log"
+            }
+          },
+          {
+            "id": "daed892eb2f35a93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter-11/Commands and events.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Commands and events"
+            }
+          },
+          {
+            "id": "dc9920768730ef8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter-10/Dataflow engines.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dataflow engines"
+            }
+          },
+          {
+            "id": "282b2af3906f30ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter-10/Processing Stream.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Processing Stream"
             }
           },
           {
@@ -27,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter-11/dual writes.md",
+                "file": "Chapter-11/change data capture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dual writes"
+              "title": "change data capture"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -178,16 +220,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f17d918984cebbb",
+  "active": "282b2af3906f30ac",
   "lastOpenFiles": [
+    "Chapter-10/Dataflow engines.md",
+    "Chapter-10/Processing Stream.md",
+    "Chapter-11/deriving several views from the same event log.md",
+    "Chapter-11/State, Streams and Immutability.md",
+    "Chapter-11/advantages of immutable events.md",
+    "Chapter-11/Commands and events.md",
     "Chapter-11/Event sourcing.md",
+    "Chapter-11/deriving current state from event log.md",
+    "Chapter-3/Data warehouse.md",
     "Chapter-11/change data capture.md",
     "Chapter-11/dual writes.md",
     "images/Screenshot 2025-05-11 at 12.57.53 PM.png",
     "Chapter-11/keeping system in sync.md",
     "Chapter-11/Database and Streams.md",
     "Chapter-11/heterogeneous data system.md",
-    "Chapter-3/Data warehouse.md",
     "Chapter-11/replaying old messages.md",
     "Chapter-11/consumer cannot keep up with the producer.md",
     "Chapter-11/log based message broker.md",
@@ -200,14 +249,7 @@
     "Chapter-11/message broker.md",
     "Chapter-11/direct messaging from producers to consumers.md",
     "Chapter-11/messaging system.md",
-    "Chapter-11/multiple consumers.md",
-    "Chapter-11/acknowledgements and redelivery.md",
     "images/Screenshot 2025-05-09 at 1.33.43 PM.png",
-    "Chapter-11/message broker compared to database.md",
-    "Chapter-11/Stream processing.md",
-    "Chapter-10/Dataflow engines.md",
-    "Chapter-10/Materialization of intermediate state.md",
-    "Chapter-10/Beyond MapReduce.md",
     "images/Screenshot 2025-05-06 at 3.04.00 PM.png",
     "images/Screenshot 2025-05-06 at 2.49.27 PM.png",
     "images/Screenshot 2025-05-06 at 8.59.16 AM.png",

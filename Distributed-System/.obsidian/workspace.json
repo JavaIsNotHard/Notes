@@ -69,21 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Service Level Indicators.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Service Level Indicators"
-            }
-          },
-          {
-            "id": "e150b139279efe0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network Load Balancing.md",
+                "file": "UDS/Network Load Balancing.md",
                 "mode": "source",
                 "source": false
               },
@@ -228,13 +214,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Service Level Indicators.md",
+                "file": "UDS/HTTP Caching.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Service Level Indicators"
+              "title": "Outline of HTTP Caching"
             }
           },
           {
@@ -256,7 +242,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,9 +257,12 @@
   },
   "active": "aa50d47dbf219f5d",
   "lastOpenFiles": [
-    "UDS/Monitoring.md",
-    "Service Level Indicators.md",
+    "sidecar pattern.md",
     "UDS/Network Load Balancing.md",
+    "UDS/Downstream resilience.md",
+    "UDS/HTTP Caching.md",
+    "Service Level Indicators.md",
+    "UDS/Monitoring.md",
     "Monitoring.md",
     "MIT/NFS mount protocol.md",
     "MIT/Lecture 3 - GPS (Google file system).md",
@@ -293,10 +283,7 @@
     "UDS/Common failure causes.md",
     "UDS/Upstream resilency.md",
     "Logs",
-    "UDS/Downstream resilience.md",
     "UDS/Fault isolation.md",
-    "UDS/File Storage.md",
-    "UDS/Control planes and data planes.md",
     "Screenshot 2025-04-10 at 8.44.48 AM.png",
     "MIT/Screenshot 2025-02-26 at 1.00.44 PM.png",
     "Untitled.canvas",
