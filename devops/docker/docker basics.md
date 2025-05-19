@@ -27,6 +27,8 @@
 ![[Screenshot 2024-12-27 at 5.54.14 PM.png | 500]]
 
 
+- ENTRYPOINT of the array form such as ENTRYPOINT ["java" "-jar" "app.jar"] doesn't wrap the process in a new shell which makes signals to the something invisible, if we directly run the process with its own PID then we get better signals from docker client.
+
 ## Docker Digest
 - using tags pull images can have some problems for example when we incorrent name the tag number for an image 
 - we can push the new image to the same repository with the same tag as the vulnerable image which means if we have multiple machines running container with the same tag number, we cannot say whether it is safe or not 

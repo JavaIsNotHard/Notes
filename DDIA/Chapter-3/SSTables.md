@@ -12,6 +12,6 @@ To find a particular key in the merged segment we can keep track the starting of
 
 The finding process for a key involves guessing the segment where the key can be present. For example, we need to find the key handiwork, the index has the entry for the key value handbag and handsome, because of the sorted property of SSTables we know that handiwork falls between handbag and handsome so we can start scanning from handbag.
 
-It is also possible to group records and compress them before writting them on the disk such that the index need only point to the start location of the compressed block. Compression helps with disk space management and reduces I/O bandwidth.
+It is also possible to group records and compress them before writing them on the disk such that the index need only point to the start location of the compressed block. Compression helps with disk space management and reduces I/O bandwidth.
 
 [[Constructing and maintaining SSTables]]

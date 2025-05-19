@@ -11,7 +11,7 @@ this is because the operation that happened first can have side-effects that aff
 
 ## logical clock 
 a counter, incremented before an operation is executed 
-if two operation execute on the same process then on emust come before the other based on the logical timestamp
+if two operation execute on the same process then one must come before the other based on the logical timestamp
 but what if they are running on different processes 
 
 example, suppose you are sending a email to your friend. 
@@ -24,10 +24,11 @@ the idea is based on [[lamport clock]]
 according to this figure, 
 operation D happens before operation F hence the timestamp also reflect this dependency
 but two unrelated operations can have the same logical timestamp suppose operation A and operation E have the timestamp 1
+we can solve the ordering issue when two events have the same time by using process ID tie-breaker where each event alongside its timestamp is also assigned a unique identifier for that event, then when ordering we first order by timestamp then we order by the unique ID between the process
 strict total ordering can be implemented by arbitrarily ordering the processes, example, is use use process ID instead of a incrementing counter
 
-a better approach is to use vector clock
 
+we can also see that event C has timestamp 3 and event E has timestamp 1 which is its local timestamp but physically C happens before E so this ordering is incorrect. A better approach is to use vector clock
 
 ## Vector clock
 each process has a local vector clock implemented with an array of three counters 
