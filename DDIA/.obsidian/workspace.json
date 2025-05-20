@@ -220,15 +220,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f17d918984cebbb",
+  "active": "6dd1cdfa16550168",
   "lastOpenFiles": [
-    "lectures/concurrent.md",
-    "lectures/Lecture 3.3 (Ordering of messages & happens before).md",
+    "Chapter-11/messaging system.md",
     "lectures/Broadcast ordering.md",
     "lectures/total order.md",
     "lectures/partial order.md",
+    "lectures/concurrent.md",
+    "lectures/Lecture 3.3 (Ordering of messages & happens before).md",
     "Chapter-11/change data capture.md",
-    "Chapter-11/messaging system.md",
     "Chapter-11/Reasoning about time.md",
     "lectures",
     "Chapter-11/Database and Streams.md",

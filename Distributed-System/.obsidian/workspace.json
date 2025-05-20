@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UDS/Time.md",
+                "file": "UDS/Leader Election.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Time"
+              "title": "Leader Election"
             }
           }
         ],
@@ -271,9 +271,11 @@
   },
   "active": "9c36b61c45a33a8e",
   "lastOpenFiles": [
+    "Fun and Profit/Chapter - 1.md",
+    "UDS/Time.md",
+    "Fun and Profit",
     "UDS/lamport clock.md",
     "UDS/System models.md",
-    "UDS/Time.md",
     "UDS/clock skew.md",
     "Observability.md",
     "UDS/Monitoring.md",
@@ -296,7 +298,6 @@
     "UDS/Redudancy.md",
     "UDS/Replication.md",
     "UDS/Common failure causes.md",
-    "sidecar pattern.md",
     "Logs",
     "Screenshot 2025-04-10 at 8.44.48 AM.png",
     "MIT/Screenshot 2025-02-26 at 1.00.44 PM.png",
@@ -316,7 +317,6 @@
     "Opengl",
     "udemy/Unit-35",
     "udemy/Unit-32",
-    "udemy/Unit-31",
-    "udemy/Unit-30"
+    "udemy/Unit-31"
   ]
 }

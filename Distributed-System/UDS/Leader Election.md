@@ -1,4 +1,4 @@
-a leader election algorithm needs to guarantee that there is a most one leader at any time and that an election eventually completes even in the presence of failure
+	a leader election algorithm needs to guarantee that there is a most one leader at any time and that an election eventually completes even in the presence of failure
 
 
 ## Raft election algorithm
