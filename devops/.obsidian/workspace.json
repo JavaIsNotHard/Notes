@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "k8s/The K8s book/Chapter-2/Virtual Cluster with namespaces.md",
+                "file": "k8s/The K8s book/Chapter-2/Deployment theory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Virtual Cluster with namespaces"
+              "title": "Deployment theory"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "immutable",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -219,9 +219,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9379c509d5a8762b",
+  "active": "6dd1cdfa16550168",
   "lastOpenFiles": [
     "k8s/The K8s book/Chapter-2/Pods.md",
+    "k8s/The K8s book/Chapter-2/Deployment theory.md",
     "k8s/The K8s book/Chapter-2/Virtual Cluster with namespaces.md",
     "k8s/The K8s book/Chapter-2/sidecar container.md",
     "k8s/The K8s book/Chapter-2/init container.md",
@@ -249,7 +250,6 @@
     "docker/Docker build cache.md",
     "docker/iximiuz labs.md",
     "docker/docker attach & docker start.md",
-    "docker/container security.md",
     "Screenshot 2024-12-31 at 6.48.45 PM.png",
     "Screenshot 2025-02-24 at 3.20.33 PM.png",
     "Screenshot 2025-02-24 at 3.16.19 PM.png",
