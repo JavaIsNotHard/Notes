@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database Architecture/Chapter - 2.md",
+                "file": "intro-to-database/Lecture-10/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter - 2"
+              "title": "Introduction"
             }
           },
           {
@@ -175,7 +175,11 @@
   },
   "active": "5c80635e033c080d",
   "lastOpenFiles": [
+    "intro-to-database/Lecture-9/Introduction.md",
+    "intro-to-database/Lecture-10/Introduction.md",
+    "intro-to-database/Lecture-10",
     "Database Architecture/Chapter - 2.md",
+    "intro-to-database/Lecture-9",
     "HPJP/Queuing theory.md",
     "Database Architecture",
     "sql perfomance/Slow indexes, part 1.md",
@@ -207,15 +211,11 @@
     "images/Screenshot 2024-12-07 at 09.28.25.png",
     "intro-to-database/Lecture-23",
     "intro-to-database/Lecture-21",
-    "intro-to-database/Lecture-20",
-    "intro-to-database/Lecture-17.5",
     "images/Screenshot 2024-11-24 at 14.41.12.png",
     "images/Screenshot 2024-11-24 at 14.37.56.png",
     "images/Screenshot 2024-11-24 at 09.25.02.png",
     "intro-to-database/Untitled.md",
     "Introduction/Untitled.md",
-    "Introduction/Introduction.md",
-    "Introduction/Big data.md",
-    "Introduction/2 phase locking.md"
+    "Introduction/Introduction.md"
   ]
 }

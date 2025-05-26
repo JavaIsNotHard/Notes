@@ -83,16 +83,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UDS/Leader Election.md",
+                "file": "UDS/The CALM theorem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Leader Election"
+              "title": "The CALM theorem"
+            }
+          },
+          {
+            "id": "a8ca3d8799587d40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MIT/Lecture 14 - Optimistic Concurrency Control.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 14 - Optimistic Concurrency Control"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -269,8 +283,26 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "9c36b61c45a33a8e",
+  "active": "a8ca3d8799587d40",
   "lastOpenFiles": [
+    "MIT/NFS mount protocol.md",
+    "MIT/Lecture 14 - Optimistic Concurrency Control.md",
+    "MIT/Lecture 13 - Spanner.md",
+    "MIT/Lecture 12 - Distributed Transaction.md",
+    "MIT/Lecture 10 - Cloud replication DB, Aurora.md",
+    "MIT/Lecture 8 - Linearalizability & zookeeper.md",
+    "MIT/Lecture 9 - CRAQ.md",
+    "UDS/Network Load Balancing.md",
+    "UDS/Downstream resilience.md",
+    "MIT/Lecture 3 - GPS (Google file system).md",
+    "MIT/Lecture 4.md",
+    "MIT/Lecture 6 - Raft.md",
+    "MIT/Lecture 11 - Frangipani.md",
+    "UDS/The CALM theorem.md",
+    "UDS/Replication.md",
+    "UDS/Casual Consistency.md",
+    "UDS/overlay network.md",
+    "UDS/Leader Election.md",
     "Fun and Profit/Chapter - 1.md",
     "UDS/Time.md",
     "Fun and Profit",
@@ -280,24 +312,6 @@
     "Observability.md",
     "UDS/Monitoring.md",
     "Monitoring.md",
-    "UDS/Asynchronous transaction.md",
-    "UDS/CRDT.md",
-    "UDS/Data storage.md",
-    "UDS/Downstream resilience.md",
-    "UDS/Dynamo-style data stores.md",
-    "UDS/Failure Detection.md",
-    "UDS/Fault isolation.md",
-    "UDS/File Storage.md",
-    "UDS/HTTP Caching.md",
-    "UDS/Leader Election.md",
-    "UDS/Messaging System.md",
-    "UDS/Microservices.md",
-    "UDS/Network Load Balancing.md",
-    "UDS/overlay network.md",
-    "UDS/Partitioning.md",
-    "UDS/Redudancy.md",
-    "UDS/Replication.md",
-    "UDS/Common failure causes.md",
     "Logs",
     "Screenshot 2025-04-10 at 8.44.48 AM.png",
     "MIT/Screenshot 2025-02-26 at 1.00.44 PM.png",
