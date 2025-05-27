@@ -23,3 +23,6 @@ why do we need to sort?
 - they are also helpful in GROUP BY operation because we can linearly scan all the values until we reach the next value 
 
 the algebra expression can be annotated with the algorithm to be used for a specific operation or a particular index or indices to use and so on. a relation algebra annotated with an instruction on how to evaluate it is called an evaluation primitive. A sequence of evaluation primitives that is used to evaluate a query is called a query-execution plan
+
+most of the database that supports out of memory sorting uses the external merge sort 
+
