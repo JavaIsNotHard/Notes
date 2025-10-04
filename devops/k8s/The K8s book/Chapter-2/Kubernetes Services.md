@@ -1,0 +1,1 @@
+ClusterIP used for pod to pod communication within the cluster

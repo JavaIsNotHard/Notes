@@ -1,0 +1,2 @@
+comparison between two 32bit or 64bit integers or any other data type is fast because there is an existing CPU instruction that knows how to perform it
+we have to somehow optimize the comparison operation that can be used in different types of data types for a really big dataset and we also don't want to reimplement different sorting algorithms for different data types

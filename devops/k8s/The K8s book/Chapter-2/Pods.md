@@ -36,9 +36,19 @@ object immutability i.e immutability of pods is handled by Kubernetes itself whe
 if we tried to edit any configuration files related to kubernetes such as pod yaml then this is prohibited 
 
 
+init pod vs sidecar pod
+
 ### Resource request and resource limits in kubernetes 
 
 request -> minimum value of the resources that the container needs to start with
 limits -> maximum value of the resources that the container can use 
 
 this is used by the scheduler to pick a node that meets the requirements for the pod
+
+
+### Pods in kubernetes
+
+![[Pasted image 20250915214420.png | 400]]
+this diagram contains a basic network stack of a host machine
+it contains an eth0 interface which is a physical interface from where packets are sent over the network
+

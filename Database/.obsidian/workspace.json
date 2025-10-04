@@ -8,30 +8,61 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5c80635e033c080d",
+            "id": "226b6fd6fe0bdff5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "intro-to-database/Lecture-10/2 way External Merge Sort.md",
+                "file": "intro-to-database/Lecture-14/inter-query parallel execution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 way External Merge Sort"
+              "title": "inter-query parallel execution"
             }
           },
           {
-            "id": "226b6fd6fe0bdff5",
+            "id": "79fea5526c2dd2d8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
+          },
+          {
+            "id": "45d8c88718a62159",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "intro-to-database/Lecture-14/IO parallelism.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "IO parallelism"
+            }
+          },
+          {
+            "id": "bc80b08764c5fa2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "intro-to-database/Lecture-13/Processing Direction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Processing Direction"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +94,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "va",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +115,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -165,6 +197,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -173,49 +206,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5c80635e033c080d",
+  "active": "89c855993c35a8e8",
   "lastOpenFiles": [
-    "intro-to-database/Lecture-10/External Merge Sort.md",
-    "intro-to-database/Lecture-10/2 way External Merge Sort.md",
-    "intro-to-database/Lecture-10/Introduction.md",
-    "intro-to-database/Lecture-9/Introduction.md",
-    "intro-to-database/Lecture-10",
-    "Database Architecture/Chapter - 2.md",
-    "intro-to-database/Lecture-9",
-    "HPJP/Queuing theory.md",
-    "Database Architecture",
-    "sql perfomance/Slow indexes, part 1.md",
-    "Introduction/Crash Recovery.md",
-    "Introduction/Concurrency control theory.md",
-    "Database Internals/Introduction/2.Database Architecture.md",
-    "Database Internals/Introduction/Data files and index files.md",
-    "intro-to-database/Lecture-3/Introduction.md",
-    "intro-to-database/Lecture-21/Introduction.md",
-    "intro-to-database/Lecture-6",
-    "intro-to-database/Lecture-23/Introduction.md",
+    "intro-to-database/Lecture-14/IO parallelism.md",
+    "intro-to-database/Lecture-14/inter-query parallel execution.md",
+    "I/O parallelism.md",
+    "I",
+    "intro-to-database/Lecture-14/intra-query parallel execution.md",
+    "intro-to-database/Lecture-14/exchange operator.md",
+    "intro-to-database/Lecture-15/Introduction.md",
     "intro-to-database/Lecture-16/Introduction.md",
-    "intro-to-database/Lecture-8/Introduction.md",
-    "intro-to-database/Lecture-17/Introduction.md",
-    "intro-to-database/Lecture-17.5/Introduction.md",
-    "intro-to-database/Lecture-19/Multiversion concurrency control.md",
-    "intro-to-database/Lecture-18/Validation based concurrency control.md",
+    "intro-to-database/Lecture-15",
+    "intro-to-database/Lecture-14/Parallel Execution.md",
+    "intro-to-database/Lecture-14/Process Model.md",
+    "intro-to-database/Lecture-13/Iterator Model.md",
+    "intro-to-database/Lecture-14/Scheduling.md",
+    "intro-to-database/Lecture-13/Evaluation Algorithm for pipelines.md",
+    "intro-to-database/Lecture-14",
+    "pipeline edges.md",
+    "intro-to-database/Lecture-13/Processing Direction.md",
+    "intro-to-database/Lecture-13/Materialization Model.md",
+    "intro-to-database/Lecture-13/Access Methods.md",
+    "intro-to-database/Lecture-13/Processing Model.md",
+    "Vectorized Model.md",
+    "intro-to-database/Lecture-13/Query Execution.md",
+    "intro-to-database/Lecture-11/Sort merge join.md",
+    "intro-to-database/Lecture-13",
+    "intro-to-database/Lecture-11/Naive nested loop join.md",
+    "intro-to-database/Lecture-11/Join Algorithm.md",
+    "intro-to-database/Lecture-11/Index nested loop join.md",
+    "intro-to-database/Lecture-11/Block nested loop join.md",
+    "intro-to-database/lecture-12/Index Nested Loop jion.md",
+    "intro-to-database/lecture-12",
+    "intro-to-database/Lecture-11/Untitled",
+    "intro-to-database/Lecture-11",
+    "intro-to-database/Lecture-10",
+    "intro-to-database/Lecture-9",
+    "Database Architecture",
     "images/Screenshot 2025-02-23 at 9.13.15 AM.png",
     "images/Screenshot 2025-02-23 at 9.03.05 AM.png",
-    "intro-to-database/Lecture-20/Introduction.md",
-    "Introduction/DBMS access methods.md",
-    "HPJP",
-    "Database Internals/Introduction/1.Introduction.md",
-    "JDBC/JDBC.md",
-    "JDBC",
-    "Lucene-search-index",
-    "Untitled.md",
-    "intro-to-database/Lecture-19",
     "images/Screenshot 2024-12-07 at 09.28.25.png",
-    "intro-to-database/Lecture-23",
-    "intro-to-database/Lecture-21",
     "images/Screenshot 2024-11-24 at 14.41.12.png",
     "images/Screenshot 2024-11-24 at 14.37.56.png",
-    "images/Screenshot 2024-11-24 at 09.25.02.png",
-    "intro-to-database/Untitled.md"
+    "images/Screenshot 2024-11-24 at 09.25.02.png"
   ]
 }

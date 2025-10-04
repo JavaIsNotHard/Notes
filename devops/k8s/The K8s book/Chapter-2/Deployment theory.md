@@ -11,8 +11,6 @@ A resource is an object that represents a desired state of something in the clus
 
 As the API server parses the YAML file, it creates an internal object such as Go structs and stores that struct in the etcd state manager. So basically our Deployment object represents just the desired state of the cluster and resides in the API server's etcd storage whereas the Deployment controller also resides control plane but as a resource controller separate from the actual resource
 
-
-
 Deployment autoscalers include:
 1. Horizontal Pod Autoscaler -> adds and removes pods
 2. Vertical Pod Autoscaler -> increases and decreases the resources for the pod such as memory and CPU
@@ -20,11 +18,9 @@ Deployment autoscalers include:
 
 but we can also manually scale our deployments
 
-
 whenever the horizontal pod autoscaler cannot find a node that matches the required resources then the cluster autoscaler kicks in to add new nodes to the cluster that matches our requirements. Pods that cannot find the required node are created in Pending state
 
 The ReplicaSet controller makes sure that correct number of pods replicas are present in our node 
-
 
 Rolling updates and rollbacks in Deployments 
 
@@ -44,3 +40,10 @@ here is what happens during a rolling update:
 - the update from older version to the newer version is done incrementally and smooth by incrementing newer pod and decrementing older pod at the same time if possible
 
 to support rollbacks, the previous version or the old version of replicaset's configuration is not removed entirely from the deployment to make sure that we can rollback easily i.e create pods based on the configuration in the previous version
+
+Metadata name is also DNS name so the name should be selected carefully
+
+NodePort vs LoadBalancer resource in Kubernetes?
+
+spec.minReadySeconds referes to the duration that a pod needs to stay in the READY state for the pod to be considered healthy
+this is helpful to investigate unhealthy pods

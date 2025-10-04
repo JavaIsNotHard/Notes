@@ -8,3 +8,8 @@ Deploying an app in Kubernetes includes the following steps:
 4. The state of the application defined according to the .yaml file will then be stored in a [[cluster store]] typically etcd which is a highly available distributed key value store for used by Kubernetes 
 5. Then the scheduling algorithm running in the control plane will schedule our application, the kubelet on those node will then pull the container from container registries 
 
+what are the things that fall under API server in kubernetes?
+- services
+- pods
+- deployments
+- 

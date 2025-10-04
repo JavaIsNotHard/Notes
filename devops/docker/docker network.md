@@ -38,7 +38,7 @@ A host has a network interface like eth0 in mac wlan0 in linux for wireless NIC 
 
 This network interface is used to communicate with computers outside of the local network or inside the network itself
 
-Similarly for a container to access internet and send packets through the internet it needs a network interface, Docker creates a default docker0 bridge network interface which communicates with the 
+Similarly for a container to access internet and send packets through the internet it needs a network interface, Docker creates a default docker0 bridge network interface which communicates with the containers running on the default bridge network, allowing them to communicate with each other and with the host machine.
 
 
 Sandbox is the network namespace associated with a docker container

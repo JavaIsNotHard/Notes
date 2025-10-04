@@ -1,0 +1,2 @@
+in traditional routers, this executes the routing algorithm locally and creates forwarding table based on the routing algorithm
+in modern SDN based routers, the routing processor consults with the remote controller in order to receive the forwarding table and install them into the input port

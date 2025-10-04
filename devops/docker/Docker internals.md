@@ -1,4 +1,4 @@
-- [[namespace]]
+- [[docker/namespace]]
 - [[chroot]]
 - [[cgroups]]
 - [[overlayfs]]

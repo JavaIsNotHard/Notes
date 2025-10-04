@@ -1,0 +1,4 @@
+ClusterIP
+NodePort
+LoadBalancer
+Ingress

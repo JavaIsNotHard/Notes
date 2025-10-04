@@ -14,5 +14,8 @@ the number of passes = 1 + ceiling value(log base 2 (N))
 total I/O cost i.e number of times data is read and written to disk = 2 * N * No of passes
 
 double buffering optimization
+the general idea is that we are prefetching next sorted run when the previous sorted run is getting merged by another worker thread inside the database and writing the merged sorted page to the disk. this requires a non blocking asynchronous disk manager that makes sure we are not using OS system calls that are blocking (disk flush are blocking operation)
 
+in double buffering optimization we have double the page buffer for each input and for output, if we had 2 input buffer and 1 output buffer previously then now we have 4 input buffer and 2 output buffer and so on
 
+[[Comparison Optimization]]

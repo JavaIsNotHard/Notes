@@ -1,0 +1,1 @@
+embeddable in a sense that these frameworks and libraries can be integrated into another program or system rather than using it as a standalone application

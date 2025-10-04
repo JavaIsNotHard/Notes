@@ -8,3 +8,8 @@ the update events can be store in different schemas in the read system. for exam
 
 
 can only guarantee eventual consistency and not strong consistency because different read system can read the event log at different times due to network issues
+
+advantages of event sourcing includes:
+1. audit trail -> event are represented as audits in financial statements
+2. debugging
+3.  historic state -> we can get historic data 
