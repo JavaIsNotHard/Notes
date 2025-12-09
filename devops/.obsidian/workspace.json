@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7f5180a256aca6dd",
+        "id": "4871bfb9331fd338",
         "type": "tabs",
         "children": [
           {
-            "id": "3aec18c8aedcea1f",
+            "id": "c8a8de26659f5881",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Network/NAT/Introduction.md",
+                "file": "k8s/The K8s book/Chapter-2/Kubernetes CNI plugin.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Kubernetes CNI plugin"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "csi",
+                "query": "cni",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 253.50390243530273
   },
   "right": {
     "id": "eb2d679cfce32ef9",
@@ -164,54 +164,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3aec18c8aedcea1f",
+  "active": "c8a8de26659f5881",
   "lastOpenFiles": [
-    "Pasted image 20250930095724.png",
-    "Computer Network/IPTables/Linux Network Stack.md",
-    "Computer Network/IPSec/IP security policy.md",
-    "Computer Network/IPSec/Overview.md",
-    "Pasted image 20250927165746.png",
-    "Pasted image 20250927165716.png",
-    "Pasted image 20250927165516.png",
-    "Pasted image 20250927120401.png",
-    "Computer Network/TCP/keepalive.md",
-    "Computer Network/IPSec",
-    "Computer Network/NAT/Introduction.md",
-    "Computer Network/TCP",
-    "k8s/The K8s book/Chapter-2/Deployment theory.md",
-    "k8s/The K8s book/Chapter-2/Deployment in practice.md",
-    "k8s/CKA/Core-Concepts/container runtime.md",
+    "k8s/The K8s book/Chapter-2/Introduction.md",
+    "k8s/The K8s book/Chapter-2/API Object.md",
     "k8s/CKA/Core-Concepts/Architecture.md",
-    "k8s/CKA/Core-Concepts/kube-api-server.md",
-    "k8s/CKA/Core-Concepts/controller manager.md",
-    "k8s/CKA/Core-Concepts/kube-scheduler.md",
-    "k8s/CKA/Core-Concepts/etcd cluster.md",
-    "k8s/The K8s book/Chapter-2/worker node.md",
     "k8s/The K8s book/Chapter-2/kubelet.md",
-    "k8s/The K8s book/Chapter-2/runtime.md",
-    "k8s/The K8s book/Chapter-2/kube-proxy.md",
-    "k8s/CKA/Core-Concepts/master node.md",
-    "k8s/CKA/Core-Concepts/etcd.md",
-    "k8s/Understanding Kubernetes Network.md",
-    "Pasted image 20250925153829.png",
-    "Pasted image 20250925153655.png",
-    "Pasted image 20250925150315.png",
-    "Pasted image 20250925145836.png",
-    "Pasted image 20250909114035.png",
-    "Pasted image 20250911195639.png",
-    "k8s/The K8s book/Chapter-2/API server.md",
-    "k8s/Introduction.md",
+    "k8s/The K8s book/Chapter-2/Kubernetes CNI plugin.md",
+    "Others/Opentelemetry.md",
+    "AWS/High Availability and Scalability ELB & ASG/Load Balancing.md",
+    "Pasted image 20251208152034.png",
+    "Computer Network/certificates/PKI.md",
+    "AWS/CodeArtifact.md",
+    "AWS/EC2 vs Lightsail.md",
+    "AWS/SNS vs SQS.md",
+    "AWS/Code Deploy.md",
+    "AWS/Code Build.md",
+    "AWS/Cloud Formation.md",
+    "AWS/AWS Lambda.md",
+    "AWS/High Availability and Scalability ELB & ASG/Introduction.md",
     "docker/docker volume.md",
-    "docker/how images and overlayfs work in docker.md",
-    "docker/iximiuz labs.md",
-    "Computer Network/Linux Network Stack",
-    "Computer Network/certificates",
-    "Computer Network/Network Layer (data plane)",
-    "Computer Network/Link Layer/Untitled",
-    "Others",
-    "Untitled.base",
-    "k8s/The K8s book/Chapter-2/Untitled",
-    "k8s/Helm",
+    "Introduction.md",
+    "docker/overlay network.md",
+    "docker/Tunneling.md",
+    "docker/volume mount.md",
+    "docker/shim.md",
+    "docker/VXLAN.md",
+    "docker/what are containerd and runc in docker.md",
+    "docker/overlayfs.md",
+    "docker/runc.md",
+    "Pasted image 20251204203339.png",
+    "AWS/High Availability and Scalability ELB & ASG",
+    "k8s/The hard way",
+    "Pasted image 20251203215630.png",
+    "Screenshot 2024-12-27 at 5.54.14 PM.png",
+    "Pasted image 20251203215532.png",
+    "Pasted image 20251129132101.png",
+    "Pasted image 20251129131947.png",
+    "Pasted image 20251129131929.png",
+    "Pasted image 20251129130722.png",
+    "Pasted image 20251129130710.png",
+    "Computer Network/Network Layer (data plane)/OSPF",
+    "AWS/AWS EC2 Storage",
+    "Terraform/Chapter-2",
+    "Terraform/Chapter-1",
+    "Terraform",
+    "AWS/AWS networking",
+    "Computer Network/DHCP",
+    "Computer Network/Broadcasting and multicasting",
     "k8s/The K8s book/Untitled.canvas"
   ]
 }

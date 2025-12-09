@@ -1,0 +1,1 @@
+types of dns server where the DNS response is returned immediately making the requesting client make another request to another server for further request rather than having this process done automatically

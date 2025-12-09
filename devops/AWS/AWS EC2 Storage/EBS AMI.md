@@ -1,0 +1,5 @@
+- Amazon Machine Image 
+- Customization of an EC2 instance
+- Like creating an docker image
+- You can use an AMI to launch an EC2 instance
+- We can also create our own AMI

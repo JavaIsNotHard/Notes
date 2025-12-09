@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter-2/Introduction.md",
+                "file": "Chapter-2/Change cipher spec protocol.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Change cipher spec protocol"
             }
           },
           {
@@ -54,7 +54,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -168,6 +169,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -179,8 +181,8 @@
   "active": "a6d4b7d885381292",
   "lastOpenFiles": [
     "Chapter-2/Handshake protocol.md",
-    "Chapter-2/Introduction.md",
     "Chapter-2/Prerequisites.md",
+    "Chapter-2/Introduction.md",
     "Chapter-2/TLS record protocol.md",
     "images/Screenshot 2024-11-17 at 17.18.29.png",
     "images/Screenshot 2024-11-17 at 17.07.03.png",

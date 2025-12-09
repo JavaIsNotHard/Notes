@@ -1,4 +1,4 @@
-contains the following four tupes 
+contains the following four tuples 
 (Name, Value, Type, TTL)
 
 based on the Type we determine what Name and Value is

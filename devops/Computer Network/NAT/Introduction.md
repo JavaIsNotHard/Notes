@@ -136,5 +136,68 @@ the mangle table is used to modify the packet and its IP headers and it contains
 4. OUTPUT -> packets that are generated locally before any routing decision is made traverse through this chain, only packets generated locally i.e in the machine itself.
 5. POSTROUTING -> whether the packet was generated in this machine or by a previous machine, the packet is going to traverse the POSTROUTING chain
 
-each chain contains a packet matching crtieria and its associated action that is needed to be performed
+each chain contains a packet matching criteria and its associated action that is needed to be performed
 The action (called a target) may be to execute a special user-defined chain or to perform one of the following predefined actions: ACCEPT, DROP, QUEUE, and RETURN
+
+here are some ways to play with iptables in linux
+`iptables -P <chain> <action>`
+example
+`iptables -P INPUT DROP`
+`iptables -P OUTPUT ACCEPT`
+`iptables -P FORWARD QUEUE`
+the `-P` option is used to define default action in a chain
+
+## The Basic Structure of an `iptables` Rule
+`sudo iptables -t filter -[COMMAND] [CHAIN] [MATCHES] -j [TARGET]`
+- **`-t filter`**: Specifies the table. Since `filter` is the default, you can often omit this
+- **`-[COMMAND]`**: What you want to do (e.g., add or delete a rule)
+- **`[CHAIN]`**: The chain to which you're adding the rule (`INPUT`, `OUTPUT`, etc.)
+- **`[MATCHES]`**: The conditions a packet must meet
+- **`-j [TARGET]`**: The action to take if the packet matches
+
+### Core Commands: Managing Rules
+- **`-A`, `--append`**: Adds a new rule to the **end** of a chain
+	- `sudo iptables -A INPUT ...`
+
+- **`-I`, `--insert`**: Inserts a new rule at a specific position in the chain. If you don't specify a number, it defaults to the **top** (position 1)
+	- `sudo iptables -I INPUT ...`
+	- `sudo iptables -I INPUT 5 ...`
+	
+- **`-D`, `--delete`**: Deletes a rule. You can specify the rule by its full definition or by its number in the chain
+	- `sudo iptables -D INPUT 5` delete by rule number
+	- `sudo iptables -D INPUT -s 192.168.20.18 -j DROP` delete my rule
+	
+- **`-P`, `--policy`**: Sets the default policy (target) for a chain. This is the action taken if a packet doesn't match any of the rules in the chain.
+	- `sudo iptables -P INPUT DROP`
+
+- **`-L`, `--list`**: Lists all the rules in a chain or table
+	- `sudo iptables -L INPUT`
+
+- **`-F`, `--flush`**: Deletes all rules from a chain
+	- `sudo iptables -F INPUT`
+
+### Common Matches: Specifying Conditions
+- **`-p`, `--protocol`**: Matches a specific protocol, like `tcp`, `udp`, `icmp`, etc.
+	- `sudo iptables -A INPUT -p tcp ...`
+	
+- **`-s`, `--source`**: Matches the source IP address or network.
+	- `sudo iptables -A INPUT -s 192.168.20.18 ...`
+
+- **`-d`, `--destination`**: Matches the destination IP address or network.
+	- `sudo iptables -A INPUT -d 192.168.20.12 ...`
+	
+- **`-i`, `--in-interface`**: Matches the network interface a packet is **coming in** on (e.g., `eth0`, `lo`). Only works for `INPUT`, `FORWARD`, and `PREROUTING` chains
+	- `sudo iptables -A INPUT eth0 -j DROP`
+
+- **`-o`, `--out-interface`**: Matches the network interface a packet is **going out** on. Only works for `OUTPUT`, `FORWARD`, and `POSTROUTING` chains
+
+
+### Common Targets: What to Do with a Packet 🎯
+the `-j` option is used to set the target for a specific matching criteria. the common actions include
+- ACCEPT
+- DROP
+- REJECT
+- LOG
+
+
+### Stateful Filtering: The Modern Way

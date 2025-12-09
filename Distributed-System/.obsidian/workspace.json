@@ -13,24 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UDS/Monitoring.md",
+                "file": "UDS/Coordination Avoidance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Monitoring"
+              "title": "Coordination Avoidance"
             }
           },
           {
-            "id": "80ff4423ea57c9c7",
+            "id": "977bda19946165f5",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.10"
+                "file": "MIT/Lecture 1 - MapReduce.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
+              "icon": "lucide-file",
+              "title": "Lecture 1 - MapReduce"
             }
           },
           {
@@ -85,7 +87,8 @@
               "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "event",
+                "query": "CRDT",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -263,16 +266,20 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "d6f539becaab662d",
+  "active": "977bda19946165f5",
   "lastOpenFiles": [
+    "Logs/Introduction.md",
+    "Fun and Profit/Chapter - 1.md",
+    "Observability.md",
+    "Monitoring.md",
+    "UDS/CRDT.md",
     "UDS/Coordination Avoidance.md",
-    "MIT/NFS mount protocol.md",
     "UDS/Monitoring.md",
+    "MIT/NFS mount protocol.md",
     "MIT/Lecture 8 - Linearalizability & zookeeper.md",
     "UDS/Time.md",
     "UDS/System models.md",
     "MIT/Lecture 1 - MapReduce.md",
-    "UDS/CRDT.md",
     "UDS/lamport clock.md",
     "UDS/Leader Election.md",
     "UDS/Messaging System.md",
@@ -287,12 +294,8 @@
     "MIT/Lecture 6 - Raft.md",
     "MIT/Lecture 4.md",
     "UDS/The CALM theorem.md",
-    "Papers/Cassandra.md",
     "Papers",
-    "MIT/Lecture 14 - Optimistic Concurrency Control.md",
     "Untitled 1.canvas",
-    "MIT/Lecture 13 - Spanner.md",
-    "MIT/Lecture 12 - Distributed Transaction.md",
     "Fun and Profit",
     "Logs",
     "Screenshot 2025-04-10 at 8.44.48 AM.png",

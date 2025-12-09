@@ -1,0 +1,8 @@
+- different from EBS volume
+- higher I/O performance hardware disk 
+- EC2 instance store lose their storage if they're stopped (they are ephemeral)
+- risk of data loss due to hardware failure
+- have to backup and replicate them as necessary
+- Instance store is ideal for temporary storage of information that changes frequently, such as buffers, caches, scratch data, and other temporary content
+- instance store cannot be created like EBS volume, they are defined during ec2 instance startup
+- not all ec2 instance type have instance store

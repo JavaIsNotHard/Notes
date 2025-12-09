@@ -1,0 +1,2 @@
+- automating everything by writing in an ad hoc script
+- you take everything you need to setup up the operations of the software, create a list, use your favorite programming language to define those steps and execute the script on your server

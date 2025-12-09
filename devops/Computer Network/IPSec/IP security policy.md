@@ -25,7 +25,7 @@ it is identified by 3 main parameters
 
 ### Security association database
 
-A security association is normally defined by the following parameters in an SAD entry
+	A security association is normally defined by the following parameters in an SAD entry
 - Security Parameter Index
 - Sequence Number Counter -> generate sequence numbers
 - Sequence Counter Overflow: A flag indicating whether overflow of the Sequence Number Counter should generate an auditable event and prevent further transmission of packets on this SA. this basically means that if the sequence number reaches 0 in the security association then the current SA must be terminated and the device must negotiate a brand new SA with new keys
