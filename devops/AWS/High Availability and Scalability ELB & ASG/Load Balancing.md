@@ -15,6 +15,20 @@ it can be integrated with many services in the aws ecosystem
 health checks
 for the load balancer to send traffic to healthy or up servers, it needs a list of servers that are actually up, this list is usually created by sending requests to a health check endpoint in downstream server whose responsibility is to respond with whether the server is functioning correctly or not
 
+here are the features of ELB in AWS:
+1. listeners and target groups
+	1. in the old days (classic LB), you registered instances directly to the Load Balancer, now we have an abstraction layer as follows:
+		1. listener: 
+		2. rule: if the path match then send to target group X
+		3. target group: a logical group of targets (EC2 instances, IP address or lambda functions)
+2. Cross zone load balancing: 
+	1. Load balancing between different AZ such such as following:
+		1. you have 2 instances in zone A and 8 instances in zone B
+		2. without cross zone : the LB node in zone A sends 50% of traffic to its 2 instances (overloading them) and send other 50% of its traffic to zone B's 8 instances (underutilizing them)
+		3. with cross zone: LB node talk to each other, distributing traffic evenly across al 10 instances regardless of which zone they are in
+3. sticky session: creates a session for a new request to a particular server for a particular duration, when the the same user resends another request, it forwards the request to the same server
+4. connection draining: server A needs patching so you remove server A. if you don't use connection draining then ELB will cut the connection immediately and all the current request that are being processed will be halted. so instead using connection draining makes sure the current active connections are not dropped or cut off for a set duration to let them finish but don't take any new request during this period
+
 
 types of aws load balancer
 - application load balancer (http)
@@ -63,3 +77,10 @@ why are layer 4 LB better performant than layer 7 LB?
 	- path in URL (example.com/users OR example.com/posts)
 	- hostname in URL (com.example.com OR other.example.com)
 	- query string & headers (example.com/users?id=123&order=false)
+- port mapping feature to redirect to a dynamic port in ECS
+
+
+
+### Network load balancer
+- forwards traffic based on TCP and UDP
+- handles millions of request per second

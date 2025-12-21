@@ -30,7 +30,7 @@ It captures:
 
 Spans are used to build a **trace**, which represents the **entire journey of a request** through your system.
 
-spans together form a trace which shows the full path the requsert took
+spans together form a trace which shows the full path the request took
 
 
 demo -> grpc  -> otel collector (receiver + processor + exporter) -> otel collector 

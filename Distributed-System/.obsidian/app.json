@@ -7,5 +7,6 @@
   "attachmentFolderPath": "./images",
   "showInlineTitle": true,
   "readableLineLength": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "focusNewTab": true
 }

@@ -1,9 +1,9 @@
 kubectl get pods -n kube-system
 
-communication between pods happens through the pod's service
-to send request from one pod to another, two things are needed
-1. know the name of the communicating app
-2. way to convert the name into an IP address 
+- communication between pods happens through the pod's service
+- to send request from one pod to another, two things are needed
+	1. know the name of the communicating app
+	2. way to convert the name into an IP address 
 
 ![[Screenshot 2025-06-18 at 11.50.29 AM.png]]
 
