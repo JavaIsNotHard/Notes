@@ -1,5 +1,14 @@
-- the index not only has to traverse the tree but also has to follow the leaf node chain 
+- the index not only has to traverse the tree but also has to follow the [[leaf node chain]]
 - the table data is scattered across the disk which means that if we were to access one disk item pointed by the index leaf node then we might have to wait for the disk arm to reach for another node that may be in another disk block far from the previous one. This problem happens because we are storing pages in heap file which is unordered.
+
+- the first case happens when we are returning a large number of rows using index, typically when using WHERE clause
+- the second case happens when we create index on a column that is not unique. this can be avoided when we are searching for items that are part of primary keys since primary keys are mainly unique
+
+types of index operation in oracle database:
+1. index unique scan: the fastest index operation, tree traversal from root to leaf node. used when db knows with certain that only one row can match typically because you are searching on a primary key or a unique constraint
+2. index range scan: after the initial tree travesal to find the starting point of the leaf node, the db must also follow the doubly linked list sequentially to find other matching nodes
+3. index table scan: the real performance killer, for each rowid during the index scan, the db must perform a separate IO operation to fetch the actual table row from the heap, if the rows are scattered randmly acrsoo data blocks, this means random IO for every single row
+
 
 what is clustered index and a non-clustered index?
 - the order in which data is stored on disk is maintained by the clustered index while non-clustered index does not maintain the how data is stored on disk

@@ -35,3 +35,6 @@ spans together form a trace which shows the full path the request took
 
 demo -> grpc  -> otel collector (receiver + processor + exporter) -> otel collector 
 demo -> http POST
+
+
+instrumentation -> process of adding code to the system so that it generates  and exports telemetry data such as traces, metrics and logs

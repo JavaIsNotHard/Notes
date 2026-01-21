@@ -1,0 +1,1 @@
+a minimal state where the system starts only the essential services, with no networking and no other users able to log in.

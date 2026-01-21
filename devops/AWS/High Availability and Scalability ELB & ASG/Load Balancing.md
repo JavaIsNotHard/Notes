@@ -78,9 +78,10 @@ why are layer 4 LB better performant than layer 7 LB?
 	- hostname in URL (com.example.com OR other.example.com)
 	- query string & headers (example.com/users?id=123&order=false)
 - port mapping feature to redirect to a dynamic port in ECS
-
-
+- provides dynamic address because ALB scales horizontally and adds new nodes based on the traffic
 
 ### Network load balancer
 - forwards traffic based on TCP and UDP
 - handles millions of request per second
+- also used for TLS offloading, meaning moving the burden of performing TLS handshake to the NLB rather than the gateway or the application server itself
+

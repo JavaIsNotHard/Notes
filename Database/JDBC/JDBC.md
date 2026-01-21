@@ -1,2 +1,0 @@
-- JPA (jakarta persistence API) previously known as (java persistence API) is an specification not an implementation
-- JPA's specification suggests how an ORM framework must be implemented

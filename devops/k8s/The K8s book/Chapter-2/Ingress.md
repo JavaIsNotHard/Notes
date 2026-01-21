@@ -14,3 +14,25 @@ ingress operates on layer 7 of the OSI layer which is the application layer and 
 
 the Ingress controller needs a load balacner which is placed before the ingress controller. the load balancer works like a reverse proxy which accepts all the user request and exposes the IP for the user to communicate to but all the routing functionality is done by the controller so all the request that the load balancer receives are forwarded directly to the ingress controller
 
+
+ingress sits in between the external client and the k8s cluster, it is not a service type like [[Load Balancer]]
+
+it provides with both host based (sub-domain based), path based routing
+
+```
+Client
+  ↓
+External Load Balancer (Layer 4)
+  ↓
+Ingress Controller Pod (Layer 7 - nginx/traefik)
+  ↓
+Service (ClusterIP)
+  ↓
+Pod
+```
+
+basically LoadBalancer is a layer 4 load balancer while Ingress is a layer 7 load balancer
+
+
+
+ingress class name defined in the YAML manifest file of the ingress controller

@@ -1,0 +1,2 @@
+**actively searches for, detects, and interrogates** hardware to discover what's connected to the system
+The kernel systematically checks different buses and interfaces (PCI, USB, etc.) by reading from specific memory addresses or sending signals. When hardware is present, it responds with identifying information like vendor ID, device ID, and capabilities. The kernel then matches this information against its database of known devices to load the appropriate driver.
