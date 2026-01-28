@@ -47,3 +47,30 @@ dynamically provisioned pv created by the local-path storage class provisioner b
 
 ### storage class
 used for dynamic provisioning of PVCs, instead of having to manually create PVs first then create a request with PVC, storage class auto creates the PV for us when we create a PVC
+
+
+
+if the pvc and pv are stuck in the terminating state for a long time then one of the main culprit is finalizers which prevent data loss like `kubernetes.io/pvc-protection`
+
+or if a pod is still using that volume then kubernetes waits for that pod to release the volume
+
+if the issue is due to finalizers, then use the following command to remove the finalizers
+`kubectl patch pvc pv-claim -p '{"metadata":{"finalizers":null}}'`
+
+or just delete the pod that was using that volume
+
+
+to view if there are active pvcs, use the following command
+```
+kubectl describe pvc -n default | grep "Used By"
+```
+this outputs all the pvcs that are used by any active pods
+
+then use the following to delete all pvc's that are not used
+```
+kubectl delete pvc --all -n <namespace_name>
+```
+
+
+how to achieve multi-node shared volume persistence ??
+cannot be achieved using local-path provisioner given by k3s by default

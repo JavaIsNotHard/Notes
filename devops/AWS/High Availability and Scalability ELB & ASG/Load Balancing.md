@@ -18,7 +18,7 @@ for the load balancer to send traffic to healthy or up servers, it needs a list 
 here are the features of ELB in AWS:
 1. listeners and target groups
 	1. in the old days (classic LB), you registered instances directly to the Load Balancer, now we have an abstraction layer as follows:
-		1. listener: 
+		1. listener: a process that listens to client connection and forwards those request to the target group
 		2. rule: if the path match then send to target group X
 		3. target group: a logical group of targets (EC2 instances, IP address or lambda functions)
 2. Cross zone load balancing: 
@@ -80,8 +80,13 @@ why are layer 4 LB better performant than layer 7 LB?
 - port mapping feature to redirect to a dynamic port in ECS
 - provides dynamic address because ALB scales horizontally and adds new nodes based on the traffic
 
+listeners and rules in ALB
+
+
 ### Network load balancer
 - forwards traffic based on TCP and UDP
 - handles millions of request per second
 - also used for TLS offloading, meaning moving the burden of performing TLS handshake to the NLB rather than the gateway or the application server itself
 
+one static IP per AZ and we can also assign an elastic IP per AZ
+this helps us to expose our application with a set of static IPs

@@ -27,14 +27,8 @@ each pod are named in ordinal order such as <pod_name>.0, <pod_name>.1 and so on
 
 ### Limitations
 
-deleting or scaling a statefulset down will not delete its associated volumes
-
-
+- deleting or scaling a statefulset down will not delete its associated volumes
 
 statefulsets has a feature called volumeClaimTemplates that automatically creates a PVC for each pod 
-
-
-
-
 
 
