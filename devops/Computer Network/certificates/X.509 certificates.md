@@ -25,7 +25,7 @@ but how does the server publish its public key to the certificate authority:
 	1. this creates a public and private key pair, the public key should be published to the CA and the private key kept secret locally
 2. the requester or the server then builds a CSR (certificate signing request) that includes the public key and identifying information
 	1. the CSR is signed with the private key of server (basically a digital signature is created using the private key for encrypting the public key and other information)
-	2. the CA itself itself signs the server's public key with the CA's private key and creates a digital signature for authentication and validation, signing with CA's private key means that if another client trusts the CA then it can trust the public key it signed
+	2. the CA itself signs the server's public key with the CA's private key and creates a digital signature for authentication and validation, signing with CA's private key means that if another client trusts the CA then it can trust the public key it signed
 3. the CSR is sent to the CA for validation
 	1. the validation includes the following steps
 		1. domain validation : CA confirms the applicant controls the domain name

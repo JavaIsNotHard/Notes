@@ -1,0 +1,1 @@
+dividing the API into groups, each containing related resources 

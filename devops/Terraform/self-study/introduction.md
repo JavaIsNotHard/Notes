@@ -18,3 +18,6 @@ data "aws_ami" "ubuntu" {
 
 the above code is used to query what AMI to use based on the filter criteria
 
+what is the data block ??
+
+

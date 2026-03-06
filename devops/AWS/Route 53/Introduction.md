@@ -1,0 +1,1 @@
+It is both a Authoritative Server and a domain registrar

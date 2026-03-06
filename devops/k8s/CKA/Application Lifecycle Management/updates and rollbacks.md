@@ -20,6 +20,34 @@ kubectl rollout history deployment/<deployment_name>
 
 this command shows the revision history of the deployment
 
+```
+REVISION  CHANGE-CAUSE
+151       <none>
+152       <none>
+153       <none>
+154       <none>
+155       <none>
+156       <none>
+157       <none>
+158       <none>
+159       <none>
+160       <none>
+161       <none>
+```
+
+every time kubernetes detects change in 
+`spec.template` it creates a new revision
+
+That includes:
+
+✅ image changes  
+✅ env changes  
+✅ configmap checksum annotations  
+✅ Helm upgrades  
+✅ rollout restart  
+✅ label/annotation change  
+✅ ANY pod template change
+
 ### Deployment strategy
 
 recreate strategy

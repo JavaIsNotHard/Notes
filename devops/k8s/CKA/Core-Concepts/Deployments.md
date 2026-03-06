@@ -12,3 +12,12 @@ if something goes wrong then kubernetes rollsback to previous working version
 
 A controller **only manages objects it owns**.
 so this means we cannot manage pods created with ReplicaSet using Deployment even if they have the matching labels
+
+we restart a deployment using the following command 
+
+```
+kubectl rollout restart deployment <deployment_name>
+```
+
+
+

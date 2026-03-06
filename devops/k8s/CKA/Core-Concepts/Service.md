@@ -130,3 +130,8 @@ if the gateway router somehow knew the clusterIP then the eth0 interface at the 
 
 
 here is where [[NodePort]] comes it play
+
+
+
+
+![[Pasted image 20260226125443.png]]

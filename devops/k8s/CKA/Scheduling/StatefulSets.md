@@ -32,3 +32,13 @@ each pod are named in ordinal order such as <pod_name>.0, <pod_name>.1 and so on
 statefulsets has a feature called volumeClaimTemplates that automatically creates a PVC for each pod 
 
 
+headless service in statefulsets
+what are headless services ??
+services that have clusterIP: None
+provides direct pod-to-pod communication using predictable DNS names like 
+
+```
+<pod-name>.<service-name>.<namespace>.svc.cluster.local
+```
+
+

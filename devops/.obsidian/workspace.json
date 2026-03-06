@@ -4,24 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "4871bfb9331fd338",
+        "id": "55e10dbe02c792b2",
         "type": "tabs",
         "children": [
           {
-            "id": "c8a8de26659f5881",
+            "id": "4db3327ce892ae41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/High Availability and Scalability ELB & ASG/Auto Scaling Group.md",
+                "file": "AWS/AWS networking/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Auto Scaling Group"
+              "title": "Introduction"
+            }
+          },
+          {
+            "id": "4f3110aacc01c8aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/S3/S3 performance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "S3 performance"
+            }
+          },
+          {
+            "id": "8d7a4bc13a390b5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "k8s/CKA/misc/Config.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Config"
+            }
+          },
+          {
+            "id": "b47e9c9c97e44c92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/RDS/Amazon Elastic Cache.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Elastic Cache"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +84,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "context",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,54 +207,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8a8de26659f5881",
+  "active": "4f3110aacc01c8aa",
   "lastOpenFiles": [
-    "AWS/High Availability and Scalability ELB & ASG/Connection Draining.md",
-    "AWS/High Availability and Scalability ELB & ASG/Auto Scaling Group.md",
-    "AWS/High Availability and Scalability ELB & ASG/SSL-TLS certificate in Load balancers.md",
-    "AWS/High Availability and Scalability ELB & ASG/Load Balancing.md",
-    "AWS/High Availability and Scalability ELB & ASG/Introduction.md",
-    "AWS/High Availability and Scalability ELB & ASG/cross zone load balancing.md",
-    "Untitled",
-    "AWS/High Availability and Scalability ELB & ASG/sticky sessions.md",
-    "AWS/High Availability and Scalability ELB & ASG/gateway load balancer.md",
-    "k8s/The K8s book/Chapter-8/ConfigMap.md",
-    "k8s/The K8s book/Chapter-7/volumes.md",
-    "k8s/The K8s book/Chapter-8",
-    "k8s/The K8s book/Chapter-7/hostpath.md",
-    "k8s/The K8s book/Chapter-7/mount.md",
-    "k8s/CKA/Scheduling/Daemon Sets.md",
-    "k8s/CKA/Scheduling/StatefulSets.md",
-    "k8s/The K8s book/pods vs containers.md",
-    "Terraform/self-study/introduction.md",
-    "Terraform/Chapter-2/Deploying a single server.md",
-    "Terraform/self-study",
-    "Terraform/Chapter-1/Ad Hoc scripts.md",
-    "Terraform/Chapter-1/Configuration Management tools.md",
+    "AWS/S3/S3 Event Notifications.md",
+    "AWS/S3/S3 performance.md",
+    "Pasted image 20260306140811.png",
+    "Pasted image 20260306135957.png",
+    "AWS/S3/Requester pays.md",
+    "AWS/S3/s3 lifecycle configuration.md",
+    "AWS/S3/S3 Storage Classes.md",
     "AWS/AWS networking/Introduction.md",
-    "k8s/CKA/Application Lifecycle Management/updates and rollbacks.md",
-    "k8s/The K8s book/Chapter-7",
-    "k8s/CKA/Scheduling/Admission Control.md",
-    "k8s/CKA/Application Lifecycle Management",
-    "k8s/CKA/Scheduling/Scheduler profile.md",
-    "k8s/The K8s book/Chapter-6",
-    "k8s/The K8s book/Chapter-2/Ingress.md",
-    "k8s/CKA/Core-Concepts/Load Balancer.md",
-    "k8s/CKA/Core-Concepts/NodePort.md",
-    "Unix adminstration/Chapter-3",
-    "Unix adminstration",
-    "Computer Network/SSH",
-    "k8s/CKA/Scheduling/``",
+    "k8s/CKA/misc/Config.md",
+    "AWS/RDS/Amazon Elastic Cache.md",
+    "k8s/CKA/cluster-maintenance/OS upgrade.md",
+    "k8s/CKA/self/Misc.md",
+    "Pasted image 20260306133030.png",
+    "AWS/S3/S3 Replication.md",
+    "AWS/S3/S3 Versioning.md",
+    "AWS/Route 53/Introduction.md",
+    "AWS/S3",
+    "Daily Notes/2026-03-05.md",
+    "Daily Notes/Template.md",
+    "Daily Notes",
+    "AWS/RDS/Introduction.md",
+    "AWS/VPC site to site VPN.md",
+    "AWS/SNS vs SQS.md",
+    "AWS/Route 53",
+    "AWS/Untitled.md",
+    "AWS/RDS/RDS Proxy.md",
+    "AWS/RDS/RDS Custom.md",
+    "AWS/RDS/Amazon Aurora.md",
+    "AWS/RDS/RDS Configuration Options.md",
+    "AWS/RDS/RDS Read Replicas & Multi-AZ.md",
+    "AWS/RDS/RDS Security.md",
+    "AWS/RDS/Backups and Monitoring.md",
+    "Pasted image 20260226125443.png",
+    "Pasted image 20260218155447.png",
+    "k8s/CKA/self",
+    "AWS/CloudFront/Untitled",
+    "AWS/CloudFront",
+    "k8s/CKA/Security",
+    "k8s/CKA/Storage",
+    "AWS/RDS",
+    "Computer Network/Self",
+    "Pasted image 20260130150236.png",
     "Pasted image 20251219124755.png",
     "Pasted image 20251208152034.png",
     "Pasted image 20251204203339.png",
     "Pasted image 20251203215630.png",
-    "Screenshot 2024-12-27 at 5.54.14 PM.png",
-    "Pasted image 20251203215532.png",
-    "Pasted image 20251129132101.png",
-    "Pasted image 20251129131947.png",
-    "Pasted image 20251129131929.png",
-    "Pasted image 20251129130722.png",
     "k8s/The K8s book/Untitled.canvas"
   ]
 }
