@@ -8,63 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4db3327ce892ae41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/AWS networking/Introduction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Introduction"
-            }
-          },
-          {
-            "id": "4f3110aacc01c8aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/S3/S3 performance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "S3 performance"
-            }
-          },
-          {
-            "id": "8d7a4bc13a390b5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "k8s/CKA/misc/Config.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Config"
-            }
-          },
-          {
             "id": "b47e9c9c97e44c92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/RDS/Amazon Elastic Cache.md",
+                "file": "AWS/High Availability and Scalability ELB & ASG/Load Balancing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Elastic Cache"
+              "title": "Load Balancing"
+            }
+          },
+          {
+            "id": "b8acece335b377d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terraform/Chapter-3/Terraform states.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Terraform states"
+            }
+          },
+          {
+            "id": "8f9e82c2144b5118",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terraform/Chapter-3/Terraform backend.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Terraform backend"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -84,7 +70,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -96,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "context",
+                "query": "token",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chapter-2/Relational Model Versus Document Model.md",
+                "file": "AWS/S3-Encryption/S3 object lambda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Relational Model Versus Document Model"
+              "title": "Backlinks for S3 object lambda"
             }
           },
           {
@@ -207,54 +193,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f3110aacc01c8aa",
+  "active": "8f9e82c2144b5118",
   "lastOpenFiles": [
-    "AWS/S3/S3 Event Notifications.md",
-    "AWS/S3/S3 performance.md",
+    "Terraform/Chapter-3/shared storage for state information.md",
+    "Terraform/Chapter-3/Terraform backend.md",
+    "Terraform/Chapter-3/Terraform states.md",
+    "Daily Notes/2026-03-24.md",
+    "Terraform/Chapter-3",
+    "Untitled 1.base",
+    "Terraform/Chapter-2/lifecycle settings.md",
+    "Terraform/Chapter-2/variables and outputs in terraform.md",
+    "Terraform/Chapter-2/Terraform Dependency Graph.md",
+    "Terraform/Chapter-2/Deploying a single server.md",
+    "Terraform/Chapter-2/deploying a cluster of web server (ASG).md",
+    "Terraform/Chapter-1/Mutable infrastructure versus immutable infrastructure.md",
+    "Terraform/Chapter-1/Procedural language versus declarative language.md",
+    "Terraform/self-study/terraform plan.md",
+    "Terraform/self-study/terraform init.md",
+    "Terraform/self-study/terraform apply.md",
+    "Terraform/self-study/introduction.md",
+    "AWS/VPC/VPC Endpoint.md",
+    "AWS/VPC/VPC origins.md",
+    "AWS/AWS Lambda.md",
+    "Daily Notes/2026-03-22.md",
+    "Daily Notes/2026-03-19.md",
+    "Daily Notes/2026-03-15.md",
+    "AWS/S3-Encryption/S3 Access Points.md",
+    "AWS/CloudFront/Introduction.md",
+    "AWS/CloudFront/AWS CloudFront.md",
+    "AWS/S3-Encryption/S3 Access Origin VPC.md",
+    "AWS/VPC",
+    "Untitled 1",
+    "AWS/S3-Encryption/Default encryption vs bucket policy.md",
+    "AWS/Untitled",
+    "Pasted image 20260312214607.png",
+    "Pasted image 20260312213814.png",
+    "AWS/S3-Encryption",
+    "Untitled",
     "Pasted image 20260306140811.png",
     "Pasted image 20260306135957.png",
-    "AWS/S3/Requester pays.md",
-    "AWS/S3/s3 lifecycle configuration.md",
-    "AWS/S3/S3 Storage Classes.md",
-    "AWS/AWS networking/Introduction.md",
-    "k8s/CKA/misc/Config.md",
-    "AWS/RDS/Amazon Elastic Cache.md",
-    "k8s/CKA/cluster-maintenance/OS upgrade.md",
-    "k8s/CKA/self/Misc.md",
     "Pasted image 20260306133030.png",
-    "AWS/S3/S3 Replication.md",
-    "AWS/S3/S3 Versioning.md",
-    "AWS/Route 53/Introduction.md",
     "AWS/S3",
-    "Daily Notes/2026-03-05.md",
-    "Daily Notes/Template.md",
     "Daily Notes",
-    "AWS/RDS/Introduction.md",
-    "AWS/VPC site to site VPN.md",
-    "AWS/SNS vs SQS.md",
     "AWS/Route 53",
-    "AWS/Untitled.md",
-    "AWS/RDS/RDS Proxy.md",
-    "AWS/RDS/RDS Custom.md",
-    "AWS/RDS/Amazon Aurora.md",
-    "AWS/RDS/RDS Configuration Options.md",
-    "AWS/RDS/RDS Read Replicas & Multi-AZ.md",
-    "AWS/RDS/RDS Security.md",
-    "AWS/RDS/Backups and Monitoring.md",
     "Pasted image 20260226125443.png",
     "Pasted image 20260218155447.png",
-    "k8s/CKA/self",
-    "AWS/CloudFront/Untitled",
-    "AWS/CloudFront",
-    "k8s/CKA/Security",
-    "k8s/CKA/Storage",
-    "AWS/RDS",
-    "Computer Network/Self",
     "Pasted image 20260130150236.png",
     "Pasted image 20251219124755.png",
     "Pasted image 20251208152034.png",
-    "Pasted image 20251204203339.png",
-    "Pasted image 20251203215630.png",
     "k8s/The K8s book/Untitled.canvas"
   ]
 }
