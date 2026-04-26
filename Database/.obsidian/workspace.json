@@ -8,45 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "226b6fd6fe0bdff5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "postgres-internals/Logical Structure of Database Cluster.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Logical Structure of Database Cluster"
-            }
-          },
-          {
-            "id": "45d8c88718a62159",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "intro-to-database/Lecture-14/IO parallelism.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IO parallelism"
-            }
-          },
-          {
             "id": "bc80b08764c5fa2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "postgres-internals/Full text search.md",
+                "file": "sql perfomance/physical structure of database cluster.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Full text search"
+              "title": "physical structure of database cluster"
             }
           },
           {
@@ -95,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bitmap",
+                "query": "physical structure",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,44 +178,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "226b6fd6fe0bdff5",
+  "active": "6dd1cdfa16550168",
   "lastOpenFiles": [
-    "sql perfomance/bitmap index scan.md",
     "postgres-internals/Logical Structure of Database Cluster.md",
-    "sql perfomance/case insensitive search.md",
-    "sql perfomance/Concatenated Keys.md",
-    "sql perfomance/Getting an execution plan.md",
-    "sql perfomance/GIN index.md",
-    "sql perfomance/leaf node chain.md",
-    "postgres-internals/Full text search.md",
-    "intro-to-database/Lecture-13/Iterator Model.md",
-    "Untitled",
-    "intro-to-database/Lecture-13/Processing Model.md",
-    "intro-to-database/Lecture-13/Query Execution.md",
-    "intro-to-database/Lecture-11/Naive nested loop join.md",
-    "intro-to-database/Lecture-14/IO parallelism.md",
-    "Vectorized Model.md",
-    "postgres-internals",
-    "pipeline edges.md",
-    "Introduction/Operator Execution.md",
-    "JDBC/JDBC.md",
-    "Introduction/Untitled.md",
-    "Introduction/Memory management and buffer pool.md",
+    "sql perfomance/physical structure of database cluster.md",
     "Introduction/Introduction.md",
-    "Introduction/DBMS access methods.md",
-    "Introduction/Crash Recovery.md",
-    "Introduction/Concurrency control theory.md",
-    "Introduction/Big data.md",
-    "Introduction/2 phase locking.md",
-    "Database Internals/Introduction/1.Introduction.md",
-    "I",
-    "intro-to-database/Lecture-15",
-    "intro-to-database/Lecture-14",
-    "intro-to-database/Lecture-13",
-    "intro-to-database/lecture-12",
-    "intro-to-database/Lecture-11/Untitled",
-    "intro-to-database/Lecture-11",
-    "intro-to-database/Lecture-10",
+    "HPJP/Queuing theory.md",
+    "postgres-internals/Full text search.md",
+    "intro-to-database/2024/Lecture-7(Hash Index)/Introduction.md",
+    "intro-to-database/others/Lecture-3/Introduction.md",
+    "intro-to-database/Lecture-13/Query Execution.md",
+    "intro-to-database/2024/Lecture-7(Hash Index)",
+    "intro-to-database/2024",
+    "intro-to-database/others/Lecture-9/Introduction.md",
+    "intro-to-database/others/Lecture-9",
+    "intro-to-database/others/Lecture-8/Introduction.md",
+    "intro-to-database/others/Lecture-8",
+    "intro-to-database/others/Lecture-6",
+    "intro-to-database/others/Lecture-3",
+    "intro-to-database/others/Lecture-23/Introduction.md",
+    "intro-to-database/others/Lecture-23",
+    "intro-to-database/others/Lecture-21/Introduction.md",
+    "intro-to-database/others/Lecture-21",
+    "intro-to-database/others/Lecture-20/Introduction.md",
+    "intro-to-database/others/Lecture-20",
+    "intro-to-database/others/Lecture-19/Multiversion concurrency control.md",
+    "intro-to-database/others/Lecture-19",
+    "intro-to-database/others/Lecture-18/Validation based concurrency control.md",
+    "intro-to-database/others/Lecture-17.5/Introduction.md",
+    "intro-to-database/others/Lecture-17/Introduction.md",
+    "intro-to-database/others/Lecture-16/Introduction.md",
+    "intro-to-database/others/Lecture-15/Introduction.md",
+    "intro-to-database/others/Lecture-14/intra-query parallel execution.md",
+    "intro-to-database/others/Lecture-14/inter-query parallel execution.md",
+    "intro-to-database/others/Lecture-14/exchange operator.md",
+    "intro-to-database/others/Lecture-14/Scheduling.md",
+    "intro-to-database/others/Lecture-14/Process Model.md",
+    "intro-to-database/others/Lecture-14/Parallel Execution.md",
+    "intro-to-database/others/Lecture-14/IO parallelism.md",
+    "sql-performance.canvas",
     "images/Screenshot 2025-02-23 at 9.13.15 AM.png",
     "images/Screenshot 2025-02-23 at 9.03.05 AM.png",
     "images/Screenshot 2024-12-07 at 09.28.25.png",

@@ -20,6 +20,8 @@ edge cases of eventual consistency only becomes apparent when there is a system 
 
 # Linearizability
 
+it is a formalization of behavior you would expect from a single server and it didn't crash and it executed the client request one at a time and nothing really happened with the server
+
 is a strong consistency model 
 consistency in the face of concurrency
 timing dependency not present in overlapping operations which means that we cannot for sure tell when two or more overlapping operations will take place within their time interval 

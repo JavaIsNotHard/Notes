@@ -1,8 +1,9 @@
 {
   "accentColor": "",
   "textFontFamily": "JetBrains Mono",
-  "baseFontSize": 21,
+  "baseFontSize": 23,
   "baseFontSizeAction": true,
   "showViewHeader": false,
-  "cssTheme": ""
+  "cssTheme": "",
+  "theme": "system"
 }

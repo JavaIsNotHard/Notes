@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MIT/Lecture 1 - MapReduce.md",
+                "file": "UDS/Fault isolation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 1 - MapReduce"
+              "title": "Fault isolation"
             }
           },
           {
@@ -120,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "concurrency",
+                "query": "bulkhead",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -158,7 +158,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -268,32 +269,32 @@
   },
   "active": "9c36b61c45a33a8e",
   "lastOpenFiles": [
-    "MIT/Lecture 2 - RPC, threads and Go.md",
-    "MIT/Lecture 8 - Linearalizability & zookeeper.md",
-    "UDS/Asynchronous transaction.md",
-    "UDS/Coordination Avoidance.md",
-    "MIT/Lecture 12 - Distributed Transaction.md",
-    "MIT/Lecture 1 - MapReduce.md",
-    "MIT/Lecture 6 - Raft.md",
-    "MIT/Lecture 4.md",
-    "Logs/Introduction.md",
-    "Fun and Profit/Chapter - 1.md",
-    "Observability.md",
+    "UDS/Redudancy.md",
     "Monitoring.md",
+    "UDS/Caching.md",
+    "UDS/Casual Consistency.md",
+    "UDS/Coordination Avoidance.md",
     "UDS/CRDT.md",
-    "UDS/Monitoring.md",
-    "MIT/NFS mount protocol.md",
-    "UDS/Time.md",
-    "UDS/System models.md",
-    "UDS/lamport clock.md",
-    "UDS/Leader Election.md",
-    "UDS/Messaging System.md",
-    "UDS/Microservices.md",
-    "UDS/HTTP Caching.md",
-    "UDS/File Storage.md",
-    "UDS/Fault isolation.md",
-    "UDS/Failure Detection.md",
+    "UDS/Data storage.md",
+    "UDS/Downstream resilience.md",
     "UDS/Dynamo-style data stores.md",
+    "UDS/Failure Detection.md",
+    "UDS/Fault isolation.md",
+    "UDS/File Storage.md",
+    "UDS/Leader Election.md",
+    "UDS/Microservices.md",
+    "UDS/Messaging System.md",
+    "UDS/Partitioning.md",
+    "MIT/Lecture 8 - Linearalizability & zookeeper.md",
+    "MIT/Lecture 6 - Raft.md",
+    "UDS/Control planes and data planes.md",
+    "UDS/Content Delivery Network.md",
+    "UDS/Common failure causes.md",
+    "MIT/Lecture 4.md",
+    "MIT/Lecture 2 - RPC, threads and Go.md",
+    "MIT/Lecture 3 - GPS (Google file system).md",
+    "MIT/Lecture 1 - MapReduce.md",
+    "UDS/Asynchronous transaction.md",
     "Papers",
     "Untitled 1.canvas",
     "Fun and Profit",
