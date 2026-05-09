@@ -20,75 +20,8 @@
               "icon": "lucide-file",
               "title": "Coordination Avoidance"
             }
-          },
-          {
-            "id": "977bda19946165f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MIT/Lecture 12 - Distributed Transaction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 12 - Distributed Transaction"
-            }
-          },
-          {
-            "id": "aa50d47dbf219f5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UDS/Asynchronous transaction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Asynchronous transaction"
-            }
-          },
-          {
-            "id": "9c36b61c45a33a8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UDS/Fault isolation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Fault isolation"
-            }
-          },
-          {
-            "id": "a8ca3d8799587d40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/Cassandra.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cassandra"
-            }
-          },
-          {
-            "id": "da1eb64c9abea51e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,8 +91,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -267,8 +199,10 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "9c36b61c45a33a8e",
+  "active": "d6f539becaab662d",
   "lastOpenFiles": [
+    "MIT/Lecture 4.md",
+    "UDS/Fault isolation.md",
     "UDS/Redudancy.md",
     "Monitoring.md",
     "UDS/Caching.md",
@@ -279,7 +213,6 @@
     "UDS/Downstream resilience.md",
     "UDS/Dynamo-style data stores.md",
     "UDS/Failure Detection.md",
-    "UDS/Fault isolation.md",
     "UDS/File Storage.md",
     "UDS/Leader Election.md",
     "UDS/Microservices.md",
@@ -290,7 +223,6 @@
     "UDS/Control planes and data planes.md",
     "UDS/Content Delivery Network.md",
     "UDS/Common failure causes.md",
-    "MIT/Lecture 4.md",
     "MIT/Lecture 2 - RPC, threads and Go.md",
     "MIT/Lecture 3 - GPS (Google file system).md",
     "MIT/Lecture 1 - MapReduce.md",

@@ -8,31 +8,129 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bc80b08764c5fa2e",
+            "id": "0098aabcd3f07549",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sql perfomance/physical structure of database cluster.md",
+                "file": "intro-to-database/2024/Lecture-3 (Database Storage)/log-structured approach.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "physical structure of database cluster"
+              "title": "log-structured approach"
             }
           },
           {
-            "id": "e3dc40b22c351866",
+            "id": "6f1a3025e30ff1ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sql perfomance/leaf node chain.md",
+                "file": "intro-to-database/2024/Lecture-3 (Database Storage)/Storage Manager.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "leaf node chain"
+              "title": "Storage Manager"
+            }
+          },
+          {
+            "id": "c8c4c9a0911f9ac0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "intro-to-database/2024/Lecture-3 (Database Storage)/Database Pages.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Database Pages"
+            }
+          },
+          {
+            "id": "e70a580cee5199ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "intro-to-database/2024/Lecture-3 (Database Storage)/Page storage architecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Page storage architecture"
+            }
+          },
+          {
+            "id": "661e0caaf917bee6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "intro-to-database/2024/Lecture-3 (Database Storage)/slotted page.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "slotted page"
+            }
+          },
+          {
+            "id": "d82ff27859382dcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "intro-to-database/2024/Lecture-3 (Database Storage)/Record ID.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Record ID"
+            }
+          },
+          {
+            "id": "5b250a02ee92bc8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "intro-to-database/2024/Lecture-3 (Database Storage)/Page Header.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Page Header"
+            }
+          },
+          {
+            "id": "78164f318738366b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "intro-to-database/2024/Lecture-3 (Database Storage)/page layout.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "page layout"
+            }
+          },
+          {
+            "id": "9b959024f4544d49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "intro-to-database/2024/Lecture-3 (Database Storage)/tuple-oriented approach.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tuple-oriented approach"
             }
           }
         ]
@@ -67,7 +165,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "physical structure",
+                "query": "self contained",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,50 +276,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6dd1cdfa16550168",
+  "active": "0098aabcd3f07549",
   "lastOpenFiles": [
-    "postgres-internals/Logical Structure of Database Cluster.md",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/Page storage architecture.md",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/Database Pages.md",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/Disk oriented DBMS.md",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/heap file organization.md",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/page layout.md",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/Page Header.md",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/Page Directory.md",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/Storage Manager.md",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/File Storage.md",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/Introduction.md",
+    "index scan.md",
+    "pipeline edges.md",
+    "sequential scan.md",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/slotted page.md",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/log-structured approach.md",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/Record ID.md",
+    "Pasted image 20260507191429.png",
+    "intro-to-database/2024/Lecture-3 (Database Storage)/tuple-oriented approach.md",
+    "Pasted image 20260507181426.png",
+    "Pasted image 20260505184342.png",
+    "Pasted image 20260505184038.png",
+    "Pasted image 20260505184003.png",
+    "intro-to-database/2024/Lecture-7(Hash Index)/Introduction.md",
+    "sql perfomance/leaf node chain.md",
+    "intro-to-database/2024/OS (File System)/file descriptor.md",
+    "intro-to-database/2024/OS (File System)/Creating files.md",
+    "intro-to-database/2024/OS (File System)/Introduction.md",
     "sql perfomance/physical structure of database cluster.md",
+    "intro-to-database/2024/OS (File System)",
+    "intro-to-database/2024/Lecture-3 (Database Storage)",
+    "postgres-internals/Logical Structure of Database Cluster.md",
     "Introduction/Introduction.md",
     "HPJP/Queuing theory.md",
-    "postgres-internals/Full text search.md",
-    "intro-to-database/2024/Lecture-7(Hash Index)/Introduction.md",
-    "intro-to-database/others/Lecture-3/Introduction.md",
-    "intro-to-database/Lecture-13/Query Execution.md",
     "intro-to-database/2024/Lecture-7(Hash Index)",
     "intro-to-database/2024",
-    "intro-to-database/others/Lecture-9/Introduction.md",
     "intro-to-database/others/Lecture-9",
-    "intro-to-database/others/Lecture-8/Introduction.md",
     "intro-to-database/others/Lecture-8",
     "intro-to-database/others/Lecture-6",
     "intro-to-database/others/Lecture-3",
-    "intro-to-database/others/Lecture-23/Introduction.md",
     "intro-to-database/others/Lecture-23",
-    "intro-to-database/others/Lecture-21/Introduction.md",
     "intro-to-database/others/Lecture-21",
-    "intro-to-database/others/Lecture-20/Introduction.md",
-    "intro-to-database/others/Lecture-20",
-    "intro-to-database/others/Lecture-19/Multiversion concurrency control.md",
-    "intro-to-database/others/Lecture-19",
-    "intro-to-database/others/Lecture-18/Validation based concurrency control.md",
-    "intro-to-database/others/Lecture-17.5/Introduction.md",
-    "intro-to-database/others/Lecture-17/Introduction.md",
-    "intro-to-database/others/Lecture-16/Introduction.md",
-    "intro-to-database/others/Lecture-15/Introduction.md",
-    "intro-to-database/others/Lecture-14/intra-query parallel execution.md",
-    "intro-to-database/others/Lecture-14/inter-query parallel execution.md",
-    "intro-to-database/others/Lecture-14/exchange operator.md",
-    "intro-to-database/others/Lecture-14/Scheduling.md",
-    "intro-to-database/others/Lecture-14/Process Model.md",
-    "intro-to-database/others/Lecture-14/Parallel Execution.md",
-    "intro-to-database/others/Lecture-14/IO parallelism.md",
     "sql-performance.canvas",
     "images/Screenshot 2025-02-23 at 9.13.15 AM.png",
     "images/Screenshot 2025-02-23 at 9.03.05 AM.png",
     "images/Screenshot 2024-12-07 at 09.28.25.png",
     "images/Screenshot 2024-11-24 at 14.41.12.png",
-    "images/Screenshot 2024-11-24 at 14.37.56.png",
-    "images/Screenshot 2024-11-24 at 09.25.02.png"
+    "images/Screenshot 2024-11-24 at 14.37.56.png"
   ]
 }

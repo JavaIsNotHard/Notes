@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Serverless/Introduction.md",
+                "file": "containers/Introduction.md",
                 "mode": "source",
                 "source": false
               },
@@ -166,8 +166,13 @@
   },
   "active": "23edb3a224d26a37",
   "lastOpenFiles": [
-    "Computer Network/NAT/Introduction.md",
+    "Computer Network/Network Layer (data plane)/switching via memory.md",
+    "Computer Network/Network Layer (data plane)/switching fabric.md",
+    "Computer Network/Network Layer (data plane)/routing processor.md",
+    "Computer Network/Network Layer (data plane)/data plane.md",
+    "Computer Network/Network Layer (data plane)/input port.md",
     "AWS/Serverless/Introduction.md",
+    "Computer Network/NAT/Introduction.md",
     "AWS/Serverless",
     "react/Notes.md",
     "k8s/CKA/Application Lifecycle Management/updates and rollbacks.md",
@@ -189,11 +194,6 @@
     "AWS/Code Deploy.md",
     "AWS/Code Build.md",
     "AWS/Cloud Formation.md",
-    "AWS/AWS Lambda.md",
-    "AWS/AWS networking/Self Note.md",
-    "AWS/AWS networking/Elastic Network Interface.md",
-    "AWS/AWS networking/Introduction.md",
-    "AWS/CloudFront/AWS CloudFront.md",
     "Untitled.canvas",
     "Pasted image 20260331205731.png",
     "react",

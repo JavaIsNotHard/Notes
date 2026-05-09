@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODOS/2023-10-15.md",
+                "file": "TODOS/2026-05-09.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-09"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -70,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -93,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODOS/2023-10-15.md",
+                "file": "TODOS/2026-05-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +112,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2026-05-09"
             }
           },
           {
@@ -110,10 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODOS/2023-10-15.md",
+                "file": "TODOS/2026-05-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2026-05-09"
             }
           },
           {
@@ -123,8 +138,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -133,8 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODOS/2023-10-15.md"
-              }
+                "file": "TODOS/2026-05-09.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2026-05-09"
             }
           },
           {
@@ -143,8 +167,12 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
-              }
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -157,6 +185,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -167,6 +196,8 @@
   },
   "active": "490a50638edb7701",
   "lastOpenFiles": [
+    "TODOS/2023-10-15.md",
+    "TODOS/2026-05-09.md",
     "TODOS/2023-10-14.md",
     "TODOS/2023-08-26.md",
     "TODOS/2023-09-15.md",
@@ -175,7 +206,6 @@
     "TODOS/2023-09-23.md",
     "TODOS/2023-10-11.md",
     "TODOS/2023-10-10.md",
-    "TODOS/2023-10-15.md",
     "TODOS/2023-10-12.md",
     "TODOS/2023-10-13.md",
     "TODOS/2023-06-29.md",
@@ -192,7 +222,6 @@
     "TODOS/2023-09-12.md",
     "TODOS/2023-09-13.md",
     "TODOS/2023-09-17.md",
-    "TODOS/2023-09-30.md",
     "Javascript",
     "Opengl",
     "udemy/Unit-35",
