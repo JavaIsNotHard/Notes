@@ -11,13 +11,102 @@
             "id": "546601b84d687d72",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Database/intro-to-database/2024/Lecture-3 (Database Storage)/Storage Manager.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Storage Manager"
+            }
+          },
+          {
+            "id": "cff35e864aeb8cf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index-organized approach.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index-organized approach"
+            }
+          },
+          {
+            "id": "36a9ad0f0500fe6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devops/AWS/Decoupling Applications/4. SQS - SQS with ASG.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. SQS - SQS with ASG"
+            }
+          },
+          {
+            "id": "7b99051bc8ca6762",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/intro-to-database/2024/Lecture-4 (Log structure Storage)/log-structured approach.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "log-structured approach"
+            }
+          },
+          {
+            "id": "9dc9e4105cdc1753",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SSTables-database.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SSTables-database"
+            }
+          },
+          {
+            "id": "790438e9bdedcdd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "memtable-database.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "memtable-database"
+            }
+          },
+          {
+            "id": "fab72d07c91a1715",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DDIA/Chapter-3/Memtable.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Memtable"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -84,7 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 276.5
   },
   "right": {
     "id": "27920fbe41f2393a",
@@ -187,44 +276,44 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "546601b84d687d72",
+  "active": "36a9ad0f0500fe6d",
   "lastOpenFiles": [
-    "Computer Architecture/Untitled.md",
-    "Untitled 1.md",
+    "devops/AWS/Decoupling Applications/3. SQS - Standard VS FIFO queue.md",
+    "devops/AWS/Decoupling Applications/4. SQS - SQS with ASG.md",
+    "devops/AWS/Decoupling Applications/2. SQS - Long Polling.md",
+    "devops/AWS/Decoupling Applications/1. AWS SQS - Message Visibility Timeout.md",
+    "devops/AWS/SNS vs SQS.md",
+    "devops/AWS/Decoupling Applications",
+    "devops/AWS/S3-Encryption/Default encryption vs bucket policy.md",
+    "devops/AWS/S3-Encryption/CORS.md",
+    "devops/AWS/S3/S3 Versioning.md",
+    "devops/AWS/S3/Requester pays.md",
+    "devops/AWS/S3/S3 Event Notifications.md",
+    "devops/AWS/S3/s3 lifecycle configuration.md",
+    "devops/AWS/S3/S3 Storage Classes.md",
+    "devops/AWS/S3/S3 performance.md",
+    "devops/AWS/S3/S3 Replication.md",
+    "devops/AWS/AWS EC2 Storage/EBS encryption.md",
+    "devops/AWS/AWS EC2 Storage/EBS AMI.md",
+    "devops/AWS/AWS EC2 Storage/EC2 Volume Types.md",
+    "devops/AWS/AWS EC2 Storage/EFS (Elastic file system).md",
+    "devops/AWS/AWS EC2 Storage/Multi Attach EBS.md",
+    "devops/AWS/AWS EC2 Storage/EC2 Instance Store.md",
+    "devops/AWS/AWS EC2 Storage/EBS Snapshot.md",
+    "devops/AWS/AWS networking/Introduction.md",
+    "Database/intro-to-database/2025/Lecture-4/Introduction.md",
+    "tuple organization.md",
+    "Database/intro-to-database/2025/Lecture-4",
+    "Database/intro-to-database/2025",
+    "index-organized approach.md",
+    "memtable-database.md",
+    "Database/intro-to-database/2024/Lecture-4 (Log structure Storage)",
     "Computer Architecture",
-    "Untitled.md",
-    "udemy/Unit-3/readme.md",
-    "udemy/Unit-2/readme.md",
-    "TODOS/2023-04-20.md",
-    "Notes/TODOS/26TH FEB.md",
-    "Notes/TODOS/24TH FEB.md",
-    "Notes/TODOS/21ST FEB.md",
-    "Notes/TODOS/20TH FEB.md",
-    "Notes/TODOS/19TH FEB.md",
-    "Notes/TODOS/18TH FEB.md",
-    "Notes/TODOS/16TH FEB.md",
-    "Notes/TODOS/8TH MARCH.md",
-    "Notes/TODOS/8TH FEB.md",
-    "Notes/TODOS/1ST MARCH.md",
-    "Notes/TODOS/2ND MARCH.md",
-    "Notes/TODOS/7TH FEB.md",
-    "Notes/TODOS/9TH FEB.md",
-    "Notes/TODOS/9TH MARCH.md",
-    "TODOS/2023-09-09.md",
-    "TODOS/2023-09-10.md",
-    "TODOS/2023-09-12.md",
-    "TODOS/2023-09-13.md",
-    "TODOS/2023-09-15.md",
-    "TODOS/2023-09-16.md",
     "Javascript",
     "Opengl",
     "udemy/Unit-35",
     "udemy/Unit-32",
     "udemy/Unit-31",
-    "udemy/Unit-30",
-    "udemy/Unit-30",
-    "udemy/Unit-29",
-    "udemy/Unit-28",
     "udemy/images/Mon Jun 26 01:53:53 PM +0545 2023.png",
     "udemy/images/cost-of-sequntial-scan.png",
     "udemy/images/Mon Jun 26 01:48:21 PM +0545 2023.png",

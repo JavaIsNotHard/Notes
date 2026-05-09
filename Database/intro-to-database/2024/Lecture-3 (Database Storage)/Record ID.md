@@ -26,3 +26,6 @@ Problems with this approach
 - without compaction the data is fragmented a lot i.e there are a lot of free space available between the tuples
 - the DBMS must fetch the entire page even if it wants to updates a single tuple inside a page since page is the smallest unit of operation for a disk
 - if the tuples are spread across different pages then we have to perform multiple random IOs to update all the tuples
+
+
+To solve this problem, we can use a different way to store tuples inside a page called the [[log-structured approach]]
