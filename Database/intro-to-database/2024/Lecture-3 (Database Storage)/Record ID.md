@@ -27,5 +27,7 @@ Problems with this approach
 - the DBMS must fetch the entire page even if it wants to updates a single tuple inside a page since page is the smallest unit of operation for a disk
 - if the tuples are spread across different pages then we have to perform multiple random IOs to update all the tuples
 
+the main problem here is write amplification where if we wanted to read or write a small amount of data then we still need to bring the entire page typically 4KB to 8KB of page at a time. we are doing a lot of computation to read and write these big size pages which are mostly empty inside
+
 
 To solve this problem, we can use a different way to store tuples inside a page called the [[log-structured approach]]

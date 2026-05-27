@@ -1,0 +1,1 @@
+bloom filter structure to check whether a key exist in different sstables or not to avoid scanning through the entire sstable from level 0 down to the last level

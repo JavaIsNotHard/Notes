@@ -14,5 +14,5 @@ Without VPC Endpoint: EC2 → Internet Gateway → Public Internet → S3
 With VPC Endpoint: EC2 → VPC Endpoint → S3 (all within AWS private network)
 
 There are two types
-1. Gateway Endpoint
-2. Interface Endpoint
+1. [[Gateway endpoint]]
+2. [[Interface Endpoint]]

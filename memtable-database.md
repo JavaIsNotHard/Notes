@@ -1,1 +1,0 @@
-A memtable is basically an in-memory data structure, it can be anything that ranges data in a sorted and search effective manner

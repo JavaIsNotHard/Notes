@@ -36,77 +36,63 @@
             }
           },
           {
-            "id": "36a9ad0f0500fe6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devops/AWS/Decoupling Applications/4. SQS - SQS with ASG.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4. SQS - SQS with ASG"
-            }
-          },
-          {
             "id": "7b99051bc8ca6762",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/intro-to-database/2024/Lecture-4 (Log structure Storage)/log-structured approach.md",
+                "file": "devops/AWS/VPC/VPC Endpoint.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "log-structured approach"
+              "title": "VPC Endpoint"
             }
           },
           {
-            "id": "9dc9e4105cdc1753",
+            "id": "447d1ff1645e0971",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SSTables-database.md",
+                "file": "devops/AWS/career-roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSTables-database"
+              "title": "career-roadmap"
             }
           },
           {
-            "id": "790438e9bdedcdd9",
+            "id": "39b65d6afdcae447",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "memtable-database.md",
+                "file": "Database/intro-to-database/2024/Lecture-3 (Database Storage)/Page Header.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "memtable-database"
+              "title": "Page Header"
             }
           },
           {
-            "id": "fab72d07c91a1715",
+            "id": "1ecb1e5187dc54e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DDIA/Chapter-3/Memtable.md",
+                "file": "devops/AWS/SNS vs SQS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Memtable"
+              "title": "SNS vs SQS"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -138,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "security",
+                "query": "rds proxy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -276,44 +262,44 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "36a9ad0f0500fe6d",
+  "active": "1ecb1e5187dc54e6",
   "lastOpenFiles": [
-    "devops/AWS/Decoupling Applications/3. SQS - Standard VS FIFO queue.md",
-    "devops/AWS/Decoupling Applications/4. SQS - SQS with ASG.md",
-    "devops/AWS/Decoupling Applications/2. SQS - Long Polling.md",
-    "devops/AWS/Decoupling Applications/1. AWS SQS - Message Visibility Timeout.md",
-    "devops/AWS/SNS vs SQS.md",
-    "devops/AWS/Decoupling Applications",
-    "devops/AWS/S3-Encryption/Default encryption vs bucket policy.md",
-    "devops/AWS/S3-Encryption/CORS.md",
-    "devops/AWS/S3/S3 Versioning.md",
-    "devops/AWS/S3/Requester pays.md",
-    "devops/AWS/S3/S3 Event Notifications.md",
-    "devops/AWS/S3/s3 lifecycle configuration.md",
-    "devops/AWS/S3/S3 Storage Classes.md",
+    "AWS Cloudwatch.md",
+    "devops/AWS/AWS Monitoring/AWS Montoring.md",
+    "devops/AWS/Step functions.md",
+    "devops/AWS/AWS Monitoring",
+    "devops/AWS/API Gateway.md",
+    "devops/AWS/Invoking lambda from Aurora & RDS instance.md",
+    "devops/AWS/AWS Lambda.md",
+    "devops/AWS/VPC/VPC Endpoint.md",
+    "Database/intro-to-database/2024/Lecture-3 (Database Storage)/Page Directory.md",
+    "Database/intro-to-database/2024/Lecture-3 (Database Storage)/Page Header.md",
+    "Database/intro-to-database/2024/Lecture-3 (Database Storage)/Record ID.md",
+    "Database/intro-to-database/2024/Lecture-3 (Database Storage)/slotted page.md",
+    "Database/intro-to-database/2024/Lecture-3 (Database Storage)/tuple-oriented approach.md",
+    "Database/intro-to-database/2024/Lecture-3 (Database Storage)/page layout.md",
+    "Database/intro-to-database/2024/Lecture-3 (Database Storage)/heap file organization.md",
+    "Database/intro-to-database/2024/Lecture-3 (Database Storage)/Page storage architecture.md",
+    "Database/intro-to-database/2024/Lecture-3 (Database Storage)/Database Pages.md",
+    "Database/index-organized approach.md",
+    "Database/tuple organization.md",
+    "Database/intro-to-database/2024/Lecture-3 (Database Storage)/Storage Manager.md",
+    "Database/intro-to-database/2024/Lecture-4 (Log structure Storage)/log-structured approach.md",
+    "Database/intro-to-database/2024/Lecture-4 (Log structure Storage)/summary table.md",
+    "Database/intro-to-database/2024/Lecture-4 (Log structure Storage)/SSTables-database.md",
+    "devops/AWS/career-roadmap.md",
+    "Gateway endpoint.md",
+    "Interface Endpoint.md",
     "devops/AWS/S3/S3 performance.md",
-    "devops/AWS/S3/S3 Replication.md",
-    "devops/AWS/AWS EC2 Storage/EBS encryption.md",
-    "devops/AWS/AWS EC2 Storage/EBS AMI.md",
-    "devops/AWS/AWS EC2 Storage/EC2 Volume Types.md",
-    "devops/AWS/AWS EC2 Storage/EFS (Elastic file system).md",
-    "devops/AWS/AWS EC2 Storage/Multi Attach EBS.md",
-    "devops/AWS/AWS EC2 Storage/EC2 Instance Store.md",
-    "devops/AWS/AWS EC2 Storage/EBS Snapshot.md",
-    "devops/AWS/AWS networking/Introduction.md",
-    "Database/intro-to-database/2025/Lecture-4/Introduction.md",
-    "tuple organization.md",
+    "devops/AWS/Decoupling Applications",
     "Database/intro-to-database/2025/Lecture-4",
     "Database/intro-to-database/2025",
-    "index-organized approach.md",
-    "memtable-database.md",
     "Database/intro-to-database/2024/Lecture-4 (Log structure Storage)",
     "Computer Architecture",
     "Javascript",
     "Opengl",
     "udemy/Unit-35",
     "udemy/Unit-32",
-    "udemy/Unit-31",
     "udemy/images/Mon Jun 26 01:53:53 PM +0545 2023.png",
     "udemy/images/cost-of-sequntial-scan.png",
     "udemy/images/Mon Jun 26 01:48:21 PM +0545 2023.png",

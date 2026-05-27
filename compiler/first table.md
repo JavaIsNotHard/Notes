@@ -1,2 +1,0 @@
-- gives the first terminal symbol of all the non terminal symbols derived from the given non terminal symbol 
-- used to select the appropriate production rule based on the lookahead character

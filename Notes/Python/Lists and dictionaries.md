@@ -1,1 +1,0 @@
-As mentioned in [[Python Programming Language]]. 
